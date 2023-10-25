@@ -1,42 +1,58 @@
 
 Task State Register
 - Fixed Params
-  - Period
-  - Initial PC
-  - Final PC
+  - [7:0]  Period
+  - [31:0] Initial PC
+  - [31:0] Final PC
   - target read/write register increment value
 - Inputs
-  - Next PC
+  - Clock
+  - Asynch Reset
+  - [31:0] Next PC Data
+  - Next PC WE
   - Period clear (resets on LCM)
 - Outputs
-  - current PC
-  - Is complete in period?
-- Internal
-  - Relative deadline
+  - [31:0] current PC
+  - IsComplete
 
-Adder (DATAFLOW!!!!)
-- Increments value read from reg file and writes increment back to reg
+32 bit ripple carry Adder
+- Inputs
+  - [31:0] i_A
+  - [31:0] i_B
+  - i_Cin
+- Outputs
+  - [31:0] o_Q
+  - o_Cout
 
 Task 32bit dataflow DFF
-- Stores dataflow from active task
+- Inputs
+  - Clock
+  - Asynch Reset
+  - [31:0] D
+  - WE
+- Outputs
+  - [31:0] Q
 
-3 to 8 Decode
-- Drive WE for task register file
+3 to 8 Decoder one hot
+- Inputs
+  - [2:0] i_A
+- Outputs
+  - [7:0] o_X
 
 Time Counter
 - Parameters
-  - LCM of task periods
+  - [7:0] LCM of task periods
 - Inputs
-  - clk
-  - asynch reset
+  - Clock
+  - Asynch Reset
 - Outputs
-  - Current Time
+  - [7:0] Current Time
   - Period Clear (resets on LCM)
 
 Control
+- Input
+  - Clock
+  - Asynch Reset
 - Output
-  - Current Task Adder increment
-  - Current task reg read/write
-  - Current task selected
-
-- Determine if increment task deadline 
+  - [31:0] Current Task Adder increment
+  - [3:0] Current task selected
