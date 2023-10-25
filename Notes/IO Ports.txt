@@ -1,0 +1,42 @@
+
+Task State Register
+- Fixed Params
+  - Period
+  - Initial PC
+  - Final PC
+  - target read/write register increment value
+- Inputs
+  - Next PC
+  - Period clear (resets on LCM)
+- Outputs
+  - current PC
+  - Is complete in period?
+- Internal
+  - Relative deadline
+
+Adder (DATAFLOW!!!!)
+- Increments value read from reg file and writes increment back to reg
+
+Task 32bit dataflow DFF
+- Stores dataflow from active task
+
+3 to 8 Decode
+- Drive WE for task register file
+
+Time Counter
+- Parameters
+  - LCM of task periods
+- Inputs
+  - clk
+  - asynch reset
+- Outputs
+  - Current Time
+  - Period Clear (resets on LCM)
+
+Control
+- Output
+  - Current Task Adder increment
+  - Current task reg read/write
+  - Current task selected
+
+- Determine if increment task deadline 
