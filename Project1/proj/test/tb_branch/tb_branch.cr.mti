@@ -1,0 +1,55 @@
+/home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_branch
+-- Compiling architecture mixed of tb_branch
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(85): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(85): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(97): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(97): Type error resolving infix expression "/=" as type std.STANDARD.BOOLEAN.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(175): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(175): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(180): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(180): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(185): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(185): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(190): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(190): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(195): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(195): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(200): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(200): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(205): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(205): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(210): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(210): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(215): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(215): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(220): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(220): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(225): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(225): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(230): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(230): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(235): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(235): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(240): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(240): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(245): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(245): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(250): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(250): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(255): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(255): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(260): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(260): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(265): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(265): (vcom-1136) Unknown identifier "s_rt_int".
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(270): Illegal target for signal assignment.
+** Error: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(270): (vcom-1136) Unknown identifier "s_rt_int".
+** Note: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/test/tb_branch/tb_branch.vhd(372): VHDL Compiler exiting
+
+} {9.0 53.0} {}}

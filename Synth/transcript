@@ -1,0 +1,133 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project mem_load_tb
+# Compile of MIPS_types.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of mem_load_tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of mem_load_tb.v was successful.
+vsim work.mem_load_tb
+# vsim work.mem_load_tb 
+# Start time: 13:09:05 on Apr 19,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mem_load_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.imem(rtl)#1
+add wave -position insertpoint  \
+sim:/mem_load_tb/g_imem/DATA_WIDTH \
+sim:/mem_load_tb/g_imem/ADDR_WIDTH \
+sim:/mem_load_tb/g_imem/clk \
+sim:/mem_load_tb/g_imem/addr \
+sim:/mem_load_tb/g_imem/data \
+sim:/mem_load_tb/g_imem/we \
+sim:/mem_load_tb/g_imem/q \
+sim:/mem_load_tb/g_imem/ram
+run 100
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mem_load_tb/g_imem
+run 300
+do /home/jmhafele/Documents/Spring_2023/cpre381/Synth/Modelsim_test/mem_load/mem_load_tb.do
+# 1
+# 1
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 13:12:47 on Apr 19,2023
+# vcom -reportprogress 300 /*.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "/*.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 13:12:47 on Apr 19,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro /home/jmhafele/Documents/Spring_2023/cpre381/Synth/Modelsim_test/mem_load/mem_load_tb.do line 24
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom /*.vhd"
+do /home/jmhafele/Documents/Spring_2023/cpre381/Synth/Modelsim_test/mem_load/mem_load_tb.do
+# 1
+# 1
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 13:13:13 on Apr 19,2023
+# vcom -reportprogress 300 /*.v 
+# -- Loading package STANDARD
+# ** Error: mem_load_tb.v(1): near "module": syntax error
+# ** Note: mem_load_tb.v(1): VHDL Compiler exiting
+# End time: 13:13:13 on Apr 19,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro /home/jmhafele/Documents/Spring_2023/cpre381/Synth/Modelsim_test/mem_load/mem_load_tb.do line 24
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom /*.v"
+# Load canceled
+# Compile of MIPS_types.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of mem_load_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mem_load_tb
+# End time: 13:14:09 on Apr 19,2023, Elapsed time: 0:05:04
+# Errors: 2, Warnings: 6
+# vsim work.mem_load_tb 
+# Start time: 13:14:09 on Apr 19,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mem_load_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.imem(rtl)#1
+add wave -position insertpoint  \
+sim:/mem_load_tb/g_imem/DATA_WIDTH \
+sim:/mem_load_tb/g_imem/ADDR_WIDTH \
+sim:/mem_load_tb/g_imem/clk \
+sim:/mem_load_tb/g_imem/addr \
+sim:/mem_load_tb/g_imem/data \
+sim:/mem_load_tb/g_imem/we \
+sim:/mem_load_tb/g_imem/q \
+sim:/mem_load_tb/g_imem/ram
+run 800
+# Compile of MIPS_types.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of mem_load_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mem_load_tb
+# End time: 13:15:58 on Apr 19,2023, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 2
+# vsim work.mem_load_tb 
+# Start time: 13:15:58 on Apr 19,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mem_load_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.imem(rtl)#1
+add wave -position insertpoint  \
+sim:/mem_load_tb/g_imem/DATA_WIDTH \
+sim:/mem_load_tb/g_imem/ADDR_WIDTH \
+sim:/mem_load_tb/g_imem/clk \
+sim:/mem_load_tb/g_imem/addr \
+sim:/mem_load_tb/g_imem/data \
+sim:/mem_load_tb/g_imem/we \
+sim:/mem_load_tb/g_imem/q \
+sim:/mem_load_tb/g_imem/ram
+run 100
+run 1000
+# End time: 13:48:04 on Apr 19,2023, Elapsed time: 0:32:06
+# Errors: 0, Warnings: 1

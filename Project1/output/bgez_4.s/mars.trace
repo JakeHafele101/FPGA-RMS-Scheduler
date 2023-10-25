@@ -1,0 +1,95 @@
+[inst #1] addi $1,$0,0
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #2] bgez $1,1
+[inst #3] addi $2,$0,0
+Register Write to Reg: 0x02 Val: 0x00000000
+[inst #4] bgez $2,1
+[inst #5] addi $3,$0,0
+Register Write to Reg: 0x03 Val: 0x00000000
+[inst #6] bgez $3,1
+[inst #7] addi $4,$0,0
+Register Write to Reg: 0x04 Val: 0x00000000
+[inst #8] bgez $4,1
+[inst #9] addi $5,$0,0
+Register Write to Reg: 0x05 Val: 0x00000000
+[inst #10] bgez $5,1
+[inst #11] addi $6,$0,0
+Register Write to Reg: 0x06 Val: 0x00000000
+[inst #12] bgez $6,1
+[inst #13] addi $7,$0,0
+Register Write to Reg: 0x07 Val: 0x00000000
+[inst #14] bgez $7,1
+[inst #15] addi $8,$0,0
+Register Write to Reg: 0x08 Val: 0x00000000
+[inst #16] bgez $8,1
+[inst #17] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #18] bgez $9,1
+[inst #19] addi $10,$0,0
+Register Write to Reg: 0x0A Val: 0x00000000
+[inst #20] bgez $10,1
+[inst #21] addi $11,$0,0
+Register Write to Reg: 0x0B Val: 0x00000000
+[inst #22] bgez $11,1
+[inst #23] addi $12,$0,0
+Register Write to Reg: 0x0C Val: 0x00000000
+[inst #24] bgez $12,1
+[inst #25] addi $13,$0,0
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #26] bgez $13,1
+[inst #27] addi $14,$0,0
+Register Write to Reg: 0x0E Val: 0x00000000
+[inst #28] bgez $14,1
+[inst #29] addi $15,$0,0
+Register Write to Reg: 0x0F Val: 0x00000000
+[inst #30] bgez $15,1
+[inst #31] addi $16,$0,0
+Register Write to Reg: 0x10 Val: 0x00000000
+[inst #32] bgez $16,1
+[inst #33] addi $17,$0,0
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #34] bgez $17,1
+[inst #35] addi $18,$0,0
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #36] bgez $18,1
+[inst #37] addi $19,$0,0
+Register Write to Reg: 0x13 Val: 0x00000000
+[inst #38] bgez $19,1
+[inst #39] addi $20,$0,0
+Register Write to Reg: 0x14 Val: 0x00000000
+[inst #40] bgez $20,1
+[inst #41] addi $21,$0,0
+Register Write to Reg: 0x15 Val: 0x00000000
+[inst #42] bgez $21,1
+[inst #43] addi $22,$0,0
+Register Write to Reg: 0x16 Val: 0x00000000
+[inst #44] bgez $22,1
+[inst #45] addi $23,$0,0
+Register Write to Reg: 0x17 Val: 0x00000000
+[inst #46] bgez $23,1
+[inst #47] addi $24,$0,0
+Register Write to Reg: 0x18 Val: 0x00000000
+[inst #48] bgez $24,1
+[inst #49] addi $25,$0,0
+Register Write to Reg: 0x19 Val: 0x00000000
+[inst #50] bgez $25,1
+[inst #51] addi $26,$0,0
+Register Write to Reg: 0x1A Val: 0x00000000
+[inst #52] bgez $26,1
+[inst #53] addi $27,$0,0
+Register Write to Reg: 0x1B Val: 0x00000000
+[inst #54] bgez $27,1
+[inst #55] addi $28,$0,0
+Register Write to Reg: 0x1C Val: 0x00000000
+[inst #56] bgez $28,1
+[inst #57] addi $29,$0,0
+Register Write to Reg: 0x1D Val: 0x00000000
+[inst #58] bgez $29,1
+[inst #59] addi $30,$0,0
+Register Write to Reg: 0x1E Val: 0x00000000
+[inst #60] bgez $30,1
+[inst #61] addi $31,$0,0
+Register Write to Reg: 0x1F Val: 0x00000000
+[inst #62] bgez $31,1
+[inst #63] halt 
+

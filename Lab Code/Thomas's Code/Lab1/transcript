@@ -1,0 +1,115 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:29:41 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(7): near "port": (vcom-1576) expecting IS.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(7): VHDL Compiler exiting
+# End time: 10:29:41 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:30:36 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/tvgaul/Documents/CPRE 381/Lab1/andg2.vhd(23) will be overwritten.
+# -- Compiling entity andg2
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/tvgaul/Documents/CPRE 381/Lab1/andg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of andg2
+# End time: 10:30:36 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:30:45 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/tvgaul/Documents/CPRE 381/Lab1/invg.vhd(23) will be overwritten.
+# -- Compiling entity invg
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/tvgaul/Documents/CPRE 381/Lab1/invg.vhd(30) will be overwritten.
+# -- Compiling architecture dataflow of invg
+# End time: 10:30:45 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:30:48 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/tvgaul/Documents/CPRE 381/Lab1/org2.vhd(23) will be overwritten.
+# -- Compiling entity org2
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/tvgaul/Documents/CPRE 381/Lab1/org2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of org2
+# End time: 10:30:48 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:32:28 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(10): near ")": (vcom-1576) expecting IDENTIFIER.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(10): VHDL Compiler exiting
+# End time: 10:32:28 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:32:57 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(47): near ")": syntax error
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(53): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(58): Symbol "g_AndSigA" has already been declared in this region.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(74): VHDL Compiler exiting
+# End time: 10:32:57 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:33:31 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(58): Symbol "g_AndSigA" has already been declared in this region.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(74): VHDL Compiler exiting
+# End time: 10:33:31 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:33:47 on Jan 20,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# End time: 10:33:47 on Jan 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

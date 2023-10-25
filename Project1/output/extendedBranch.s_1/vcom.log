@@ -1,0 +1,64 @@
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+Start time: 09:53:49 on Mar 11,2023
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/RegFile/mux_32t1_32b.vhd proj/src/RegFile/reg_N.vhd proj/src/RegFile/dffg.vhd proj/src/RegFile/decoder_5t32.vhd proj/src/RegFile/reg_file.vhd proj/src/fetch/fetch.vhd proj/src/fetch/program_counter.vhd proj/src/control/control.vhd proj/src/extender/extend_16t32.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/ALU/branch.vhd proj/src/ALU/shift.vhd proj/src/ALU/invg.vhd proj/src/ALU/logic.vhd proj/src/ALU/mux2t1_N.vhd proj/src/ALU/ALU.vhd proj/src/ALU/ripple_adder.vhd proj/src/ALU/ones_comp.vhd proj/src/ALU/adder_subber.vhd proj/src/ALU/full_adder.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Warning: proj/src/MIPS_types.vhd(16): (vcom-1615) Existing package 'MIPS_types' at line 16 will be overwritten.
+-- Compiling package MIPS_types
+** Warning: proj/src/MIPS_types.vhd(32): (vcom-1615) Existing package body 'MIPS_types(body)' at line 32 will be overwritten.
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package MIPS_types
+-- Compiling entity mux_32t1_32b
+-- Compiling architecture dataflow of mux_32t1_32b
+-- Compiling entity reg_N
+-- Compiling architecture structural of reg_N
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity decoder_5t32
+-- Compiling architecture dataflow of decoder_5t32
+-- Compiling entity reg_file
+-- Compiling architecture structural of reg_file
+-- Compiling entity fetch
+-- Compiling architecture mixed of fetch
+-- Compiling entity program_counter
+-- Compiling architecture datapath of program_counter
+-- Compiling entity control
+-- Compiling architecture dataflow of control
+-- Compiling entity extend_16t32
+-- Compiling architecture dataflow of extend_16t32
+-- Compiling entity MIPS_Processor
+-- Compiling architecture mixed of MIPS_Processor
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity branch
+-- Compiling architecture structural of branch
+-- Compiling entity shift
+-- Compiling architecture structural of shift
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity logic
+-- Compiling architecture structural of logic
+-- Compiling entity mux2t1_N
+-- Compiling architecture dataflow of mux2t1_N
+-- Compiling entity ALU
+-- Compiling architecture mixed of ALU
+-- Compiling entity ripple_adder
+-- Compiling architecture structural of ripple_adder
+-- Compiling entity ones_comp
+-- Compiling architecture structural of ones_comp
+-- Compiling entity adder_subber
+-- Compiling architecture structural of adder_subber
+-- Compiling entity full_adder
+-- Compiling architecture behavorial of full_adder
+End time: 09:53:49 on Mar 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2

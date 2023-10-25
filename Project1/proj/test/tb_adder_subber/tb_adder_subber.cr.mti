@@ -1,0 +1,41 @@
+/home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ones_comp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ones_comp.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ones_comp
+-- Compiling architecture structural of ones_comp
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ripple_adder
+-- Compiling architecture structural of ripple_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/adder_subber.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/adder_subber.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_subber
+-- Compiling architecture structural of adder_subber
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture behavorial of full_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture dataflow of mux2t1_N
+
+} {} {}}

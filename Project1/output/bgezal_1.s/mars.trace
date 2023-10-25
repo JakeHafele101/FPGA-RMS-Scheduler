@@ -1,0 +1,129 @@
+[inst #1] addiu $1,$0,5
+Register Write to Reg: 0x01 Val: 0x00000005
+[inst #2] addiu $2,$0,5
+Register Write to Reg: 0x02 Val: 0x00000005
+[inst #3] addiu $3,$0,5
+Register Write to Reg: 0x03 Val: 0x00000005
+[inst #4] addiu $4,$0,5
+Register Write to Reg: 0x04 Val: 0x00000005
+[inst #5] addiu $5,$0,5
+Register Write to Reg: 0x05 Val: 0x00000005
+[inst #6] addiu $6,$0,5
+Register Write to Reg: 0x06 Val: 0x00000005
+[inst #7] addiu $7,$0,5
+Register Write to Reg: 0x07 Val: 0x00000005
+[inst #8] addiu $8,$0,5
+Register Write to Reg: 0x08 Val: 0x00000005
+[inst #9] addiu $9,$0,5
+Register Write to Reg: 0x09 Val: 0x00000005
+[inst #10] addiu $10,$0,5
+Register Write to Reg: 0x0A Val: 0x00000005
+[inst #11] addiu $11,$0,5
+Register Write to Reg: 0x0B Val: 0x00000005
+[inst #12] addiu $12,$0,5
+Register Write to Reg: 0x0C Val: 0x00000005
+[inst #13] addiu $13,$0,5
+Register Write to Reg: 0x0D Val: 0x00000005
+[inst #14] addiu $14,$0,5
+Register Write to Reg: 0x0E Val: 0x00000005
+[inst #15] addiu $15,$0,5
+Register Write to Reg: 0x0F Val: 0x00000005
+[inst #16] addiu $16,$0,5
+Register Write to Reg: 0x10 Val: 0x00000005
+[inst #17] addiu $17,$0,5
+Register Write to Reg: 0x11 Val: 0x00000005
+[inst #18] addiu $18,$0,5
+Register Write to Reg: 0x12 Val: 0x00000005
+[inst #19] addiu $19,$0,5
+Register Write to Reg: 0x13 Val: 0x00000005
+[inst #20] addiu $20,$0,5
+Register Write to Reg: 0x14 Val: 0x00000005
+[inst #21] addiu $21,$0,5
+Register Write to Reg: 0x15 Val: 0x00000005
+[inst #22] addiu $22,$0,5
+Register Write to Reg: 0x16 Val: 0x00000005
+[inst #23] addiu $23,$0,5
+Register Write to Reg: 0x17 Val: 0x00000005
+[inst #24] addiu $24,$0,5
+Register Write to Reg: 0x18 Val: 0x00000005
+[inst #25] addiu $25,$0,5
+Register Write to Reg: 0x19 Val: 0x00000005
+[inst #26] addiu $26,$0,5
+Register Write to Reg: 0x1A Val: 0x00000005
+[inst #27] addiu $27,$0,5
+Register Write to Reg: 0x1B Val: 0x00000005
+[inst #28] addiu $28,$0,5
+Register Write to Reg: 0x1C Val: 0x00000005
+[inst #29] addiu $29,$0,5
+Register Write to Reg: 0x1D Val: 0x00000005
+[inst #30] addiu $30,$0,5
+Register Write to Reg: 0x1E Val: 0x00000005
+[inst #31] addiu $31,$0,5
+Register Write to Reg: 0x1F Val: 0x00000005
+[inst #32] bgezal $1,1
+Register Write to Reg: 0x1F Val: 0x00400080
+[inst #33] bgezal $2,1
+Register Write to Reg: 0x1F Val: 0x00400088
+[inst #34] bgezal $3,1
+Register Write to Reg: 0x1F Val: 0x00400090
+[inst #35] bgezal $4,1
+Register Write to Reg: 0x1F Val: 0x00400098
+[inst #36] bgezal $5,1
+Register Write to Reg: 0x1F Val: 0x004000A0
+[inst #37] bgezal $6,1
+Register Write to Reg: 0x1F Val: 0x004000A8
+[inst #38] bgezal $7,1
+Register Write to Reg: 0x1F Val: 0x004000B0
+[inst #39] bgezal $8,1
+Register Write to Reg: 0x1F Val: 0x004000B8
+[inst #40] bgezal $9,1
+Register Write to Reg: 0x1F Val: 0x004000C0
+[inst #41] bgezal $10,1
+Register Write to Reg: 0x1F Val: 0x004000C8
+[inst #42] bgezal $11,1
+Register Write to Reg: 0x1F Val: 0x004000D0
+[inst #43] bgezal $12,1
+Register Write to Reg: 0x1F Val: 0x004000D8
+[inst #44] bgezal $13,1
+Register Write to Reg: 0x1F Val: 0x004000E0
+[inst #45] bgezal $14,1
+Register Write to Reg: 0x1F Val: 0x004000E8
+[inst #46] bgezal $15,1
+Register Write to Reg: 0x1F Val: 0x004000F0
+[inst #47] bgezal $16,1
+Register Write to Reg: 0x1F Val: 0x004000F8
+[inst #48] bgezal $17,1
+Register Write to Reg: 0x1F Val: 0x00400100
+[inst #49] bgezal $18,1
+Register Write to Reg: 0x1F Val: 0x00400108
+[inst #50] bgezal $19,1
+Register Write to Reg: 0x1F Val: 0x00400110
+[inst #51] bgezal $20,1
+Register Write to Reg: 0x1F Val: 0x00400118
+[inst #52] bgezal $21,1
+Register Write to Reg: 0x1F Val: 0x00400120
+[inst #53] bgezal $22,1
+Register Write to Reg: 0x1F Val: 0x00400128
+[inst #54] bgezal $23,1
+Register Write to Reg: 0x1F Val: 0x00400130
+[inst #55] bgezal $24,1
+Register Write to Reg: 0x1F Val: 0x00400138
+[inst #56] bgezal $25,1
+Register Write to Reg: 0x1F Val: 0x00400140
+[inst #57] bgezal $26,1
+Register Write to Reg: 0x1F Val: 0x00400148
+[inst #58] bgezal $27,1
+Register Write to Reg: 0x1F Val: 0x00400150
+[inst #59] bgezal $28,1
+Register Write to Reg: 0x1F Val: 0x00400158
+[inst #60] bgezal $29,1
+Register Write to Reg: 0x1F Val: 0x00400160
+[inst #61] bgezal $30,1
+Register Write to Reg: 0x1F Val: 0x00400168
+[inst #62] bgezal $31,1
+Register Write to Reg: 0x1F Val: 0x00400170
+[inst #63] nop 
+[inst #64] nop 
+[inst #65] nop 
+[inst #66] halt 
+

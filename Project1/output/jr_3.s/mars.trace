@@ -1,0 +1,9 @@
+[inst #1] addi $4,$0,5
+Register Write to Reg: 0x04 Val: 0x00000005
+[inst #2] jal 4194316
+Register Write to Reg: 0x1F Val: 0x00400008
+[inst #3] addiu $2,$4,1
+Register Write to Reg: 0x02 Val: 0x00000006
+[inst #4] jr $31
+[inst #5] halt 
+

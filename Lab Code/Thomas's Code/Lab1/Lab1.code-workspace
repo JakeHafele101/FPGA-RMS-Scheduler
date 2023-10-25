@@ -1,0 +1,10 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "VHDL-hierarchy.TopLevelFile": "TPU_MV_Element.vhd"
+    }
+}

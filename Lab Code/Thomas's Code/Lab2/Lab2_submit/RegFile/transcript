@@ -1,0 +1,213 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:35:42 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd(56): near "'": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd(58): Statement cannot be labeled.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd(88): VHDL Compiler exiting
+# End time: 11:35:42 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:36:01 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd(56): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd(57): (vcom-1035) Formal port "i_RST" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd(88): VHDL Compiler exiting
+# End time: 11:36:01 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:36:33 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# End time: 11:36:33 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:36:41 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package array32
+# -- Compiling entity tb_RegFile
+# -- Compiling architecture behavior of tb_RegFile
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(41): near "IN": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(66): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(66): (vcom-1136) Unknown identifier "s_RST".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(67): near "s_rsSel": (vcom-1576) expecting ';'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(73): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(73): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(74): near "s_rsSel": (vcom-1576) expecting ';'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(53): (vcom-1035) Formal port "i_RST" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(118): VHDL Compiler exiting
+# End time: 11:36:41 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:37:34 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package array32
+# -- Compiling entity tb_RegFile
+# -- Compiling architecture behavior of tb_RegFile
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(67): near "s_rsSel": (vcom-1576) expecting ';'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(53): (vcom-1035) Formal port "i_RST" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(117): VHDL Compiler exiting
+# End time: 11:37:34 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:37:53 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package array32
+# -- Compiling entity tb_RegFile
+# -- Compiling architecture behavior of tb_RegFile
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(53): (vcom-1035) Formal port "i_RST" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(117): VHDL Compiler exiting
+# End time: 11:37:53 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:37:55 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package array32
+# -- Compiling entity tb_RegFile
+# -- Compiling architecture behavior of tb_RegFile
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(53): (vcom-1035) Formal port "i_RST" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(117): VHDL Compiler exiting
+# End time: 11:37:55 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:38:23 on Feb 02,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab2/RegFile/tb_RegFile.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package array32
+# -- Compiling entity tb_RegFile
+# -- Compiling architecture behavior of tb_RegFile
+# End time: 11:38:23 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+do tb_RegFile.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:38:31 on Feb 02,2023
+# vcom -reportprogress 300 -2008 Mux32t1.vhd NBit_Reg.vhd RegFile.vhd array32.vhd decoder.vhd dffg.vhd tb_Mux32t1.vhd tb_NBit_Reg.vhd tb_RegFile.vhd tb_decoder.vhd tb_dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling package array32
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Loading package array32
+# -- Compiling entity tb_Mux32t1
+# -- Compiling architecture behavior of tb_Mux32t1
+# -- Compiling entity tb_NBit_Reg
+# -- Compiling architecture behavior of tb_NBit_Reg
+# -- Compiling entity tb_RegFile
+# -- Compiling architecture behavior of tb_RegFile
+# -- Compiling entity tb_decoder
+# -- Compiling architecture behavior of tb_decoder
+# -- Compiling entity tb_dffg
+# -- Compiling architecture behavior of tb_dffg
+# End time: 11:38:31 on Feb 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_RegFile 
+# Start time: 11:38:31 on Feb 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.array32
+# Loading work.tb_regfile(behavior)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1(rt1)#1
+# Loading work.decoder(dec)#1
+# 0 ns
+# 210 ns
+# End time: 12:29:58 on Feb 02,2023, Elapsed time: 0:51:27
+# Errors: 0, Warnings: 1

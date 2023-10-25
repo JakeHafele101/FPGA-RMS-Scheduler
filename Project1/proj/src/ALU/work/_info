@@ -1,0 +1,421 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/tvgaul/Documents/CPRE 381/cpre381/Project 1/proj/src/ALU
+Eadder_subber
+Z0 w1677430334
+Z1 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z2 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 9
+Z3 d/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU
+Z4 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/adder_subber.vhd
+Z5 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/adder_subber.vhd
+l0
+Z6 L19 1
+VlHiQX7NfZVTkL;>ohzZ5i2
+!s100 aNhfZ=cjK;9inXPOk06N@3
+Z7 OL;C;2022.2;75
+32
+Z8 !s110 1677555411
+!i10b 1
+Z9 !s108 1677555411.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/adder_subber.vhd|
+Z11 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/adder_subber.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+DEx4 work 12 adder_subber 0 22 lHiQX7NfZVTkL;>ohzZ5i2
+!i122 9
+l62
+L30 59
+VGW3BfNGR8@7<N38]JPOGl0
+!s100 Y;Qj_eUNV?bd1A<Qk_X`H0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ealu
+Z14 w1677555006
+R1
+R2
+!i122 10
+R3
+Z15 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ALU.vhd
+Z16 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ALU.vhd
+l0
+L18 1
+V3j6?jAn[Di^fz3;O4iXeH1
+!s100 3zPLV895F=>1UebAM1Ee52
+R7
+32
+Z17 !s110 1677555412
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ALU.vhd|
+Z19 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ALU.vhd|
+!i113 0
+R12
+R13
+Amixed
+R1
+R2
+DEx4 work 3 alu 0 22 3j6?jAn[Di^fz3;O4iXeH1
+!i122 10
+l90
+L33 109
+Vg4ilb2SghH^56b=3<UM8W0
+!s100 TBH8=A3AHUhR?_DKGjNoA1
+R7
+32
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 0
+R12
+R13
+Ebranch
+Z20 w1677552211
+R1
+R2
+!i122 11
+R3
+Z21 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/branch.vhd
+Z22 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/branch.vhd
+l0
+Z23 L17 1
+V:>m1ETbWHGD]=l`E?AXO:2
+!s100 QF_OSFMQFUQ4V`a1JzdC21
+R7
+32
+Z24 !s110 1677555413
+!i10b 1
+Z25 !s108 1677555413.000000
+Z26 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/branch.vhd|
+Z27 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/branch.vhd|
+!i113 0
+R12
+R13
+Astructural
+R1
+R2
+DEx4 work 6 branch 0 22 :>m1ETbWHGD]=l`E?AXO:2
+!i122 11
+l31
+L25 33
+V@mQNGX]`?F30B:PXL0G=T0
+!s100 MFZHC8z6XFcKaWD=CI5`C1
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R12
+R13
+Efull_adder
+Z28 w1677254457
+R1
+R2
+!i122 12
+R3
+Z29 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/full_adder.vhd
+Z30 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/full_adder.vhd
+l0
+R6
+VLg[De]LiR5CmiYf6m<2Rm3
+!s100 GiI>9Z]8L9``N?LeA>KhF0
+R7
+32
+R24
+!i10b 1
+R25
+Z31 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/full_adder.vhd|
+Z32 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/full_adder.vhd|
+!i113 0
+R12
+R13
+Abehavorial
+R1
+R2
+DEx4 work 10 full_adder 0 22 Lg[De]LiR5CmiYf6m<2Rm3
+!i122 12
+l30
+L28 8
+VkAdz4[2fEW6X;jS3BX=@20
+!s100 HCoL8>5Nmzal=f;YaQ@il3
+R7
+32
+R24
+!i10b 1
+R25
+R31
+R32
+!i113 0
+R12
+R13
+Einvg
+R28
+R1
+R2
+!i122 13
+R3
+Z33 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/invg.vhd
+Z34 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/invg.vhd
+l0
+L23 1
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R7
+32
+Z35 !s110 1677555414
+!i10b 1
+Z36 !s108 1677555414.000000
+Z37 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/invg.vhd|
+Z38 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/invg.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R1
+R2
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 13
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R7
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R12
+R13
+Elogic
+Z39 w1677551981
+R1
+R2
+!i122 14
+R3
+Z40 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/logic.vhd
+Z41 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/logic.vhd
+l0
+R23
+VkIWG4`U76W?]0:7>a=<kg2
+!s100 JKfNLgOISTHPNPWXU[nb_2
+R7
+32
+Z42 !s110 1677555415
+!i10b 1
+Z43 !s108 1677555415.000000
+Z44 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/logic.vhd|
+Z45 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/logic.vhd|
+!i113 0
+R12
+R13
+Astructural
+R1
+R2
+DEx4 work 5 logic 0 22 kIWG4`U76W?]0:7>a=<kg2
+!i122 14
+l39
+L25 44
+VbEOml_]28Ql`QR;m90j@O2
+!s100 IXJnSc1U[oNaD?caBaOb63
+R7
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 0
+R12
+R13
+Emux2t1_n
+R28
+R1
+R2
+!i122 15
+R3
+Z46 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd
+Z47 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd
+l0
+R6
+VK?@B<;Sg?TfW^DZ5kl=ZI3
+!s100 gCM5<aVVE___UQ5o`JGEK0
+R7
+32
+Z48 !s110 1677555416
+!i10b 1
+Z49 !s108 1677555416.000000
+Z50 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd|
+Z51 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R1
+R2
+DEx4 work 8 mux2t1_n 0 22 K?@B<;Sg?TfW^DZ5kl=ZI3
+!i122 15
+l38
+L28 23
+V2O?8;DaXf4zdgkk:F>l>b3
+!s100 NgnA?G[[fW;ga7bRBJE=`1
+R7
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R12
+R13
+Eones_comp
+R28
+R1
+R2
+!i122 17
+R3
+Z52 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ones_comp.vhd
+Z53 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ones_comp.vhd
+l0
+R23
+VeoROlM`[DUGm`1ld?9_5g3
+!s100 P;FjgT3<46O6;[gNg[XcC2
+R7
+32
+Z54 !s110 1677555418
+!i10b 1
+Z55 !s108 1677555418.000000
+Z56 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ones_comp.vhd|
+Z57 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ones_comp.vhd|
+!i113 0
+R12
+R13
+Astructural
+R1
+R2
+DEx4 work 9 ones_comp 0 22 eoROlM`[DUGm`1ld?9_5g3
+!i122 17
+l34
+L25 20
+VzZH2T;oe9:O5?B^^h]P`?2
+!s100 <F_NJZUH=nGVF3AiTzI<f2
+R7
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 0
+R12
+R13
+Eripple_adder
+Z58 w1677256133
+R1
+R2
+!i122 16
+R3
+Z59 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ripple_adder.vhd
+Z60 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ripple_adder.vhd
+l0
+R6
+V:0@3;H^8k1dz2NGVHLBhm0
+!s100 bP2a`iLdlmT6BmZl7An^_3
+R7
+32
+Z61 !s110 1677555417
+!i10b 1
+Z62 !s108 1677555417.000000
+Z63 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ripple_adder.vhd|
+Z64 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ripple_adder.vhd|
+!i113 0
+R12
+R13
+Astructural
+R1
+R2
+DEx4 work 12 ripple_adder 0 22 :0@3;H^8k1dz2NGVHLBhm0
+!i122 16
+l43
+L30 33
+VWO5J8VWEoDcbb0QY<jA>]1
+!s100 @?z6TAk2Z@D1bjE?3z@=S3
+R7
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 0
+R12
+R13
+Eshift
+Z65 w1677553919
+R1
+R2
+!i122 18
+R3
+Z66 8/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd
+Z67 F/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd
+l0
+R23
+VJ2aVnU6U`e`<3[N54V>:_2
+!s100 G`Flad`Cal4ACS72MkOHQ2
+R7
+32
+Z68 !s110 1677555419
+!i10b 1
+Z69 !s108 1677555419.000000
+Z70 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd|
+!s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd|
+!i113 0
+R12
+R13
+Astructural
+R1
+R2
+DEx4 work 5 shift 0 22 J2aVnU6U`e`<3[N54V>:_2
+!i122 18
+l46
+L25 188
+Vi80NLZEmfjT>l^:n>K_Ui0
+!s100 QC`O`ZI8W@D34iQ5lmVgh1
+R7
+32
+R68
+!i10b 1
+R69
+R70
+Z71 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd|
+!i113 0
+R12
+R13

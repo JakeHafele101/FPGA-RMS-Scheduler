@@ -1,0 +1,203 @@
+/home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/reg_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/reg_N.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_N
+-- Compiling architecture structural of reg_N
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/TopLevel/mem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/TopLevel/mem.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/reg_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/reg_file.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity reg_file
+-- Compiling architecture structural of reg_file
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ALU.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture mixed of ALU
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/adder_subber.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/adder_subber.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_subber
+-- Compiling architecture structural of adder_subber
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/fetch.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/fetch.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fetch
+-- Compiling architecture mixed of fetch
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/full_adder.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/full_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/full_adder.vhd(19): (vcom-1615) Existing entity 'full_adder' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd(19) will be overwritten.
+-- Compiling entity full_adder
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/full_adder.vhd(28): (vcom-1615) Existing architecture 'full_adder(behavorial)' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd(28) will be overwritten.
+-- Compiling architecture behavorial of full_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd(19): (vcom-1615) Existing entity 'ripple_adder' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/ripple_adder.vhd(19) will be overwritten.
+-- Compiling entity ripple_adder
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd(30): (vcom-1615) Existing architecture 'ripple_adder(structural)' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/ripple_adder.vhd(29) will be overwritten.
+-- Compiling architecture structural of ripple_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/dffg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/MIPS_types.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/MIPS_types.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/invg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/invg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/branch.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/branch.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity branch
+-- Compiling architecture structural of branch
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture dataflow of mux2t1_N
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/program_counter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/program_counter.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity program_counter
+-- Compiling architecture datapath of program_counter
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/decoder_5t32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/decoder_5t32.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_5t32
+-- Compiling architecture dataflow of decoder_5t32
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/TopLevel/MIPS_Processor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/TopLevel/MIPS_Processor.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture mixed of MIPS_Processor
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd(19): (vcom-1615) Existing entity 'full_adder' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/full_adder.vhd(19) will be overwritten.
+-- Compiling entity full_adder
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/full_adder.vhd(28): (vcom-1615) Existing architecture 'full_adder(behavorial)' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/full_adder.vhd(28) will be overwritten.
+-- Compiling architecture behavorial of full_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/ripple_adder.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/ripple_adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/ripple_adder.vhd(19): (vcom-1615) Existing entity 'ripple_adder' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd(19) will be overwritten.
+-- Compiling entity ripple_adder
+** Warning: /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/fetch/ripple_adder.vhd(29): (vcom-1615) Existing architecture 'ripple_adder(structural)' at /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ripple_adder.vhd(30) will be overwritten.
+-- Compiling architecture structural of ripple_adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ones_comp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/ones_comp.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ones_comp
+-- Compiling architecture structural of ones_comp
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/extender/extend_16t32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/extender/extend_16t32.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity extend_16t32
+-- Compiling architecture dataflow of extend_16t32
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/mux_32t1_32b.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/RegFile/mux_32t1_32b.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity mux_32t1_32b
+-- Compiling architecture dataflow of mux_32t1_32b
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/logic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/logic.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity logic
+-- Compiling architecture structural of logic
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/shift.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/shift.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift
+-- Compiling architecture structural of shift
+
+} {} {}}

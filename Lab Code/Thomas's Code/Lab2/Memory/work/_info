@@ -1,0 +1,151 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tvgaul/Documents/CPRE 381/Lab2/Memory
+T_opt
+!s110 1675874978
+VYQm2S=^0aGU8e9JT`;jL]3
+Z2 04 7 8 work tb_dmem behavior 1
+=1-6805ca47cf91-63e3d2a1-d306b-15fe
+R0
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1675886855
+V7_ji[`4Iid>VII<B4hGjN1
+R2
+=1-e43d1aa030d9-63e40107-f14b-7bc4
+R0
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+Emem
+Z7 w1575899278
+Z8 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z9 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z10 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 50
+R1
+Z11 8mem.vhd
+Z12 Fmem.vhd
+l0
+L8 1
+V1]^aCk6OI[Qi6;E<P5`e51
+!s100 GF_U?1mjKdlzTC==@Eoi@2
+Z13 OL;C;2022.2;75
+33
+Z14 !s110 1675916407
+!i10b 1
+Z15 !s108 1675916407.000000
+Z16 !s90 -reportprogress|300|-2008|mem.vhd|tb_dmem.vhd|
+Z17 !s107 tb_dmem.vhd|mem.vhd|
+!i113 0
+Z18 o-2008
+Z19 tExplicit 1 CvgOpt 0
+Artl
+R8
+R9
+R10
+Z20 DEx4 work 3 mem 0 22 1]^aCk6OI[Qi6;E<P5`e51
+!i122 50
+l37
+Z21 L27 24
+Z22 VIJzZCKMMabe<S3jTLXRFE2
+Z23 !s100 h2oZ:n@5VDnM^B7>cA]W22
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Etb_dmem
+Z24 w1675886850
+Z25 DPx3 std 3 env 0 22 QPZJVBPkV?55nUWhDzFik0
+R8
+Z26 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R9
+R10
+!i122 50
+R1
+Z27 8tb_dmem.vhd
+Z28 Ftb_dmem.vhd
+l0
+L9 1
+VOV<I9zS:h0mWfb6PQm7=K2
+!s100 d]5=KnE^TUE2Xn4_UYb_21
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Abehavior
+R25
+R8
+R26
+R9
+R10
+Z29 DEx4 work 7 tb_dmem 0 22 OV<I9zS:h0mWfb6PQm7=K2
+!i122 50
+l38
+Z30 L13 126
+Z31 V@S6dVMdP0bJz8BNbJ=cDF2
+Z32 !s100 mdc:]BNQ_^Z891NHWHdA61
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19

@@ -1,0 +1,38 @@
+
+#
+# CprE 381 Generated Quartus Settings File
+#
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:07:08  JANUARY 28, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS_Processor
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ALU.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/adder_subber.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/branch.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/full_adder.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/invg.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/logic.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ones_comp.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ripple_adder.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/MIPS_types.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/RegFile/decoder_5t32.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/RegFile/dffg.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/RegFile/mux_32t1_32b.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/RegFile/reg_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/RegFile/reg_file.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/TopLevel/MIPS_Processor.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/TopLevel/mem.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/control/control.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/extender/extend_16t32.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/fetch/fetch.vhd"
+set_global_assignment -name VHDL_FILE "/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/fetch/program_counter.vhd"

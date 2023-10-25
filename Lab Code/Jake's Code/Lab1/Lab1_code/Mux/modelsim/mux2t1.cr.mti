@@ -1,0 +1,59 @@
+/home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/mux2t1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/mux2t1.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1
+-- Compiling architecture structural of mux2t1
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/org2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/org2.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/tb_mux2t1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/tb_mux2t1.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Compiling entity tb_mux2t1
+-- Compiling architecture mixed of tb_mux2t1
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/mux2t1_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/mux2t1_N.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/tb_mux2t1_behav.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/tb_mux2t1_behav.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Compiling entity tb_mux2t1_behav
+-- Compiling architecture mixed of tb_mux2t1_behav
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/invg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/invg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/andg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/Mux/src/andg2.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+
+} {} {}}

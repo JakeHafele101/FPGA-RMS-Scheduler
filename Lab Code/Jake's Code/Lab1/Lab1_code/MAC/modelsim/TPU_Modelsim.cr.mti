@@ -1,0 +1,52 @@
+/home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/tb_TPU_MV_Element.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/tb_TPU_MV_Element.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package ENV
+** Warning: /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/tb_TPU_MV_Element.vhd(17): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity tb_TPU_MV_Element
+-- Compiling architecture mixed of tb_TPU_MV_Element
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/Reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/Reg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg
+-- Compiling architecture behavior of Reg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/RegLd.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/RegLd.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RegLd
+-- Compiling architecture behavior of RegLd
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/Multiplier.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/Multiplier.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplier
+-- Compiling architecture behavior of Multiplier
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/Adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/Adder.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder
+-- Compiling architecture behavior of Adder
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/TPU_MV_Element.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/CPRE_381/Lab1/Lab1_code/source/TPU_MV_Element.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TPU_MV_Element
+-- Compiling architecture structure of TPU_MV_Element
+
+} {} {}}

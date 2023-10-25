@@ -1,0 +1,619 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do tb_MySecondMIPSDatapath.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:23:15 on Feb 10,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd Mux32t1.vhd MySecondMIPSDatapath.vhd NBit_Reg.vhd N_Bit_inverter.vhd RegFile.vhd RippleCarryAdder.vhd andg2.vhd array32.vhd dataflow_mux2t1.vhd decoder.vhd dffg.vhd extender.vhd invg.vhd mem.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_MySecondMIPSDatapath.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity MySecondMIPSDatapath
+# -- Compiling architecture structural of MySecondMIPSDatapath
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling package array32
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender
+# -- Compiling architecture structural of extender
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_MySecondMIPSDatapath
+# -- Compiling architecture behavior of tb_MySecondMIPSDatapath
+# ** Error: tb_MySecondMIPSDatapath.vhd(134): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(134): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(144): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(144): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(163): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(163): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(173): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(173): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(192): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(192): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(202): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(202): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(221): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(221): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(231): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(231): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(250): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(250): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(260): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(260): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Error: tb_MySecondMIPSDatapath.vhd(288): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(288): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Note: tb_MySecondMIPSDatapath.vhd(291): VHDL Compiler exiting
+# End time: 10:23:15 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 22, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_MySecondMIPSDatapath.do line 2
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -2008 *.vhd"
+do tb_MySecondMIPSDatapath.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:24:58 on Feb 10,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd Mux32t1.vhd MySecondMIPSDatapath.vhd NBit_Reg.vhd N_Bit_inverter.vhd RegFile.vhd RippleCarryAdder.vhd andg2.vhd array32.vhd dataflow_mux2t1.vhd decoder.vhd dffg.vhd extender.vhd invg.vhd mem.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_MySecondMIPSDatapath.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity MySecondMIPSDatapath
+# -- Compiling architecture structural of MySecondMIPSDatapath
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling package array32
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender
+# -- Compiling architecture structural of extender
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_MySecondMIPSDatapath
+# -- Compiling architecture behavior of tb_MySecondMIPSDatapath
+# ** Error: tb_MySecondMIPSDatapath.vhd(250): Illegal target for signal assignment.
+# ** Error: tb_MySecondMIPSDatapath.vhd(250): (vcom-1136) Unknown identifier "memWriteEn".
+# ** Note: tb_MySecondMIPSDatapath.vhd(291): VHDL Compiler exiting
+# End time: 10:24:59 on Feb 10,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_MySecondMIPSDatapath.do line 2
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -2008 *.vhd"
+do tb_MySecondMIPSDatapath.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:25:16 on Feb 10,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd Mux32t1.vhd MySecondMIPSDatapath.vhd NBit_Reg.vhd N_Bit_inverter.vhd RegFile.vhd RippleCarryAdder.vhd andg2.vhd array32.vhd dataflow_mux2t1.vhd decoder.vhd dffg.vhd extender.vhd invg.vhd mem.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_MySecondMIPSDatapath.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity MySecondMIPSDatapath
+# -- Compiling architecture structural of MySecondMIPSDatapath
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling package array32
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender
+# -- Compiling architecture structural of extender
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_MySecondMIPSDatapath
+# -- Compiling architecture behavior of tb_MySecondMIPSDatapath
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:25:16 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_MySecondMIPSDatapath 
+# Start time: 10:25:16 on Feb 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mysecondmipsdatapath(behavior)#1
+# Loading work.array32
+# Loading work.mysecondmipsdatapath(structural)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1(rt1)#1
+# Loading work.decoder(dec)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.extender(structural)#1
+# Loading work.mem(rtl)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 10  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# 0 ns
+# 473 ns
+do tb_MySecondMIPSDatapath.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:27:00 on Feb 10,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd Mux32t1.vhd MySecondMIPSDatapath.vhd NBit_Reg.vhd N_Bit_inverter.vhd RegFile.vhd RippleCarryAdder.vhd andg2.vhd array32.vhd dataflow_mux2t1.vhd decoder.vhd dffg.vhd extender.vhd invg.vhd mem.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_MySecondMIPSDatapath.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity MySecondMIPSDatapath
+# -- Compiling architecture structural of MySecondMIPSDatapath
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling package array32
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender
+# -- Compiling architecture structural of extender
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_MySecondMIPSDatapath
+# -- Compiling architecture behavior of tb_MySecondMIPSDatapath
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:27:00 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:27:00 on Feb 10,2023, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.tb_MySecondMIPSDatapath 
+# Start time: 10:27:00 on Feb 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mysecondmipsdatapath(behavior)#1
+# Loading work.array32
+# Loading work.mysecondmipsdatapath(structural)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1(rt1)#1
+# Loading work.decoder(dec)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.extender(structural)#1
+# Loading work.mem(rtl)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 8  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# 0 ns
+# 473 ns
+do tb_MySecondMIPSDatapath.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:31:25 on Feb 10,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd Mux32t1.vhd MySecondMIPSDatapath.vhd NBit_Reg.vhd N_Bit_inverter.vhd RegFile.vhd RippleCarryAdder.vhd andg2.vhd array32.vhd dataflow_mux2t1.vhd decoder.vhd dffg.vhd extender.vhd invg.vhd mem.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_MySecondMIPSDatapath.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity MySecondMIPSDatapath
+# -- Compiling architecture structural of MySecondMIPSDatapath
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling package array32
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender
+# -- Compiling architecture structural of extender
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_MySecondMIPSDatapath
+# -- Compiling architecture behavior of tb_MySecondMIPSDatapath
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:31:25 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:31:25 on Feb 10,2023, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb_MySecondMIPSDatapath 
+# Start time: 10:31:25 on Feb 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mysecondmipsdatapath(behavior)#1
+# Loading work.array32
+# Loading work.mysecondmipsdatapath(structural)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1(rt1)#1
+# Loading work.decoder(dec)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.extender(structural)#1
+# Loading work.mem(rtl)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 8  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# 0 ns
+# 473 ns
+do tb_MySecondMIPSDatapath.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:32:08 on Feb 10,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd Mux32t1.vhd MySecondMIPSDatapath.vhd NBit_Reg.vhd N_Bit_inverter.vhd RegFile.vhd RippleCarryAdder.vhd andg2.vhd array32.vhd dataflow_mux2t1.vhd decoder.vhd dffg.vhd extender.vhd invg.vhd mem.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_MySecondMIPSDatapath.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity MySecondMIPSDatapath
+# -- Compiling architecture structural of MySecondMIPSDatapath
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling package array32
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender
+# -- Compiling architecture structural of extender
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_MySecondMIPSDatapath
+# -- Compiling architecture behavior of tb_MySecondMIPSDatapath
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:32:09 on Feb 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 10:32:09 on Feb 10,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb_MySecondMIPSDatapath 
+# Start time: 10:32:09 on Feb 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mysecondmipsdatapath(behavior)#1
+# Loading work.array32
+# Loading work.mysecondmipsdatapath(structural)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1(rt1)#1
+# Loading work.decoder(dec)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.extender(structural)#1
+# Loading work.mem(rtl)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 8  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# 0 ns
+# 473 ns
+do tb_MySecondMIPSDatapath.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:06 on Feb 10,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd Mux32t1.vhd MySecondMIPSDatapath.vhd NBit_Reg.vhd N_Bit_inverter.vhd RegFile.vhd RippleCarryAdder.vhd andg2.vhd array32.vhd dataflow_mux2t1.vhd decoder.vhd dffg.vhd extender.vhd invg.vhd mem.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_MySecondMIPSDatapath.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Loading package NUMERIC_STD
+# -- Loading package array32
+# -- Compiling entity Mux32t1
+# -- Compiling architecture rt1 of Mux32t1
+# -- Compiling entity MySecondMIPSDatapath
+# -- Compiling architecture structural of MySecondMIPSDatapath
+# -- Compiling entity NBit_Reg
+# -- Compiling architecture structural of NBit_Reg
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RegFile
+# -- Compiling architecture structural of RegFile
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling package array32
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity decoder
+# -- Compiling architecture DEC of decoder
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# -- Compiling entity extender
+# -- Compiling architecture structural of extender
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_MySecondMIPSDatapath
+# -- Compiling architecture behavior of tb_MySecondMIPSDatapath
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:40:06 on Feb 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:40:06 on Feb 10,2023, Elapsed time: 0:07:57
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb_MySecondMIPSDatapath 
+# Start time: 10:40:06 on Feb 10,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mysecondmipsdatapath(behavior)#1
+# Loading work.array32
+# Loading work.mysecondmipsdatapath(structural)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1(rt1)#1
+# Loading work.decoder(dec)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.extender(structural)#1
+# Loading work.mem(rtl)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 8  Instance: /tb_mysecondmipsdatapath/DUT/dmem
+# 0 ns
+# 473 ns
+# End time: 11:06:05 on Feb 10,2023, Elapsed time: 0:25:59
+# Errors: 0, Warnings: 2

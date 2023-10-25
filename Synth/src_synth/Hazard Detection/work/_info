@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tvgaul/Documents/CPRE 381/cpre381/Project2HW/proj/src/Hazard Detection
+Ehazarddetection
+Z1 w1680207821
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 12
+R0
+Z4 8/home/tvgaul/Documents/CPRE 381/cpre381/Project2HW/proj/src/Hazard Detection/hazardDetection.vhd
+Z5 F/home/tvgaul/Documents/CPRE 381/cpre381/Project2HW/proj/src/Hazard Detection/hazardDetection.vhd
+l0
+L19 1
+Vln31idJDD@6GAZRebRak93
+!s100 5;mN:1bgaJg[mJkOngoI:1
+Z6 OL;C;2022.2;75
+32
+Z7 !s110 1680207823
+!i10b 1
+Z8 !s108 1680207823.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/cpre381/Project2HW/proj/src/Hazard Detection/hazardDetection.vhd|
+Z10 !s107 /home/tvgaul/Documents/CPRE 381/cpre381/Project2HW/proj/src/Hazard Detection/hazardDetection.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Adataflow
+R2
+R3
+Z13 DEx4 work 15 hazarddetection 0 22 ln31idJDD@6GAZRebRak93
+!i122 12
+l69
+L40 127
+VFd]YP8g4KM9c<Xj9oj``[1
+!s100 9>IEC@XVEON0@UK6]b@i_1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12

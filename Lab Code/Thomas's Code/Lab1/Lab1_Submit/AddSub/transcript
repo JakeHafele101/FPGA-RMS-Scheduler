@@ -1,0 +1,890 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlib work
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:27:32 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(51): near "Generic": syntax error
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(55): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1136) Unknown identifier "o_O".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1136) Unknown identifier "i_S".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1484) Unknown formal identifier "nAdd_Sub".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(62): (vcom-1136) Unknown identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1136) Unknown identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(62): (vcom-1484) Unknown formal identifier "A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1484) Unknown formal identifier "s_MuxB".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1035) Formal port "i_S" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(66): (vcom-1035) Formal port "i_D0" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(66): (vcom-1035) Formal port "i_D1" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(71): VHDL Compiler exiting
+# End time: 10:27:32 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:28:19 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(51): near "GENERIC": syntax error
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(55): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(56): near "GENERIC": syntax error
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(62): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): near "GENERIC": syntax error
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(71): VHDL Compiler exiting
+# End time: 10:28:19 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:29:10 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(54): (vcom-1136) Unknown identifier "o_F".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(53): (vcom-1136) Unknown identifier "i_A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(54): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(53): (vcom-1484) Unknown formal identifier "B".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(61): (vcom-1136) Unknown identifier "o_O".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(60): (vcom-1136) Unknown identifier "i_S".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(61): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(60): (vcom-1484) Unknown formal identifier "nAdd_Sub".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(65): (vcom-1136) Unknown identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(66): (vcom-1136) Unknown identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(65): (vcom-1484) Unknown formal identifier "A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(66): (vcom-1484) Unknown formal identifier "s_MuxB".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(54): (vcom-1035) Formal port "i_A" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(61): (vcom-1035) Formal port "i_S" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): (vcom-1035) Formal port "i_D0" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): (vcom-1035) Formal port "i_D1" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(72): VHDL Compiler exiting
+# End time: 10:29:10 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:30:08 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(52): (vcom-1136) Unknown identifier "o_F".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(51): (vcom-1136) Unknown identifier "i_A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(52): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(51): (vcom-1484) Unknown formal identifier "B".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1136) Unknown identifier "o_O".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1136) Unknown identifier "i_S".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1484) Unknown formal identifier "nAdd_Sub".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1136) Unknown identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1136) Unknown identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1484) Unknown formal identifier "A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1484) Unknown formal identifier "s_MuxB".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(52): (vcom-1035) Formal port "i_A" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1035) Formal port "i_S" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D0" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D1" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): VHDL Compiler exiting
+# End time: 10:30:08 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:30:49 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(52): (vcom-1136) Unknown identifier "o_F".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(52): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1136) Unknown identifier "o_O".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1136) Unknown identifier "i_S".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1484) Unknown formal identifier "nAdd_Sub".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1136) Unknown identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1136) Unknown identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1484) Unknown formal identifier "A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1484) Unknown formal identifier "s_MuxB".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1035) Formal port "i_S" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D0" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D1" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): VHDL Compiler exiting
+# End time: 10:30:49 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:31:08 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1136) Unknown identifier "o_O".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1136) Unknown identifier "i_S".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1023) Positional association (infix expression) found after named association.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1484) Unknown formal identifier "nAdd_Sub".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1136) Unknown identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1136) Unknown identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1484) Unknown formal identifier "A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1484) Unknown formal identifier "s_MuxB".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1035) Formal port "i_S" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D0" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D1" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): VHDL Compiler exiting
+# End time: 10:31:08 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:32:04 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1136) Unknown identifier "i_S".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): (vcom-1484) Unknown formal identifier "nAdd_Sub".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1136) Unknown identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1136) Unknown identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1484) Unknown formal identifier "A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1484) Unknown formal identifier "s_MuxB".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(59): (vcom-1035) Formal port "i_S" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D0" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D1" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): VHDL Compiler exiting
+# End time: 10:32:05 on Jan 26,2023, Elapsed time: 0:00:01
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:32:32 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1136) Unknown identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1136) Unknown identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(63): (vcom-1484) Unknown formal identifier "A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): (vcom-1484) Unknown formal identifier "s_MuxB".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D0" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(67): (vcom-1035) Formal port "i_D1" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): VHDL Compiler exiting
+# End time: 10:32:32 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:33:13 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(58): near ",": syntax error
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(61): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): near "_": syntax error
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): VHDL Compiler exiting
+# End time: 10:33:14 on Jan 26,2023, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:33:34 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(64): near "_": syntax error
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd(69): VHDL Compiler exiting
+# End time: 10:33:34 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:33:49 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# End time: 10:33:49 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:50 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# End time: 10:40:50 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:51 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 10:40:51 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:52 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# End time: 10:40:52 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/invg.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:52 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 10:40:52 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:53 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# End time: 10:40:53 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/dataflow_mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:53 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/dataflow_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# End time: 10:40:53 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/andg2.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:54 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 10:40:54 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:55 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 10:40:55 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:56 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# End time: 10:40:56 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:56 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# End time: 10:40:56 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/xorg2.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:40:58 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:40:58 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/RippleCarryAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:41:00 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/RippleCarryAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# End time: 10:41:00 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/org2.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:41:02 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 10:41:02 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:41:03 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(46): (vcom-1141) Identifier "RippleCarryAdder" does not identify a component declaration.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(57): (vcom-1136) Unknown identifier "s_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(57): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(58): (vcom-1136) Unknown identifier "s_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(58): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(60): (vcom-1136) Unknown identifier "s_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(60): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(61): (vcom-1136) Unknown identifier "s_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(61): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(66): VHDL Compiler exiting
+# End time: 10:41:03 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:42:05 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(46): (vcom-1141) Identifier "RippleCarryAdder" does not identify a component declaration.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(66): VHDL Compiler exiting
+# End time: 10:42:06 on Jan 26,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:42:58 on Jan 26,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/AddSub/tb_nAdd_Sub.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# End time: 10:42:58 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_nadd_sub
+# vsim work.tb_nadd_sub 
+# Start time: 10:43:14 on Jan 26,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_nadd_sub(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.ripplecarryadder(structural)#1
+do tb_nAdd_Sub.do
+do tb_nAdd_Sub.do
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:43:59 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# ** Error: N_Bit_inverter.vhd(20): near ")": (vcom-1576) expecting IDENTIFIER.
+# ** Note: N_Bit_inverter.vhd(21): VHDL Compiler exiting
+# End time: 10:43:59 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_nAdd_Sub.do line 2
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -2008 *.vhd"
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:45:17 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:45:17 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:45:18 on Jan 26,2023, Elapsed time: 0:02:04
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.tb_nAdd_Sub 
+# Start time: 10:45:18 on Jan 26,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_nadd_sub(mixed)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# 0 ns
+# 84 ns
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:47:25 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:47:25 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:47:25 on Jan 26,2023, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_nAdd_Sub 
+# Start time: 10:47:25 on Jan 26,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_nadd_sub(mixed)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# 0 ns
+# 84 ns
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:47:43 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:47:43 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:47:43 on Jan 26,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_nAdd_Sub 
+# Start time: 10:47:43 on Jan 26,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_nadd_sub(mixed)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# 0 ns
+# 84 ns
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:48:25 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# ** Error: tb_nAdd_Sub.vhd(59): Illegal target for signal assignment.
+# ** Error: tb_nAdd_Sub.vhd(59): Bad target (component declaration "nAdd_Sub") for signal assignment.
+# ** Note: tb_nAdd_Sub.vhd(67): VHDL Compiler exiting
+# End time: 10:48:25 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_nAdd_Sub.do line 2
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -2008 *.vhd"
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:48:46 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:48:46 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:48:46 on Jan 26,2023, Elapsed time: 0:01:03
+# Errors: 1, Warnings: 1
+# vsim -voptargs="+acc" work.tb_nAdd_Sub 
+# Start time: 10:48:46 on Jan 26,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_nadd_sub(mixed)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# 0 ns
+# 84 ns
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 10:55:02 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:55:02 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:55:03 on Jan 26,2023, Elapsed time: 0:06:17
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_nAdd_Sub 
+# Start time: 10:55:03 on Jan 26,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_nadd_sub(mixed)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# 0 ns
+# 126 ns
+do tb_nAdd_Sub.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 11:01:14 on Jan 26,2023
+# vcom -reportprogress 300 -2008 FullAdder.vhd N_Bit_inverter.vhd RippleCarryAdder.vhd andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd nAdd_Sub.vhd org2.vhd tb_nAdd_Sub.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FULLAdder
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture structural of RippleCarryAdder
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity NAdd_Sub
+# -- Compiling architecture structural of NAdd_Sub
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_nAdd_Sub
+# -- Compiling architecture mixed of tb_nAdd_Sub
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:01:14 on Jan 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:01:14 on Jan 26,2023, Elapsed time: 0:06:11
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_nAdd_Sub 
+# Start time: 11:01:14 on Jan 26,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_nadd_sub(mixed)#1
+# Loading work.nadd_sub(structural)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.ripplecarryadder(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# 0 ns
+# 126 ns
+# End time: 11:03:00 on Jan 26,2023, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 1

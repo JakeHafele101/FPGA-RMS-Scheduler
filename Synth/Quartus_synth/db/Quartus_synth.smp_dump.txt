@@ -1,0 +1,7 @@
+
+State Machine - |Quartus_synth|debounce:g_debounce_clk_button|state_reg
+Name state_reg.hold_zero state_reg.one state_reg.hold_one state_reg.zero 
+state_reg.zero 0 0 0 0 
+state_reg.hold_one 0 0 1 1 
+state_reg.one 0 1 0 1 
+state_reg.hold_zero 1 0 0 1 

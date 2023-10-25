@@ -1,0 +1,162 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do tb_ALU.do
+# 1
+# 1
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 22:50:43 on Mar 22,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 22:50:43 on Mar 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 22:50:43 on Mar 22,2023
+# vcom -reportprogress 300 ../../src/ALU/ALU.vhd ../../src/ALU/adder_subber.vhd ../../src/ALU/branch.vhd ../../src/ALU/full_adder.vhd ../../src/ALU/invg.vhd ../../src/ALU/logic.vhd ../../src/ALU/mux2t1_N.vhd ../../src/ALU/ones_comp.vhd ../../src/ALU/ripple_adder.vhd ../../src/ALU/shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture mixed of ALU
+# ** Error: ../../src/ALU/ALU.vhd(66): Index constraint cannot be applied to non-array type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: ../../src/ALU/ALU.vhd(122): Signal [mode IN port] "i_rt" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: ../../src/ALU/ALU.vhd(141): VHDL Compiler exiting
+# End time: 22:50:43 on Mar 22,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_ALU.do line 25
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ../../src/ALU/*.vhd"
+do tb_ALU.do
+# 1
+# 1
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 22:51:21 on Mar 22,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 22:51:21 on Mar 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 22:51:21 on Mar 22,2023
+# vcom -reportprogress 300 ../../src/ALU/ALU.vhd ../../src/ALU/adder_subber.vhd ../../src/ALU/branch.vhd ../../src/ALU/full_adder.vhd ../../src/ALU/invg.vhd ../../src/ALU/logic.vhd ../../src/ALU/mux2t1_N.vhd ../../src/ALU/ones_comp.vhd ../../src/ALU/ripple_adder.vhd ../../src/ALU/shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture mixed of ALU
+# -- Compiling entity adder_subber
+# -- Compiling architecture structural of adder_subber
+# -- Compiling entity branch
+# ** Error: ../../src/ALU/branch.vhd(21): Index constraint cannot be applied to non-array type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: ../../src/ALU/branch.vhd(23): VHDL Compiler exiting
+# End time: 22:51:21 on Mar 22,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_ALU.do line 25
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ../../src/ALU/*.vhd"
+do tb_ALU.do
+# 1
+# 1
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 22:51:53 on Mar 22,2023
+# vcom -reportprogress 300 /*.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ALU
+# -- Compiling architecture mixed of tb_ALU
+# End time: 22:51:53 on Mar 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 22:51:53 on Mar 22,2023
+# vcom -reportprogress 300 ../../src/ALU/ALU.vhd ../../src/ALU/adder_subber.vhd ../../src/ALU/branch.vhd ../../src/ALU/full_adder.vhd ../../src/ALU/invg.vhd ../../src/ALU/logic.vhd ../../src/ALU/mux2t1_N.vhd ../../src/ALU/ones_comp.vhd ../../src/ALU/ripple_adder.vhd ../../src/ALU/shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture mixed of ALU
+# -- Compiling entity adder_subber
+# -- Compiling architecture structural of adder_subber
+# -- Compiling entity branch
+# -- Compiling architecture structural of branch
+# -- Compiling entity full_adder
+# -- Compiling architecture behavorial of full_adder
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity logic
+# -- Compiling architecture structural of logic
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture dataflow of mux2t1_N
+# -- Compiling entity ones_comp
+# -- Compiling architecture structural of ones_comp
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity shift
+# -- Compiling architecture structural of shift
+# End time: 22:51:53 on Mar 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_ALU 
+# Start time: 22:51:53 on Mar 22,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu(mixed)#1
+# Loading work.alu(mixed)#1
+# Loading work.adder_subber(structural)#1
+# Loading work.ones_comp(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.mux2t1_n(dataflow)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(behavorial)#1
+# Loading work.logic(structural)#1
+# Loading work.shift(structural)#1
+# Loading work.mux2t1_n(dataflow)#2
+# Loading work.branch(structural)#1
+# Loading work.ripple_adder(structural)#2
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 208 ns  Iteration: 1  Instance: /tb_alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 216 ns  Iteration: 1  Instance: /tb_alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 236 ns  Iteration: 1  Instance: /tb_alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 244 ns  Iteration: 1  Instance: /tb_alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 264 ns  Iteration: 1  Instance: /tb_alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 272 ns  Iteration: 1  Instance: /tb_alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 296 ns  Iteration: 1  Instance: /tb_alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 300 ns  Iteration: 1  Instance: /tb_alu
+# 0 ns
+# 578 ns

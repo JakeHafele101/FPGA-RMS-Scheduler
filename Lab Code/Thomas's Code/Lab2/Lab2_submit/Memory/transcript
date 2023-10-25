@@ -1,0 +1,49 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do tb_dmem.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 22:20:07 on Feb 08,2023
+# vcom -reportprogress 300 -2008 mem.vhd tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dmem
+# -- Compiling architecture behavior of tb_dmem
+# End time: 22:20:07 on Feb 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dmem 
+# Start time: 22:20:07 on Feb 08,2023
+# ** Error: (vsim-7) Failed to open  file "/home/tvgaul/Documents/CPRE 381/Lab2/Memory/work/@_opt/_deps" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-56) Problem with optimized design dependency file "/home/tvgaul/Documents/CPRE 381/Lab2/Memory/work/@_opt/_deps" - file open failed.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_dmem(behavior)#1
+# Loading work.mem(rtl)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_dmem/dmem
+# 0 ns
+# 630 ns

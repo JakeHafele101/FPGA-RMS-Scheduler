@@ -1,0 +1,293 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_seg0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_seg7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_clk_sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_clk_sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_clk_mux",
+					"strict" : false
+				},
+				{
+					"name" : "o_EX_RegWr",
+					"strict" : false
+				},
+				{
+					"name" : "o_DMEM_mem_WE",
+					"strict" : false
+				},
+				{
+					"name" : "o_halt",
+					"strict" : false
+				},
+				{
+					"name" : "o_overflow",
+					"strict" : false
+				},
+				{
+					"name" : "i_out_sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_out_sel[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_out_sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_clk_sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_clk_sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rst",
+					"strict" : false
+				},
+				{
+					"name" : "i_clk_button",
+					"strict" : false
+				},
+				{
+					"name" : "i_clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

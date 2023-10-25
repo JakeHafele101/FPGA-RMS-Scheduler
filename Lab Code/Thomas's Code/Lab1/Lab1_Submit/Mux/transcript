@@ -1,0 +1,2118 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/dataflow_mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 13:31:10 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/dataflow_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# End time: 13:31:10 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 13:31:16 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# End time: 13:31:16 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_dataflow_mux2t1
+# vsim work.tb_dataflow_mux2t1 
+# Start time: 13:31:35 on Jan 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_dataflow_mux2t1(mixed)#1
+do dataflow_mux2t1.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 13:31:45 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 13:31:45 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:31:46 on Jan 23,2023, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dataflow_mux2t1 
+# Start time: 13:31:46 on Jan 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_dataflow_mux2t1(mixed)#1
+# Loading work.dataflow_mux2t1(dataflow)#1
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tbdataflow_mux2t1/*'.
+# Error in macro ./dataflow_mux2t1.do line 8
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tbdataflow_mux2t1/*'.
+#     while executing
+# "add wave -noupdate -radix unsigned /tbdataflow_mux2t1/*"
+do dataflow_mux2t1.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 13:32:24 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 13:32:24 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:32:24 on Jan 23,2023, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_dataflow_mux2t1 
+# Start time: 13:32:24 on Jan 23,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_dataflow_mux2t1(mixed)#1
+# Loading work.dataflow_mux2t1(dataflow)#1
+# 0 ns
+# 336 ns
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:27:00 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 14:27:00 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:27:11 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(1): (vcom-1491) Empty source files.
+# End time: 14:27:11 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:27:21 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(23): near "is": (vcom-1576) expecting ':'.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(26): VHDL Compiler exiting
+# End time: 14:27:21 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:29:05 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(25): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(25): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(25): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(26): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(26): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(26): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(27): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(27): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(27): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1360) Array type of "s_S" does not have an index constraint.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): Type error in range expression.
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(41): (vcom-1624) Component instance tb_dataflow_mux2t1(mixed).DUT0 has a generic map clause and the component mux2t1_N has no generics.
+# Generic map will be ignored.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(46): Signal "s_S" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(54): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(58): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# End time: 14:29:05 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 25, Warnings: 3
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:29:31 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1360) Array type of "s_S" does not have an index constraint.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): Type error in range expression.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(45): Signal "s_S" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(57): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# End time: 14:29:31 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:31:19 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1360) Array type of "s_S" does not have an index constraint.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(45): Signal "s_S" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(57): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# End time: 14:31:19 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:31:47 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1360) Array type of "s_S" does not have an index constraint.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(45): Signal "s_S" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(57): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# End time: 14:31:47 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:33:19 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1360) Array type of "s_S" does not have an index constraint.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(45): Signal "s_S" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(55): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(57): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(58): near "end": (vcom-1576) expecting ';'.
+# End time: 14:33:19 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:33:52 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(58): near "end": (vcom-1576) expecting ';'.
+# End time: 14:33:52 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:34:19 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:34:19 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:36:22 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1136) Unknown identifier "x0000".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:36:22 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 3
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:37:38 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1272) Length of expected is 16; length of actual is 1.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): (vcom-1272) Length of expected is 16; length of actual is 1.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:37:38 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:37:56 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1272) Length of expected is 16; length of actual is 1.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): (vcom-1272) Length of expected is 16; length of actual is 1.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:37:56 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:38:18 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): String literal has a character '5' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(54): String literal has a character '9' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(30): (vcom-1272) Length of expected is 16; length of actual is 1.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(31): (vcom-1272) Length of expected is 16; length of actual is 1.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): (vcom-1272) Length of expected is 16; length of actual is 2.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(54): (vcom-1272) Length of expected is 16; length of actual is 1.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:38:18 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:39:44 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(14): (vcom-1615) Existing architecture 'tb_dataflow_mux2t1(mixed)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_dataflow_mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Loading entity tb_dataflow_mux2t1
+# End time: 14:39:44 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:40:19 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# End time: 14:40:19 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.tb_mux2t1_n
+# End time: 14:40:46 on Jan 23,2023, Elapsed time: 1:08:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_mux2t1_n 
+# Start time: 14:40:46 on Jan 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_mux2t1_n/s_D0 \
+sim:/tb_mux2t1_n/s_D1 \
+sim:/tb_mux2t1_n/s_S \
+sim:/tb_mux2t1_n/s_O
+run 100
+# Causality operation skipped due to absence of debug database file
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:43:14 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): (vcom-1272) Length of expected is 16; length of actual is 6.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:43:14 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:45:21 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# End time: 14:45:21 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:50:20 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): (vcom-1136) Unknown identifier "TO_UNSIGNED".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:50:20 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:51:42 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): (vcom-1136) Unknown identifier "conv_std_logic_vector".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:51:42 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:52:19 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(53): (vcom-1136) Unknown identifier "int_to_addr".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(59): VHDL Compiler exiting
+# End time: 14:52:19 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:55:34 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(54): (vcom-1136) Unknown identifier "my_d_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(54): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(60): VHDL Compiler exiting
+# End time: 14:55:34 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:55:48 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# End time: 14:55:48 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.tb_mux2t1_n
+# End time: 14:56:03 on Jan 23,2023, Elapsed time: 0:15:17
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_mux2t1_n 
+# Start time: 14:56:03 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_mux2t1_n/s_D0 \
+sim:/tb_mux2t1_n/s_D1 \
+sim:/tb_mux2t1_n/s_S \
+sim:/tb_mux2t1_n/s_O
+run 100
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:57:06 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# End time: 14:57:06 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+run 100
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 14:59:23 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# End time: 14:59:23 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+run 100
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:00:04 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1272) Length of expected is 32; length of actual is 16.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1272) Length of expected is 32; length of actual is 16.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(61): VHDL Compiler exiting
+# End time: 15:00:04 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:00:29 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1272) Length of expected is 8; length of actual is 16.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1272) Length of expected is 8; length of actual is 16.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(61): VHDL Compiler exiting
+# End time: 15:00:29 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:04:45 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1136) Unknown identifier "s_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): near ";": syntax error
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1136) Unknown identifier "s_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(61): VHDL Compiler exiting
+# End time: 15:04:46 on Jan 23,2023, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:05:09 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): (vcom-1136) Unknown identifier "s_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(32): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): (vcom-1136) Unknown identifier "s_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(33): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(61): VHDL Compiler exiting
+# End time: 15:05:09 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:05:31 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Mux/tb_mux2t1_N.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# End time: 15:05:31 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+run 100
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 40 ns  Iteration: 0  Instance: /tb_mux2t1_n
+do tb_mux2t1_N.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:09:28 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd tb_mux2t1_N.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 15:09:28 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:09:28 on Jan 23,2023, Elapsed time: 0:13:25
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_mux2t1_N 
+# Start time: 15:09:28 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 336 ns
+do tb_mux2t1_N.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:09:49 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd tb_mux2t1_N.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 15:09:49 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:09:49 on Jan 23,2023, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_mux2t1_N 
+# Start time: 15:09:49 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 336 ns
+do tb_mux2t1_N.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:14:58 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd tb_mux2t1_N.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 15:14:58 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:14:58 on Jan 23,2023, Elapsed time: 0:05:09
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_mux2t1_N 
+# Start time: 15:14:58 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 336 ns
+do tb_mux2t1_N.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:15:41 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd tb_mux2t1_N.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 15:15:41 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:15:41 on Jan 23,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_mux2t1_N 
+# Start time: 15:15:41 on Jan 23,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 294 ns
+do tb_mux2t1_N.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:22:28 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd tb_mux2t1_N.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 15:22:28 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:22:28 on Jan 23,2023, Elapsed time: 0:06:47
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_mux2t1_N 
+# Start time: 15:22:28 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 294 ns
+do tb_mux2t1_N.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:22:47 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd tb_mux2t1_N.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 15:22:47 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:22:48 on Jan 23,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_mux2t1_N 
+# Start time: 15:22:48 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 294 ns
+do tb_mux2t1_N.do
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:23:10 on Jan 23,2023
+# vcom -reportprogress 300 -2008 andg2.vhd dataflow_mux2t1.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_dataflow_mux2t1.vhd tb_mux2t1.vhd tb_mux2t1_N.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity dataflow_mux2t1
+# -- Compiling architecture dataflow of dataflow_mux2t1
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_dataflow_mux2t1
+# -- Compiling architecture mixed of tb_dataflow_mux2t1
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture mixed of tb_mux2t1_N
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 15:23:10 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:23:10 on Jan 23,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_mux2t1_N 
+# Start time: 15:23:10 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1_n(mixed)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 294 ns
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/invg.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:47:13 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd(23) will be overwritten.
+# -- Compiling entity invg
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd(30) will be overwritten.
+# -- Compiling architecture dataflow of invg
+# End time: 15:47:13 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:47:19 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd(7): near ")": (vcom-1576) expecting IDENTIFIER.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd(7): VHDL Compiler exiting
+# End time: 15:47:19 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:47:45 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd(22): (vcom-1136) Unknown identifier "i_Ai".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd(22): (vcom-1436) Actual expression (indexed name) of formal "i_A" is not globally static.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd(26): VHDL Compiler exiting
+# End time: 15:47:45 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:47:57 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# End time: 15:47:57 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:48:01 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(26): near "i_A": (vcom-1576) expecting END.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(27): VHDL Compiler exiting
+# End time: 15:48:01 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:48:32 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(26): near "i_A": (vcom-1576) expecting END.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(27): VHDL Compiler exiting
+# End time: 15:48:32 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:49:15 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): near "11111111111111110000": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): (vcom-1136) Unknown identifier "s_D0".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(51): VHDL Compiler exiting
+# End time: 15:49:15 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:49:40 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): near "11111111111111110000": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): Integer literal -1773790777 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(51): VHDL Compiler exiting
+# End time: 15:49:40 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:50:00 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): near "11111111111111110000": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): Integer literal -1773790777 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(51): VHDL Compiler exiting
+# End time: 15:50:00 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:50:39 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): (vcom-1136) Unknown identifier "s_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(49): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(51): VHDL Compiler exiting
+# End time: 15:50:39 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:50:52 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# End time: 15:50:52 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.tb_n_bit_inverter
+# End time: 15:51:12 on Jan 23,2023, Elapsed time: 0:28:02
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_n_bit_inverter 
+# Start time: 15:51:12 on Jan 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_n_bit_inverter(mixed)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_n_bit_inverter/s_A \
+sim:/tb_n_bit_inverter/s_O
+run 20
+run 200
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:54:34 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(51): (vcom-1136) Unknown identifier "xF0F0F0F0".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(53): VHDL Compiler exiting
+# End time: 15:54:34 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:55:18 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# End time: 15:55:18 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_n_bit_inverter(mixed)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+RUN 100
+# invalid command name "RUN"
+run 100
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:56:25 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# End time: 15:56:25 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_n_bit_inverter(mixed)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+run 160
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run 160
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:57:42 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(53): near "4294901760": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(53): (vcom-1144) Value -65536 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(55): VHDL Compiler exiting
+# End time: 15:57:42 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:58:20 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# End time: 15:58:20 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_n_bit_inverter(mixed)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+run 160
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run 160
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:59:12 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# End time: 15:59:12 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_n_bit_inverter(mixed)#1
+# Loading work.n_bit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+run 160
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:59:27 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# End time: 15:59:27 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:59:28 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_Bit_inverter
+# -- Compiling architecture structural of N_Bit_inverter
+# End time: 15:59:29 on Jan 23,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/invg.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:59:30 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 15:59:30 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 15:59:30 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/OnesComp/tb_N_Bit_inverter.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_N_Bit_inverter
+# -- Compiling architecture mixed of tb_N_Bit_inverter
+# End time: 15:59:30 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run 160
+run 160
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run 150
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run 250
+
+run 30
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:03:32 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(51): near "o_F": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(53): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(56): near "o_F": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(62): Statement cannot be labeled.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(62): (vcom-1141) Identifier "xor2" does not identify a component declaration.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:03:32 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:04:22 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(49): (vcom-1136) Unknown identifier "i_A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(50): (vcom-1136) Unknown identifier "i_B".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(56): near "o_F": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(62): Statement cannot be labeled.
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(62): (vcom-1141) Identifier "xor2" does not identify a component declaration.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:04:22 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:05:05 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(49): (vcom-1136) Unknown identifier "i_A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(50): (vcom-1136) Unknown identifier "i_B".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(54): (vcom-1136) Unknown identifier "i_A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(55): (vcom-1136) Unknown identifier "i_B".
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(62): (vcom-1141) Identifier "xor2" does not identify a component declaration.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:05:05 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:05:21 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_FullAdder
+# -- Compiling architecture mixed of tb_FullAdder
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(36): near "begin": (vcom-1576) expecting ';'.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(52): VHDL Compiler exiting
+# End time: 17:05:21 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:06:51 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_FullAdder
+# -- Compiling architecture mixed of tb_FullAdder
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(48): near "o_Carry": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(52): Statement cannot be labeled.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(70): VHDL Compiler exiting
+# End time: 17:06:51 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:07:16 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_FullAdder
+# -- Compiling architecture mixed of tb_FullAdder
+# End time: 17:07:16 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:07:22 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(49): (vcom-1136) Unknown identifier "i_A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(50): (vcom-1136) Unknown identifier "i_B".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(54): (vcom-1136) Unknown identifier "i_A".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(55): (vcom-1136) Unknown identifier "i_B".
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(62): (vcom-1141) Identifier "xor2" does not identify a component declaration.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:07:22 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:08:39 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(62): (vcom-1141) Identifier "xor2" does not identify a component declaration.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:08:39 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:09:36 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:09:36 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:10:20 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:10:20 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:12:16 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_C".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_S".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_C".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_C".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:12:16 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:13:45 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:13:45 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:15:34 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:15:34 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:15:35 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:15:35 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:15:35 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:15:35 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:15:55 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:15:56 on Jan 23,2023, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:17:53 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:17:53 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:45 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_C".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_C".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:18:45 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:19:07 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_C".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_C".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:19:07 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:20:33 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:20:33 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:21:27 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_D3".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_D3".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:21:27 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:22:09 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:22:09 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:23:12 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "o_Sum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "i_Carry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "o_Carry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:23:12 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:23:16 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_FullAdder
+# -- Compiling architecture mixed of tb_FullAdder
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(44): (vcom-1484) Unknown formal identifier "i_D0".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(45): (vcom-1484) Unknown formal identifier "i_D1".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(48): (vcom-1035) Formal port "i_A" has OPEN or no actual associated with it.
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(48): (vcom-1035) Formal port "i_B" has OPEN or no actual associated with it.
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(70): VHDL Compiler exiting
+# End time: 17:23:16 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:23:56 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_FullAdder
+# -- Compiling architecture mixed of tb_FullAdder
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(24): (vcom-1294) Declaration with designator "i_D0" already exists in this region.
+# ** =====> Prior declaration of "i_D0" is at /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(23).
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(45): (vcom-1484) Unknown formal identifier "i_D1".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(70): VHDL Compiler exiting
+# End time: 17:23:56 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:24:06 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_FullAdder
+# -- Compiling architecture mixed of tb_FullAdder
+# End time: 17:24:06 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:26:37 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/tb_FullAdder.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_FullAdder
+# -- Compiling architecture mixed of tb_FullAdder
+# End time: 17:26:37 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:26:40 on Jan 23,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# ** Warning: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(15): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd(14) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# -- Loading entity mux2t1
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(64): (vcom-1136) Unknown identifier "iCarry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(65): (vcom-1136) Unknown identifier "oSum".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(69): (vcom-1136) Unknown identifier "iCarry".
+# ** Error: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(79): (vcom-1136) Unknown identifier "oCarry".
+# ** Note: /home/tvgaul/Documents/CPRE 381/Lab1/Adder/FullAdder.vhd(81): VHDL Compiler exiting
+# End time: 17:26:40 on Jan 23,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+# End time: 17:27:33 on Jan 23,2023, Elapsed time: 1:36:21
+# Errors: 0, Warnings: 1

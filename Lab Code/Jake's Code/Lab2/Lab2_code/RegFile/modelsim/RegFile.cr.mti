@@ -1,0 +1,81 @@
+/home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/arrays.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/arrays.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package arrays
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/testbench/tb_dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/testbench/tb_dffg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_dffg
+-- Compiling architecture behavior of tb_dffg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/dffg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/dffg.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/reg_N.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/reg_N.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_N
+-- Compiling architecture structural of reg_N
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/decoder_5t32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/decoder_5t32.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_5t32
+-- Compiling architecture dataflow of decoder_5t32
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/testbench/tb_decoder_5t32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/testbench/tb_decoder_5t32.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Compiling entity tb_decoder_5t32
+-- Compiling architecture mixed of tb_decoder_5t32
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/mux_32t1_32b.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/mux_32t1_32b.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package arrays
+-- Compiling entity mux_32t1_32b
+-- Compiling architecture dataflow of mux_32t1_32b
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/reg_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/reg_file.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package arrays
+-- Compiling entity reg_file
+-- Compiling architecture structural of reg_file
+
+} {} {}} /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/testbench/tb_mux_32t1_32b.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Lab2/Lab2_code/RegFile/src/testbench/tb_mux_32t1_32b.vhd
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package arrays
+-- Compiling entity tb_mux_32t1_32b
+-- Compiling architecture mixed of tb_mux_32t1_32b
+
+} {} {}}

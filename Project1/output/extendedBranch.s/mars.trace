@@ -1,0 +1,155 @@
+[inst #1] addi $9,$0,5
+Register Write to Reg: 0x09 Val: 0x00000005
+[inst #2] addi $8,$0,1
+Register Write to Reg: 0x08 Val: 0x00000001
+[inst #3] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #4] bne $9,$8,-2
+[inst #5] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000003
+[inst #6] bne $9,$8,-2
+[inst #7] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000002
+[inst #8] bne $9,$8,-2
+[inst #9] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #10] bne $9,$8,-2
+[inst #11] addi $9,$0,5
+Register Write to Reg: 0x09 Val: 0x00000005
+[inst #12] addi $8,$0,1
+Register Write to Reg: 0x08 Val: 0x00000001
+[inst #13] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #14] beq $9,$0,1
+[inst #15] j 4194328
+[inst #16] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000003
+[inst #17] beq $9,$0,1
+[inst #18] j 4194328
+[inst #19] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000002
+[inst #20] beq $9,$0,1
+[inst #21] j 4194328
+[inst #22] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #23] beq $9,$0,1
+[inst #24] j 4194328
+[inst #25] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #26] beq $9,$0,1
+[inst #27] addi $9,$0,5
+Register Write to Reg: 0x09 Val: 0x00000005
+[inst #28] addi $8,$0,1
+Register Write to Reg: 0x08 Val: 0x00000001
+[inst #29] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #30] bgez $9,-2
+[inst #31] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000003
+[inst #32] bgez $9,-2
+[inst #33] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000002
+[inst #34] bgez $9,-2
+[inst #35] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #36] bgez $9,-2
+[inst #37] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #38] bgez $9,-2
+[inst #39] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0xFFFFFFFF
+[inst #40] bgez $9,-2
+[inst #41] addi $9,$0,5
+Register Write to Reg: 0x09 Val: 0x00000005
+[inst #42] addi $8,$0,1
+Register Write to Reg: 0x08 Val: 0x00000001
+[inst #43] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #44] bgtz $9,-2
+[inst #45] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000003
+[inst #46] bgtz $9,-2
+[inst #47] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000002
+[inst #48] bgtz $9,-2
+[inst #49] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #50] bgtz $9,-2
+[inst #51] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #52] bgtz $9,-2
+[inst #53] addi $9,$0,5
+Register Write to Reg: 0x09 Val: 0x00000005
+[inst #54] addi $8,$0,1
+Register Write to Reg: 0x08 Val: 0x00000001
+[inst #55] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #56] blez $9,1
+[inst #57] j 4194380
+[inst #58] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000003
+[inst #59] blez $9,1
+[inst #60] j 4194380
+[inst #61] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000002
+[inst #62] blez $9,1
+[inst #63] j 4194380
+[inst #64] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #65] blez $9,1
+[inst #66] j 4194380
+[inst #67] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #68] blez $9,1
+[inst #69] addi $9,$0,5
+Register Write to Reg: 0x09 Val: 0x00000005
+[inst #70] addi $8,$0,1
+Register Write to Reg: 0x08 Val: 0x00000001
+[inst #71] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #72] blez $9,1
+[inst #73] j 4194400
+[inst #74] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000003
+[inst #75] blez $9,1
+[inst #76] j 4194400
+[inst #77] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000002
+[inst #78] blez $9,1
+[inst #79] j 4194400
+[inst #80] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #81] blez $9,1
+[inst #82] j 4194400
+[inst #83] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #84] blez $9,1
+[inst #85] jal 4194468
+Register Write to Reg: 0x1F Val: 0x00400070
+[inst #86] jr $31
+[inst #87] addi $9,$0,1
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #88] bgezal $9,11
+Register Write to Reg: 0x1F Val: 0x00400078
+[inst #89] jr $31
+[inst #90] sub $9,$9,$8
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #91] addi $9,$0,-1
+Register Write to Reg: 0x09 Val: 0xFFFFFFFF
+[inst #92] bgezal $9,8
+[inst #93] bltzal $9,7
+Register Write to Reg: 0x1F Val: 0x00400088
+[inst #94] jr $31
+[inst #95] addi $9,$9,30
+Register Write to Reg: 0x09 Val: 0x0000001D
+[inst #96] bltzal $9,5
+[inst #97] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #98] bltzal $9,3
+[inst #99] bgezal $9,2
+Register Write to Reg: 0x1F Val: 0x0040009C
+[inst #100] jr $31
+[inst #101] addi $9,$0,1
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #102] halt 
+

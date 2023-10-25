@@ -1,0 +1,536 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tvgaul/Documents/CPRE 381/Lab1
+T_opt
+!s110 1674153884
+VYET4UOOQPfWEL=Pa;U:5I1
+Z2 04 17 5 work tb_tpu_mv_element mixed 1
+=1-e43d1aa02eb5-63c98f9c-5d537-4957
+R0
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1674151113
+VM>?OW?0o62A?e9UBEdN@82
+R2
+=1-e43d1aa02eb5-63c984c9-bba90-377f
+R0
+R3
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt1
+R5
+R1
+Eadder
+Z6 w1578332330
+Z7 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z8 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z9 8/home/tvgaul/Documents/CPRE 381/Lab1/Adder.vhd
+Z10 F/home/tvgaul/Documents/CPRE 381/Lab1/Adder.vhd
+l0
+Z11 L26 1
+V=mi5_=N]ZU=Ge0CznD>>H3
+!s100 I7A>njHe2:W8IZC]dG6j20
+Z12 OL;C;2022.2;75
+32
+Z13 !s110 1674149613
+!i10b 1
+Z14 !s108 1674149612.000000
+Z15 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/Adder.vhd|
+Z16 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/Adder.vhd|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Abehavior
+R7
+R8
+DEx4 work 5 adder 0 22 =mi5_=N]ZU=Ge0CznD>>H3
+!i122 0
+l36
+Z19 L35 11
+V_gXogG?B2DDYFGk[AU0j73
+!s100 8hVGk<>zE4m05O5ETH9Ca1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Eandg2
+Z20 w1575899276
+R7
+R8
+!i122 20
+R1
+Z21 8/home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd
+Z22 F/home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd
+l0
+Z23 L23 1
+VQf>?20ho>9XHGTg4:jo373
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+R12
+32
+Z24 !s110 1674232236
+!i10b 1
+Z25 !s108 1674232236.000000
+Z26 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd|
+Z27 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/Mux/andg2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 andg2 0 22 Qf>?20ho>9XHGTg4:jo373
+!i122 20
+l32
+Z28 L31 6
+VHdBJDB9no8cjMZ2eVYWH;1
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R12
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R17
+R18
+Einvg
+R20
+R7
+R8
+!i122 21
+R1
+Z29 8/home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd
+Z30 F/home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd
+l0
+R23
+V]eXOe]3lZ=l7S8@9?:L9T1
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R12
+32
+Z31 !s110 1674232245
+!i10b 1
+Z32 !s108 1674232245.000000
+Z33 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd|
+Z34 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/Mux/invg.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 invg 0 22 ]eXOe]3lZ=l7S8@9?:L9T1
+!i122 21
+l31
+L30 6
+Ve`;fA[BQP?1Y52gl`N_a?3
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R12
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R17
+R18
+Emultiplier
+R6
+R7
+R8
+!i122 3
+R1
+Z35 8/home/tvgaul/Documents/CPRE 381/Lab1/Multiplier.vhd
+Z36 F/home/tvgaul/Documents/CPRE 381/Lab1/Multiplier.vhd
+l0
+R11
+Vb]V9ikc?MmVh6aY11R4Oo2
+!s100 ^MHRih?aY<Omkn@dEhXM40
+R12
+32
+Z37 !s110 1674149638
+!i10b 1
+Z38 !s108 1674149638.000000
+Z39 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/Multiplier.vhd|
+Z40 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/Multiplier.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R7
+R8
+DEx4 work 10 multiplier 0 22 b]V9ikc?MmVh6aY11R4Oo2
+!i122 3
+l36
+R19
+Vf^=hj@M9[[n7QPiE6aHJ<1
+!s100 K^malI_WgOe]RNP4MBI<?0
+R12
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R17
+R18
+Emux2t1
+Z41 w1674232425
+R7
+R8
+!i122 25
+R1
+Z42 8/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd
+Z43 F/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd
+l0
+L5 1
+VcHMoaM5B?hP9[025QB93I0
+!s100 2[Ik0SfkOZ1PaF_<NK;K82
+R12
+32
+Z44 !s110 1674232427
+!i10b 1
+Z45 !s108 1674232427.000000
+Z46 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd|
+!s107 /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+DEx4 work 6 mux2t1 0 22 cHMoaM5B?hP9[025QB93I0
+!i122 25
+l39
+L14 61
+VkmknA:YEPD8g5TMP3_Y5I2
+!s100 GN_06mGdI<Iglj32TBOe51
+R12
+32
+R44
+!i10b 1
+R45
+R46
+Z47 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/Mux/mux2t1.vhd|
+!i113 0
+R17
+R18
+Emux2t1_n
+Z48 w1579724842
+R7
+R8
+!i122 4
+R1
+Z49 8/home/tvgaul/Documents/CPRE 381/Lab1/mux2t1_N.vhd
+Z50 F/home/tvgaul/Documents/CPRE 381/Lab1/mux2t1_N.vhd
+l0
+L21 1
+VJPRV=bK_c98FQWQc:8I>22
+!s100 f@JW6YnDL;zoDFK?hK;^L3
+R12
+32
+Z51 !s110 1674149640
+!i10b 1
+Z52 !s108 1674149640.000000
+Z53 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/mux2t1_N.vhd|
+Z54 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/mux2t1_N.vhd|
+!i113 0
+R17
+R18
+Astructural
+R7
+R8
+DEx4 work 8 mux2t1_n 0 22 JPRV=bK_c98FQWQc:8I>22
+!i122 4
+l39
+L30 21
+Vghh^edzIST4EAi324fiR[1
+!s100 `>^]M24jDEZ=7JFVDOOTo3
+R12
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 0
+R17
+R18
+Eorg2
+R20
+R7
+R8
+!i122 22
+R1
+Z55 8/home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd
+Z56 F/home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd
+l0
+R23
+VhOiEZ0HVFKUfoceE;g4CN1
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R12
+32
+Z57 !s110 1674232248
+!i10b 1
+Z58 !s108 1674232248.000000
+Z59 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd|
+Z60 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/Mux/org2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 4 org2 0 22 hOiEZ0HVFKUfoceE;g4CN1
+!i122 22
+l32
+R28
+VeLGLG944lJMT]Df59N0F92
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R12
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R17
+R18
+Ereg
+Z61 w1578332352
+R7
+R8
+!i122 6
+R1
+Z62 8/home/tvgaul/Documents/CPRE 381/Lab1/Reg.vhd
+Z63 F/home/tvgaul/Documents/CPRE 381/Lab1/Reg.vhd
+l0
+R11
+V8SQ3_TiTDdzQJkDia`@C^3
+!s100 OLG=@][K`W9Z>>aJfi]9R2
+R12
+32
+Z64 !s110 1674149643
+!i10b 1
+Z65 !s108 1674149643.000000
+Z66 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/Reg.vhd|
+Z67 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/Reg.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R7
+R8
+DEx4 work 3 reg 0 22 8SQ3_TiTDdzQJkDia`@C^3
+!i122 6
+l35
+L34 11
+Vjh`XbmM;?::Ul1Y:o5bU13
+!s100 J>nUWfOeZgKKLWTSaQCEn3
+R12
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 0
+R17
+R18
+Eregld
+R61
+R7
+R8
+!i122 7
+R1
+Z68 8/home/tvgaul/Documents/CPRE 381/Lab1/RegLd.vhd
+Z69 F/home/tvgaul/Documents/CPRE 381/Lab1/RegLd.vhd
+l0
+R11
+V_K<`3XdKi_a3^F3Yo?@Q81
+!s100 dCT2D:kROm4=DDgOi`8DI2
+R12
+32
+Z70 !s110 1674149645
+!i10b 1
+Z71 !s108 1674149645.000000
+Z72 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/RegLd.vhd|
+Z73 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/RegLd.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R7
+R8
+DEx4 work 5 regld 0 22 _K<`3XdKi_a3^F3Yo?@Q81
+!i122 7
+l38
+L35 19
+V]XL0SQaKCR22`M^KnmK[G2
+!s100 9DnT7RXBkJRIC]1FHL?;^1
+R12
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 0
+R17
+R18
+Etb_tpu_mv_element
+Z74 w1674153851
+Z75 DPx3 std 3 env 0 22 QPZJVBPkV?55nUWhDzFik0
+Z76 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R7
+R8
+!i122 19
+R1
+Z77 8/home/tvgaul/Documents/CPRE 381/Lab1/tb_TPU_MV_Element.vhd
+Z78 F/home/tvgaul/Documents/CPRE 381/Lab1/tb_TPU_MV_Element.vhd
+l0
+L22 1
+V]YHI2E26<VnFl_=NOg>B10
+!s100 J8Fge6@0bh0V[k`C5=S`<2
+R12
+32
+Z79 !s110 1674153857
+!i10b 1
+Z80 !s108 1674153857.000000
+Z81 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/tb_TPU_MV_Element.vhd|
+Z82 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/tb_TPU_MV_Element.vhd|
+!i113 0
+R17
+R18
+Amixed
+R75
+R76
+R7
+R8
+DEx4 work 17 tb_tpu_mv_element 0 22 ]YHI2E26<VnFl_=NOg>B10
+!i122 19
+l56
+L26 151
+VRG5KHjDj4oAACWNM3c]:63
+!s100 0YL@UWOWCRgMza3ac?`OW1
+R12
+32
+R79
+!i10b 1
+R80
+R81
+R82
+!i113 0
+R17
+R18
+Etpu_mv_element
+Z83 w1674152197
+R7
+R8
+!i122 17
+R1
+Z84 8/home/tvgaul/Documents/CPRE 381/Lab1/TPU_MV_Element.vhd
+Z85 F/home/tvgaul/Documents/CPRE 381/Lab1/TPU_MV_Element.vhd
+l0
+R23
+VD2K2[:^KDjAT^KO;fn]Oi1
+!s100 fV9ZK_Rb9UnHKb12^mFL70
+R12
+32
+Z86 !s110 1674152211
+!i10b 1
+Z87 !s108 1674152211.000000
+Z88 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/TPU_MV_Element.vhd|
+Z89 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/TPU_MV_Element.vhd|
+!i113 0
+R17
+R18
+Astructure
+R7
+R8
+DEx4 work 14 tpu_mv_element 0 22 D2K2[:^KDjAT^KO;fn]Oi1
+!i122 17
+l76
+L35 90
+Vi4diME?ee6bGj_XB1>]LB0
+!s100 9;3jJHQ_6ck3=BmTGn7WY2
+R12
+32
+R86
+!i10b 1
+R87
+R88
+R89
+!i113 0
+R17
+R18
+Exorg2
+R20
+R7
+R8
+!i122 10
+R1
+Z90 8/home/tvgaul/Documents/CPRE 381/Lab1/xorg2.vhd
+Z91 F/home/tvgaul/Documents/CPRE 381/Lab1/xorg2.vhd
+l0
+R23
+VA]ncWhoC:fhLS`F>c9^ag2
+!s100 zGkHVGJ]HQ5RboN2N>KzN1
+R12
+32
+Z92 !s110 1674149655
+!i10b 1
+Z93 !s108 1674149655.000000
+Z94 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 381/Lab1/xorg2.vhd|
+Z95 !s107 /home/tvgaul/Documents/CPRE 381/Lab1/xorg2.vhd|
+!i113 0
+R17
+R18
+Adataflow
+R7
+R8
+DEx4 work 5 xorg2 0 22 A]ncWhoC:fhLS`F>c9^ag2
+!i122 10
+l32
+R28
+VV`;B_39=:h3bCoQNhV;bn0
+!s100 2<f]d3XziROLh_[:_6mNg2
+R12
+32
+R92
+!i10b 1
+R93
+R94
+R95
+!i113 0
+R17
+R18

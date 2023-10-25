@@ -1,0 +1,124 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/adder_subber.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:51 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/adder_subber.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder_subber
+# -- Compiling architecture structural of adder_subber
+# End time: 21:36:51 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ALU.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:51 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture mixed of ALU
+# End time: 21:36:52 on Feb 27,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/branch.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:53 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/branch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity branch
+# -- Compiling architecture structural of branch
+# End time: 21:36:53 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/full_adder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:53 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture behavorial of full_adder
+# End time: 21:36:53 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/invg.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:54 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 21:36:54 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/logic.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:55 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/logic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity logic
+# -- Compiling architecture structural of logic
+# End time: 21:36:55 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:56 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture dataflow of mux2t1_N
+# End time: 21:36:56 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ripple_adder.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:57 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ripple_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# End time: 21:36:57 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ones_comp.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:58 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/ones_comp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ones_comp
+# -- Compiling architecture structural of ones_comp
+# End time: 21:36:58 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:36:59 on Feb 27,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 381/cpre381/Project1/proj/src/ALU/shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shift
+# -- Compiling architecture structural of shift
+# End time: 21:36:59 on Feb 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
