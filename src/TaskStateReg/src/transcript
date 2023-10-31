@@ -1,0 +1,476 @@
+# //  Questa Sim-64
+# //  Version 2023.2_2 linux_x86_64 Jun  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlib work
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:38:22 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(22): near ")": (vcom-1576) expecting FUNCTION or PROCEDURE or IMPURE or PURE.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(22): VHDL Compiler exiting
+# End time: 19:38:22 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:42:03 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(22): near ")": (vcom-1576) expecting FUNCTION or PROCEDURE or IMPURE or PURE.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(22): VHDL Compiler exiting
+# End time: 19:42:03 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:42:57 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(41): Signal [mode IN port] "i_Asynch_RST" is type ieee.std_logic_1164.STD_LOGIC; expecting type std.STANDARD.BOOLEAN.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(44): Signal [mode IN port] "i_next_PC_WE" is type ieee.std_logic_1164.STD_LOGIC; expecting type std.STANDARD.BOOLEAN.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(45): Signal [mode IN port] "i_Period_Clear" is type ieee.std_logic_1164.STD_LOGIC; expecting type std.STANDARD.BOOLEAN.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(50): near "end": (vcom-1576) expecting ';'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(52): near "process": (vcom-1576) expecting IF.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(54): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(54): (vcom-1136) Unknown identifier "o_current_PC".
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(56): Illegal sequential statement.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(63): near "end": (vcom-1576) expecting ';'.
+# End time: 19:42:57 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:43:49 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(41): near "=": syntax error
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(47): VHDL Compiler exiting
+# End time: 19:43:49 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:44:16 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(41): near "=": syntax error
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(47): VHDL Compiler exiting
+# End time: 19:44:16 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:44:17 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(41): near "=": syntax error
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(47): VHDL Compiler exiting
+# End time: 19:44:17 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:44:20 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(44): Signal [mode IN port] "i_next_PC_WE" is type ieee.std_logic_1164.STD_LOGIC; expecting type std.STANDARD.BOOLEAN.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(45): Signal [mode IN port] "i_Period_Clear" is type ieee.std_logic_1164.STD_LOGIC; expecting type std.STANDARD.BOOLEAN.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(54): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(54): (vcom-1136) Unknown identifier "o_current_PC".
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(63): near "end": (vcom-1576) expecting ';'.
+# End time: 19:44:20 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:44:53 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(54): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(54): (vcom-1136) Unknown identifier "o_current_PC".
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(63): near "end": (vcom-1576) expecting ';'.
+# End time: 19:44:53 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:45:06 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd(63): near "end": (vcom-1576) expecting ';'.
+# End time: 19:45:06 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 19:45:19 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# End time: 19:45:19 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:12:25 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(20): near "generic": (vcom-1576) expecting IDENTIFIER.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(22): VHDL Compiler exiting
+# End time: 20:12:25 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:13:12 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(33): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(44): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(52): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(64): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(64): (vcom-1136) Unknown identifier "s_Asynch_RST".
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(66): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(66): (vcom-1136) Unknown identifier "s_Asynch_RST".
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(91): (vcom-1136) Unknown identifier "s_Asynch_RST".
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(96): VHDL Compiler exiting
+# End time: 20:13:12 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:13:43 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(44): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(52): Statement cannot be labeled.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(96): VHDL Compiler exiting
+# End time: 20:13:43 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:16:15 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(44): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(52): Statement cannot be labeled.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(96): VHDL Compiler exiting
+# End time: 20:16:15 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:16:17 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(44): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(52): Statement cannot be labeled.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(96): VHDL Compiler exiting
+# End time: 20:16:17 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:16:59 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(44): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(52): Statement cannot be labeled.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(96): VHDL Compiler exiting
+# End time: 20:16:59 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:17:08 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd(6): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:17:08 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:17:29 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:17:29 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+do tb_TaskStateReg.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:20:36 on Oct 30,2023
+# vcom -reportprogress 300 -2008 TaskStateReg.vhd tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:20:36 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_TaskStateReg 
+# Start time: 20:20:36 on Oct 30,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskstatereg(behavior)#1
+# Loading work.taskstatereg(mixed)#1
+# 0 ns
+# 525 ns
+do tb_TaskStateReg.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:23:18 on Oct 30,2023
+# vcom -reportprogress 300 -2008 TaskStateReg.vhd tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:23:18 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:23:18 on Oct 30,2023, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskStateReg 
+# Start time: 20:23:18 on Oct 30,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskstatereg(behavior)#1
+# Loading work.taskstatereg(mixed)#1
+# 0 ns
+# 525 ns
+do tb_TaskStateReg.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:24:23 on Oct 30,2023
+# vcom -reportprogress 300 -2008 TaskStateReg.vhd tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:24:23 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:24:23 on Oct 30,2023, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskStateReg 
+# Start time: 20:24:23 on Oct 30,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskstatereg(behavior)#1
+# Loading work.taskstatereg(mixed)#1
+# 0 ns
+# 525 ns
+do tb_TaskStateReg.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:27:14 on Oct 30,2023
+# vcom -reportprogress 300 -2008 TaskStateReg.vhd tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:27:14 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:27:14 on Oct 30,2023, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskStateReg 
+# Start time: 20:27:14 on Oct 30,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskstatereg(behavior)#1
+# Loading work.taskstatereg(mixed)#1
+# 0 ns
+# 525 ns
+do tb_TaskStateReg.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:28:51 on Oct 30,2023
+# vcom -reportprogress 300 -2008 TaskStateReg.vhd tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:28:51 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:28:51 on Oct 30,2023, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskStateReg 
+# Start time: 20:28:51 on Oct 30,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskstatereg(behavior)#1
+# Loading work.taskstatereg(mixed)#1
+# 0 ns
+# 525 ns
+do tb_TaskStateReg.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 20:29:38 on Oct 30,2023
+# vcom -reportprogress 300 -2008 TaskStateReg.vhd tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 20:29:38 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:29:38 on Oct 30,2023, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskStateReg 
+# Start time: 20:29:38 on Oct 30,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskstatereg(behavior)#1
+# Loading work.taskstatereg(mixed)#1
+# 0 ns
+# 263 ns
