@@ -57,6 +57,7 @@ entity RMS is
         o_Task2_Period_Clear : out std_logic;
         o_Task3_Period_Clear : out std_logic;
         o_Task4_Period_Clear : out std_logic;
+
         --Task State Registers
         --Current PC counters
         o_task0_currentPC : out std_logic_vector(32 - 1 downto 0);
@@ -64,6 +65,13 @@ entity RMS is
         o_task2_currentPC : out std_logic_vector(32 - 1 downto 0);
         o_task3_currentPC : out std_logic_vector(32 - 1 downto 0);
         o_task4_currentPC : out std_logic_vector(32 - 1 downto 0);
+
+        --Current PC counters
+        o_task0_dffN_Q : out std_logic_vector(32 - 1 downto 0);
+        o_task1_dffN_Q : out std_logic_vector(32 - 1 downto 0);
+        o_task2_dffN_Q : out std_logic_vector(32 - 1 downto 0);
+        o_task3_dffN_Q : out std_logic_vector(32 - 1 downto 0);
+        o_task4_dffN_Q : out std_logic_vector(32 - 1 downto 0);
 
         -- Task is complete for period
         o_task0_isComplete : out std_logic;
@@ -405,5 +413,36 @@ begin
         i_Cin  => '0',
         o_S    => s_PC_DATA_WB,
         o_Cout => open);
+
+    --Output assignments
+    o_time     <= s_current_time;
+    o_LCMclear <= s_LCM_clear;
+
+    o_Current_Task_Sel    <= s_task_sel;
+    o_Current_Task_Sel_WE <= s_task_sel_WE;
+
+    o_Task0_Period_Clear <= s_Period_Clear(0);
+    o_Task1_Period_Clear <= s_Period_Clear(1);
+    o_Task2_Period_Clear <= s_Period_Clear(2);
+    o_Task3_Period_Clear <= s_Period_Clear(3);
+    o_Task4_Period_Clear <= s_Period_Clear(4);
+
+    o_task0_currentPC <= s_task0_current_PC;
+    o_task1_currentPC <= s_task1_current_PC;
+    o_task2_currentPC <= s_task2_current_PC;
+    o_task3_currentPC <= s_task3_current_PC;
+    o_task4_currentPC <= s_task4_current_PC;
+
+    o_task0_dffN_Q <= s_task0_dffN_Q;
+    o_task1_dffN_Q <= s_task1_dffN_Q;
+    o_task2_dffN_Q <= s_task2_dffN_Q;
+    o_task3_dffN_Q <= s_task3_dffN_Q;
+    o_task4_dffN_Q <= s_task4_dffN_Q;
+
+    o_task0_isComplete <= s_isComplete(0);
+    o_task1_isComplete <= s_isComplete(1);
+    o_task2_isComplete <= s_isComplete(2);
+    o_task3_isComplete <= s_isComplete(3);
+    o_task4_isComplete <= s_isComplete(4);
 
 end mixed;
