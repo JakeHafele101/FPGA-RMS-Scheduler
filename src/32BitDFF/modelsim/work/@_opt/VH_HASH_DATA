@@ -1,0 +1,53 @@
+[N
+7
+4
+1 N
+3
+5 mixed
+6
+8 behavior
+1
+69 /home/jmhafele/Documents/Fall_2023/cpre558/src/32BitDFF/modelsim/work
+5
+7 tb_dffn
+7
+9 gCLK_HPER
+2
+4 dffn
+]
+[G
+1
+5
+6
+1
+7
+0
+0
+0
+0
+8 8
+-128
+-106
+-104
+0
+0
+0
+0
+0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]

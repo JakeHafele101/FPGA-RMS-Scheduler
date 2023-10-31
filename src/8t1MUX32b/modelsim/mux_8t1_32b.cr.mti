@@ -1,0 +1,11 @@
+/home/jmhafele/Documents/Fall_2023/cpre558/src/8t1MUX32b/src/tb_mux_8t1_32b.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/8t1MUX32b/src/tb_mux_8t1_32b.vhd
+QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_mux_8t1_32b
+-- Compiling architecture mixed of tb_mux_8t1_32b
+
+} {} {}}

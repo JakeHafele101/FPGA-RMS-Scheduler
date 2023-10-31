@@ -1,0 +1,33 @@
+[N
+4
+1
+72 /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/modelsim/work
+3
+5 mixed
+2
+13 tb_full_adder
+4
+9 gCLK_HPER
+]
+[G
+1
+2
+3
+1
+4
+0
+0
+0
+0
+8 8
+-128
+-106
+-104
+0
+0
+0
+0
+0
+0
+0
+]

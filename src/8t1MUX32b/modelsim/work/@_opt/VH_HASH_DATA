@@ -1,0 +1,33 @@
+[N
+4
+3
+5 mixed
+2
+14 tb_mux_8t1_32b
+1
+70 /home/jmhafele/Documents/Fall_2023/cpre558/src/8t1MUX32b/modelsim/work
+4
+9 gCLK_HPER
+]
+[G
+1
+2
+3
+1
+4
+0
+0
+0
+0
+8 8
+-128
+-106
+-104
+0
+0
+0
+0
+0
+0
+0
+]

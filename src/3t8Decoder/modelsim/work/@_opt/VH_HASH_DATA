@@ -1,0 +1,33 @@
+[N
+4
+2
+14 tb_decoder_3t8
+3
+5 mixed
+1
+71 /home/jmhafele/Documents/Fall_2023/cpre558/src/3t8Decoder/modelsim/work
+4
+9 gCLK_HPER
+]
+[G
+1
+2
+3
+1
+4
+0
+0
+0
+0
+8 8
+-128
+-106
+-104
+0
+0
+0
+0
+0
+0
+0
+]

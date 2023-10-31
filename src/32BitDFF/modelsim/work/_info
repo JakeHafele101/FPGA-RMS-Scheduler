@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2023.2_2 2023.06, Jun  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/jmhafele/Documents/Fall_2023/cpre558/src/32BitDFF/modelsim
+T_opt
+!s110 1698710349
+V0ZCCcA6WolZhUB9GF]M[c3
+04 7 8 work tb_dffn behavior 1
+=1-7486e228aee0-6540434d-12f0b-fb51a
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2023.2_2;77
+Edffn
+Z2 w1698710146
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z5 8../src/dffN.vhd
+Z6 F../src/dffN.vhd
+l0
+L17 1
+VzV?lckU3R726:@C?KJUl90
+!s100 FdDCI9M:fTkDQMoL@3GiP0
+Z7 OL;C;2023.2_2;77
+32
+Z8 !s110 1698710348
+!i10b 1
+Z9 !s108 1698710348.000000
+Z10 !s90 -reportprogress|300|../src/dffN.vhd|../src/tb_dffN.vhd|
+Z11 !s107 ../src/tb_dffN.vhd|../src/dffN.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Amixed
+R3
+R4
+DEx4 work 4 dffn 0 22 zV?lckU3R726:@C?KJUl90
+!i122 0
+l34
+L30 29
+V0ikj5f8bCkE:jTVbnXT:X1
+!s100 hfHBfZZ8j=J2V0PMQ;<HP1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Etb_dffn
+Z13 w1698710256
+R3
+R4
+!i122 0
+R1
+Z14 8../src/tb_dffN.vhd
+Z15 F../src/tb_dffN.vhd
+l0
+L16 1
+ViS3KUBIh_M:=V98CKGBHA3
+!s100 e48<P6NS?zEQ8WfKNF8Qg0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Abehavior
+R3
+R4
+DEx4 work 7 tb_dffn 0 22 iS3KUBIh_M:=V98CKGBHA3
+!i122 0
+l49
+L20 127
+VAPKKb6>Ne3kTYE8AGP]zP0
+!s100 cRB6^@T9XLY`n:fPLY^E<0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
