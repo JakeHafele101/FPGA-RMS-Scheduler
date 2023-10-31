@@ -40,7 +40,7 @@ entity RMS is
     port (
         i_CLK        : in std_logic;                         --Global clock
         i_Asynch_RST : in std_logic;                         --Global async reset, active high
-        i_PC_incr    : in std_logic_vector(32 - 1 downto 0); --Increment amount to add to PC for active task
+        i_dffN_incr  : in std_logic_vector(32 - 1 downto 0); --Increment amount to add to PC for active task
         i_PC_incr    : in std_logic_vector(32 - 1 downto 0); --Increment amount to add to PC for active task
 
         -- Time counter
