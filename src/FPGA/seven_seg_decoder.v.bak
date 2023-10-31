@@ -1,0 +1,28 @@
+module seven_seg_decoder(x0,x1, x2,x3,A, B, C, D, E, F, G);
+	input x0, x1, x2, x3;
+	output A, B, C, D, E, F, G;
+	reg A, B, C, D, E, F, G;
+	
+	always@(x0 or x1 or x2 or x3)
+	begin
+		case({x3 , x2 , x1 , x0})
+			4'b0000: {A,B,C,D,E,F,G}='b0000001;//0
+			4'b0001: {A,B,C,D,E,F,G}='b1001111;//1
+			4'b0010: {A,B,C,D,E,F,G}='b0010010;//2
+			4'b0011: {A,B,C,D,E,F,G}='b0000110;//3
+			4'b0100: {A,B,C,D,E,F,G}='b1001100;//4
+			4'b0101: {A,B,C,D,E,F,G}='b0100100;//5
+			4'b0110: {A,B,C,D,E,F,G}='b0100000;//6
+			4'b0111: {A,B,C,D,E,F,G}='b0001111;//7
+			4'b1000: {A,B,C,D,E,F,G}='b0000000;//8
+			4'b1001: {A,B,C,D,E,F,G}='b0000100;//9
+			4'b1010: {A,B,C,D,E,F,G}='b0001000;//A
+			4'b1011: {A,B,C,D,E,F,G}='b1100000;//b
+			4'b1100: {A,B,C,D,E,F,G}='b0110001;//C
+			4'b1101: {A,B,C,D,E,F,G}='b1000010;//d
+			4'b1110: {A,B,C,D,E,F,G}='b0110000;//E
+			4'b1111: {A,B,C,D,E,F,G}='b0111000;//F
+		endcase
+	end
+endmodule
+			
