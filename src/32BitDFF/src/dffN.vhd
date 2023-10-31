@@ -15,9 +15,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 
 entity dffN is
-
   generic (N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
-
   port (
     i_CLK : in std_logic;   -- Clock input
     i_RST : in std_logic;   -- Reset input
