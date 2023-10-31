@@ -24,7 +24,7 @@ architecture behavior of tb_timerCounter is
 
     -- N integer declaraction for DUT instantiation
     constant N : integer := 32;
-    constant LCM : std_logic_vector(31 downto 0) := X"00000010";
+    constant LCM : std_logic_vector(31 downto 0) := X"0000000F";
 
     component timerCounter is
         generic (N : integer := 32;

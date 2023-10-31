@@ -1,7 +1,0 @@
-[inst #1] addi $8,$0,1
-Register Write to Reg: 0x08 Val: 0x00000001
-[inst #2] bgez $9,1
-[inst #3] bgez $8,-2
-[inst #4] bgez $8,1
-[inst #5] halt 
-
