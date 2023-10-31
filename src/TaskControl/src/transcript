@@ -1,0 +1,91 @@
+# //  Questa Sim-64
+# //  Version 2023.2_2 linux_x86_64 Jun  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 21:53:17 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 21:53:17 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 21:53:18 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(71): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(77): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(79): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(85): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(87): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(93): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(95): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(101): Statement cannot be labeled.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(103): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(119): near "s_Task0_Deadline": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(156): near "IF": (vcom-1576) expecting PROCESS.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(157): VHDL Compiler exiting
+# End time: 21:53:18 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 21:54:03 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(119): near "s_Task0_Deadline": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(156): near "IF": (vcom-1576) expecting PROCESS.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(157): VHDL Compiler exiting
+# End time: 21:54:03 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 21:54:31 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(159): (vcom-1136) Unknown identifier "i_Task0_Complete".
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(159): Expression is not a signal.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(162): (vcom-1136) Unknown identifier "i_Task0_Complete".
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(162): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(184): VHDL Compiler exiting
+# End time: 21:54:31 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 21:55:10 on Oct 30,2023
+# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# End time: 21:55:10 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

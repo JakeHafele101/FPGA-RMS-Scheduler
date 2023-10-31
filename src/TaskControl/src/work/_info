@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2023.2_2 2023.06, Jun  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src
+Etaskcontrol
+Z1 w1698720908
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 4
+R0
+Z4 8/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd
+Z5 F/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd
+l0
+L18 1
+V`Hg9jKL3;7oi:5^g7e2RP2
+!s100 TENNOLSD5nMT>=N]__GaJ2
+Z6 OL;C;2023.2_2;77
+32
+Z7 !s110 1698720910
+!i10b 1
+Z8 !s108 1698720910.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd|
+!s107 /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd|
+!i113 0
+Z10 o-work work
+Z11 tExplicit 1 CvgOpt 0
+Amixed
+R2
+R3
+DEx4 work 11 taskcontrol 0 22 `Hg9jKL3;7oi:5^g7e2RP2
+!i122 4
+l68
+L44 141
+VlE[87khHZgj>cJm83H9X32
+!s100 7mN?;Q8QRl=]0NY6P0GT=2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd|
+!i113 0
+R10
+R11
+Etb_taskstatereg
+Z13 w1698715629
+Z14 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z15 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R2
+R3
+!i122 0
+R0
+Z16 8/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd
+Z17 F/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd
+l0
+L8 1
+V5dJD:MOS4SUKXVPkLMOSW0
+!s100 OdGS4[b]biY4An?C_Uf_U3
+R6
+32
+Z18 !s110 1698720797
+!i10b 1
+Z19 !s108 1698720797.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd|
+Z21 !s107 /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd|
+!i113 0
+R10
+R11
+Abehavior
+R14
+R15
+R2
+R3
+DEx4 work 15 tb_taskstatereg 0 22 5dJD:MOS4SUKXVPkLMOSW0
+!i122 0
+l40
+L12 86
+VQX:NMM42EZnY12UgDool=1
+!s100 H75BoV`4=]o4?ZHc;D6C^0
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R10
+R11
