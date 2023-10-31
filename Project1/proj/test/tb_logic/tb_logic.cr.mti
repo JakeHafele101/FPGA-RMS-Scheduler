@@ -1,9 +1,0 @@
-/home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/logic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Spring_2023/cpre381/Project1/proj/src/ALU/logic.vhd
-QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity logic
--- Compiling architecture structural of logic
-
-} {} {}}
