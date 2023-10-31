@@ -1,0 +1,119 @@
+[N
+10
+1
+73 /home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/modelsim/work
+4
+1 N
+6
+5 mixed
+9
+8 behavior
+8
+15 tb_timercounter
+2
+12 ripple_adder
+3
+10 structural
+7
+3 LCM
+5
+12 timercounter
+10
+9 gCLK_HPER
+]
+[G
+1
+5
+6
+1
+7
+0
+0
+0
+0
+32 0
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+3
+2
+2
+2
+2
+0
+0
+]
+[G
+1
+5
+6
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+8
+9
+1
+10
+0
+0
+0
+0
+8 8
+-128
+-106
+-104
+0
+0
+0
+0
+0
+0
+0
+]

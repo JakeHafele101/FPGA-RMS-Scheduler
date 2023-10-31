@@ -1,0 +1,298 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2023.2_2 2023.06, Jun  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/modelsim
+T_opt
+!s110 1698717079
+V@ZiK090PSY]dJVGNISXz11
+04 15 8 work tb_timercounter behavior 1
+=1-7486e228aee0-65405d97-2d1c1-101227
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2023.2_2;77
+Eandg2
+Z2 w1681396341
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z5 8../../RippleAdder/src/andg2.vhd
+Z6 F../../RippleAdder/src/andg2.vhd
+l0
+Z7 L23 1
+Vn6i2CP=7EfSS1JQ<iXF>M0
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+Z8 OL;C;2023.2_2;77
+32
+Z9 !s110 1698717078
+!i10b 1
+Z10 !s108 1698717078.000000
+Z11 !s90 -reportprogress|300|../../RippleAdder/src/andg2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/xorg2.vhd|
+Z12 !s107 ../../RippleAdder/src/xorg2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/andg2.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Adataflow
+R3
+R4
+DEx4 work 5 andg2 0 22 n6i2CP=7EfSS1JQ<iXF>M0
+!i122 1
+l32
+Z14 L31 6
+VohaGf`obmT[cKX:3=Oi<Y0
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Efull_adder
+R2
+R3
+R4
+!i122 1
+R1
+Z15 8../../RippleAdder/src/full_adder.vhd
+Z16 F../../RippleAdder/src/full_adder.vhd
+l0
+Z17 L19 1
+VmYd@I=e>o@nm`7>HXWo:N1
+!s100 GiI>9Z]8L9``N?LeA>KhF0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Astructural
+R3
+R4
+DEx4 work 10 full_adder 0 22 mYd@I=e>o@nm`7>HXWo:N1
+!i122 1
+l57
+L28 67
+VA5RoR=hQ>;VY6W[jk<f2J0
+!s100 :66>SX2X?F8b8PfJaW0kf3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Eorg2
+R2
+R3
+R4
+!i122 1
+R1
+Z18 8../../RippleAdder/src/org2.vhd
+Z19 F../../RippleAdder/src/org2.vhd
+l0
+R7
+VF6D3ma>If8B`OAbBo`9LR0
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Adataflow
+R3
+R4
+DEx4 work 4 org2 0 22 F6D3ma>If8B`OAbBo`9LR0
+!i122 1
+l32
+R14
+VcYnQf@oEa9DKX;A]VI]j01
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Eripple_adder
+Z20 w1698714675
+R3
+R4
+!i122 1
+R1
+Z21 8../../RippleAdder/src/ripple_adder.vhd
+Z22 F../../RippleAdder/src/ripple_adder.vhd
+l0
+R17
+Vc@CmQgMg>d8NE60^<;]VN0
+!s100 :_DT2<U4DM7a2OdCT?nF=3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Astructural
+R3
+R4
+DEx4 work 12 ripple_adder 0 22 c@CmQgMg>d8NE60^<;]VN0
+!i122 1
+l42
+L29 33
+VGK_WQzXn`hZRh1]TK9Lj;0
+!s100 =n4zk1bMb_d6fd;fdUmWg2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Etb_timercounter
+Z23 w1698717060
+R3
+R4
+!i122 0
+R1
+Z24 8../src/tb_timerCounter.vhd
+Z25 F../src/tb_timerCounter.vhd
+l0
+Z26 L16 1
+VVN@3JK<K1WBV:GAD<c^=T1
+!s100 DziUzdz8Q]DHKcPoM]:A71
+R8
+32
+R9
+!i10b 1
+R10
+Z27 !s90 -reportprogress|300|../src/tb_timerCounter.vhd|../src/timerCounter.vhd|
+Z28 !s107 ../src/timerCounter.vhd|../src/tb_timerCounter.vhd|
+!i113 0
+R13
+Abehavior
+R3
+R4
+DEx4 work 15 tb_timercounter 0 22 VN@3JK<K1WBV:GAD<c^=T1
+!i122 0
+l47
+L20 82
+V2XXIiM`Peb@E5^;TJj7B22
+!s100 :dTF4l7[?2jm`bOT:Q9n91
+R8
+32
+R9
+!i10b 1
+R10
+R27
+R28
+!i113 0
+R13
+Etimercounter
+Z29 w1698717045
+R3
+R4
+!i122 0
+R1
+Z30 8../src/timerCounter.vhd
+Z31 F../src/timerCounter.vhd
+l0
+R26
+Vnhmb_S:55Q2eIjh:nbe1A3
+!s100 3FJ7VzAH:g3Mh>Lz@iA6G0
+R8
+32
+R9
+!i10b 1
+R10
+R27
+R28
+!i113 0
+R13
+Amixed
+R3
+R4
+DEx4 work 12 timercounter 0 22 nhmb_S:55Q2eIjh:nbe1A3
+!i122 0
+l44
+L29 60
+V[O<7:_z9jeX:A<@A<69?A0
+!s100 82VR4ajCgCIkVPCgRZmle0
+R8
+32
+R9
+!i10b 1
+R10
+R27
+R28
+!i113 0
+R13
+Exorg2
+R2
+R3
+R4
+!i122 1
+R1
+Z32 8../../RippleAdder/src/xorg2.vhd
+Z33 F../../RippleAdder/src/xorg2.vhd
+l0
+L21 1
+V5dfb9dGEUECoNEk9]B=iX3
+!s100 YcWRSn2[o:VY86D[KEj9<2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Adataflow
+R3
+R4
+DEx4 work 5 xorg2 0 22 5dfb9dGEUECoNEk9]B=iX3
+!i122 1
+l31
+L30 6
+V14[2^3f_WG2HdkBBFGFjN2
+!s100 FgRhXZhB_<J1lhY8:0GlD3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
