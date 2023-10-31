@@ -45,12 +45,12 @@ entity RMS is
 
         -- Time counter
         o_time     : out std_logic_vector(32 - 1 downto 0);
-        o_LCMclear : out std_logic
+        o_LCMclear : out std_logic;
 
         -- Task Control
         --Task Controls
         o_Current_Task_Sel    : out std_logic_vector(3 - 1 downto 0);
-        o_Current_Task_Sel_WE : out std_logic
+        o_Current_Task_Sel_WE : out std_logic;
 
         o_Task0_Period_Clear : out std_logic;
         o_Task1_Period_Clear : out std_logic;
@@ -182,7 +182,7 @@ architecture mixed of RMS is
 
     -- Control Module
     signal s_task_sel    : std_logic_vector(2 downto 0);
-    signal s_task_sel_WE : std_logic_vector(2 downto 0);
+    signal s_task_sel_WE : std_logic;
 
     -- Decoder
     signal s_next_PC_WE : std_logic_vector(7 downto 0); --Use lower 5 bits

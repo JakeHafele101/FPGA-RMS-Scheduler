@@ -1,0 +1,722 @@
+# //  Questa Sim-64
+# //  Version 2023.2_2 linux_x86_64 Jun  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project timerCounter
+# Compile of tb_timerCounter.vhd was successful.
+# Compile of timerCounter.vhd was successful.
+# Compile of andg2.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of org2.vhd was successful.
+# Compile of ripple_adder.vhd was successful.
+# Compile of xorg2.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# reading /usr/local/mentor/questasim/linux_x86_64/../modelsim.ini
+# Loading project tb_RMS
+# Compile of RMS.vhd failed with 3 errors.
+# Compile of tb_RMS.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of RMS.vhd failed with 3 errors.
+# Compile of RMS.vhd failed with 3 errors.
+# Compile of RMS.vhd failed with 4 errors.
+# Compile of RMS.vhd was successful.
+# Compile of RMS.vhd was successful.
+# Compile of tb_RMS.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_RMS.vhd failed with 3 errors.
+# Compile of tb_RMS.vhd failed with 4 errors.
+# Compile of tb_RMS.vhd failed with 4 errors.
+# Compile of tb_RMS.vhd failed with 3 errors.
+# Compile of tb_RMS.vhd failed with 1 errors.
+# Compile of RMS.vhd was successful.
+# Compile of tb_RMS.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+do tb_RMS.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../src/RMS.vhd ../src/tb_RMS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RMS
+# -- Compiling architecture mixed of RMS
+# -- Compiling entity tb_timerCounter
+# -- Compiling architecture behavior of tb_timerCounter
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../../3t8Decoder/src/decoder_3t8.vhd ../../3t8Decoder/src/tb_decoder_3t8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_3t8
+# -- Compiling architecture dataflow of decoder_3t8
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_decoder_3t8
+# -- Compiling architecture mixed of tb_decoder_3t8
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../../8t1MUX32b/src/mux_8t1_32b.vhd ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_8t1_32b
+# -- Compiling architecture dataflow of mux_8t1_32b
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux_8t1_32b
+# -- Compiling architecture mixed of tb_mux_8t1_32b
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../../32BitDFF/src/dffN.vhd ../../32BitDFF/src/tb_dffN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffN
+# -- Compiling architecture mixed of dffN
+# -- Compiling entity tb_dffN
+# -- Compiling architecture behavior of tb_dffN
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskControl/src/TaskControl.vhd ../../TaskControl/src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskStateReg/src/TaskStateReg.vhd ../../TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:50 on Oct 31,2023
+# vcom -reportprogress 300 ../../TimerCounter/src/tb_timerCounter.vhd ../../TimerCounter/src/timerCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../TimerCounter/src/tb_timerCounter.vhd(16): (vcom-1615) Existing entity 'tb_timerCounter' at /home/jmhafele/Documents/Fall_2023/cpre558/src/RMS/src/tb_RMS.vhd(16) will be overwritten.
+# -- Compiling entity tb_timerCounter
+# ** Warning: ../../TimerCounter/src/tb_timerCounter.vhd(20): (vcom-1615) Existing architecture 'tb_timerCounter(behavior)' at /home/jmhafele/Documents/Fall_2023/cpre558/src/RMS/src/tb_RMS.vhd(20) will be overwritten.
+# -- Compiling architecture behavior of tb_timerCounter
+# -- Compiling entity timerCounter
+# -- Compiling architecture mixed of timerCounter
+# End time: 17:17:50 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_RMS 
+# Start time: 17:17:50 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error: (vopt-13130) Failed to find design unit 'tb_RMS'.
+#         Searched libraries:
+#             work
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tb_RMS.do PAUSED at line 30
+# Compile of RMS.vhd was successful.
+# Compile of tb_RMS.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of RMS.vhd was successful.
+# Compile of tb_RMS.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+do tb_RMS.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../src/RMS.vhd ../src/tb_RMS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RMS
+# -- Compiling architecture mixed of RMS
+# -- Compiling entity tb_RMS
+# -- Compiling architecture behavior of tb_RMS
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../../3t8Decoder/src/decoder_3t8.vhd ../../3t8Decoder/src/tb_decoder_3t8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_3t8
+# -- Compiling architecture dataflow of decoder_3t8
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_decoder_3t8
+# -- Compiling architecture mixed of tb_decoder_3t8
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../../8t1MUX32b/src/mux_8t1_32b.vhd ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_8t1_32b
+# -- Compiling architecture dataflow of mux_8t1_32b
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux_8t1_32b
+# -- Compiling architecture mixed of tb_mux_8t1_32b
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../../32BitDFF/src/dffN.vhd ../../32BitDFF/src/tb_dffN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffN
+# -- Compiling architecture mixed of dffN
+# -- Compiling entity tb_dffN
+# -- Compiling architecture behavior of tb_dffN
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskControl/src/TaskControl.vhd ../../TaskControl/src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskStateReg/src/TaskStateReg.vhd ../../TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:30 on Oct 31,2023
+# vcom -reportprogress 300 ../../TimerCounter/src/tb_timerCounter.vhd ../../TimerCounter/src/timerCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_timerCounter
+# -- Compiling architecture behavior of tb_timerCounter
+# -- Compiling entity timerCounter
+# -- Compiling architecture mixed of timerCounter
+# End time: 17:18:30 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_RMS 
+# Start time: 17:17:50 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=2.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_rms(behavior)#1
+# Loading work.rms(mixed)#1
+# Loading work.timercounter(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.decoder_3t8(dataflow)#1
+# Loading work.taskstatereg(mixed)#1
+# Loading work.taskstatereg(mixed)#2
+# Loading work.dffn(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mux_8t1_32b(dataflow)#1
+# 0 ns
+# 683 ns
+do tb_RMS.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../src/RMS.vhd ../src/tb_RMS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RMS
+# -- Compiling architecture mixed of RMS
+# -- Compiling entity tb_RMS
+# -- Compiling architecture behavior of tb_RMS
+# End time: 17:18:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../../3t8Decoder/src/decoder_3t8.vhd ../../3t8Decoder/src/tb_decoder_3t8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_3t8
+# -- Compiling architecture dataflow of decoder_3t8
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_decoder_3t8
+# -- Compiling architecture mixed of tb_decoder_3t8
+# End time: 17:18:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../../8t1MUX32b/src/mux_8t1_32b.vhd ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_8t1_32b
+# -- Compiling architecture dataflow of mux_8t1_32b
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux_8t1_32b
+# -- Compiling architecture mixed of tb_mux_8t1_32b
+# End time: 17:18:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../../32BitDFF/src/dffN.vhd ../../32BitDFF/src/tb_dffN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffN
+# -- Compiling architecture mixed of dffN
+# -- Compiling entity tb_dffN
+# -- Compiling architecture behavior of tb_dffN
+# End time: 17:18:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:18:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskControl/src/TaskControl.vhd ../../TaskControl/src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 17:18:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskStateReg/src/TaskStateReg.vhd ../../TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 17:18:51 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:51 on Oct 31,2023
+# vcom -reportprogress 300 ../../TimerCounter/src/tb_timerCounter.vhd ../../TimerCounter/src/timerCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_timerCounter
+# -- Compiling architecture behavior of tb_timerCounter
+# -- Compiling entity timerCounter
+# -- Compiling architecture mixed of timerCounter
+# End time: 17:18:52 on Oct 31,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:18:52 on Oct 31,2023, Elapsed time: 0:01:02
+# Errors: 1, Warnings: 22
+# vsim -voptargs="+acc" work.tb_RMS 
+# Start time: 17:18:52 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_rms(behavior)#1
+# Loading work.rms(mixed)#1
+# Loading work.timercounter(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.decoder_3t8(dataflow)#1
+# Loading work.taskstatereg(mixed)#1
+# Loading work.taskstatereg(mixed)#2
+# Loading work.dffn(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mux_8t1_32b(dataflow)#1
+# 0 ns
+# 683 ns
+do tb_RMS.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../src/RMS.vhd ../src/tb_RMS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RMS
+# -- Compiling architecture mixed of RMS
+# -- Compiling entity tb_RMS
+# -- Compiling architecture behavior of tb_RMS
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../../3t8Decoder/src/decoder_3t8.vhd ../../3t8Decoder/src/tb_decoder_3t8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_3t8
+# -- Compiling architecture dataflow of decoder_3t8
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_decoder_3t8
+# -- Compiling architecture mixed of tb_decoder_3t8
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../../8t1MUX32b/src/mux_8t1_32b.vhd ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_8t1_32b
+# -- Compiling architecture dataflow of mux_8t1_32b
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux_8t1_32b
+# -- Compiling architecture mixed of tb_mux_8t1_32b
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../../32BitDFF/src/dffN.vhd ../../32BitDFF/src/tb_dffN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffN
+# -- Compiling architecture mixed of dffN
+# -- Compiling entity tb_dffN
+# -- Compiling architecture behavior of tb_dffN
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskControl/src/TaskControl.vhd ../../TaskControl/src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskStateReg/src/TaskStateReg.vhd ../../TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:09 on Oct 31,2023
+# vcom -reportprogress 300 ../../TimerCounter/src/tb_timerCounter.vhd ../../TimerCounter/src/timerCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_timerCounter
+# -- Compiling architecture behavior of tb_timerCounter
+# -- Compiling entity timerCounter
+# -- Compiling architecture mixed of timerCounter
+# End time: 17:19:09 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:19:10 on Oct 31,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_RMS 
+# Start time: 17:19:10 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_rms(behavior)#1
+# Loading work.rms(mixed)#1
+# Loading work.timercounter(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.decoder_3t8(dataflow)#1
+# Loading work.taskstatereg(mixed)#1
+# Loading work.taskstatereg(mixed)#2
+# Loading work.dffn(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mux_8t1_32b(dataflow)#1
+# 0 ns
+# 683 ns
+do tb_RMS.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../src/RMS.vhd ../src/tb_RMS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RMS
+# -- Compiling architecture mixed of RMS
+# -- Compiling entity tb_RMS
+# -- Compiling architecture behavior of tb_RMS
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../../3t8Decoder/src/decoder_3t8.vhd ../../3t8Decoder/src/tb_decoder_3t8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_3t8
+# -- Compiling architecture dataflow of decoder_3t8
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_decoder_3t8
+# -- Compiling architecture mixed of tb_decoder_3t8
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../../8t1MUX32b/src/mux_8t1_32b.vhd ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_8t1_32b
+# -- Compiling architecture dataflow of mux_8t1_32b
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mux_8t1_32b
+# -- Compiling architecture mixed of tb_mux_8t1_32b
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../../32BitDFF/src/dffN.vhd ../../32BitDFF/src/tb_dffN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffN
+# -- Compiling architecture mixed of dffN
+# -- Compiling entity tb_dffN
+# -- Compiling architecture behavior of tb_dffN
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskControl/src/TaskControl.vhd ../../TaskControl/src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../../TaskStateReg/src/TaskStateReg.vhd ../../TaskStateReg/src/tb_TaskStateReg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskStateReg
+# -- Compiling architecture mixed of TaskStateReg
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskStateReg
+# -- Compiling architecture behavior of tb_TaskStateReg
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:31 on Oct 31,2023
+# vcom -reportprogress 300 ../../TimerCounter/src/tb_timerCounter.vhd ../../TimerCounter/src/timerCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_timerCounter
+# -- Compiling architecture behavior of tb_timerCounter
+# -- Compiling entity timerCounter
+# -- Compiling architecture mixed of timerCounter
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:19:31 on Oct 31,2023, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_RMS 
+# Start time: 17:19:31 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_rms(behavior)#1
+# Loading work.rms(mixed)#1
+# Loading work.timercounter(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.decoder_3t8(dataflow)#1
+# Loading work.taskstatereg(mixed)#1
+# Loading work.taskstatereg(mixed)#2
+# Loading work.dffn(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mux_8t1_32b(dataflow)#1
+# 0 ns
+# 683 ns
+# End time: 17:21:09 on Oct 31,2023, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2

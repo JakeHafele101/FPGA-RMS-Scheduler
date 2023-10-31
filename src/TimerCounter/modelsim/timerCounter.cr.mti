@@ -1,10 +1,18 @@
-/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd
+/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/timerCounter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/timerCounter.vhd
 QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity xorg2
--- Compiling architecture dataflow of xorg2
+-- Compiling entity timerCounter
+-- Compiling architecture mixed of timerCounter
+
+} {} {}} /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd
+QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture structural of full_adder
 
 } {} {}} /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/org2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/org2.vhd
 QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
@@ -14,13 +22,21 @@ QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
 -- Compiling entity org2
 -- Compiling architecture dataflow of org2
 
-} {} {}} /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd
+} {} {}} /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd
 QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity full_adder
--- Compiling architecture structural of full_adder
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+
+} {} {}} /home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/tb_timerCounter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/tb_timerCounter.vhd
+QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_timerCounter
+-- Compiling architecture behavior of tb_timerCounter
 
 } {} {}} /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/ripple_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/ripple_adder.vhd
 QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023

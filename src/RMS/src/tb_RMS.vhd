@@ -3,7 +3,7 @@
 -- Department of Electrical and Computer Engineering
 -- Iowa State University
 -------------------------------------------------------------------------
--- tb_timerCounter.vhd
+-- tb_RMS.vhd
 -------------------------------------------------------------------------
 -- DESCRIPTION: This file contains a simple VHDL testbench for the
 -- edge-triggered N bit register with parallel access and reset.
@@ -13,20 +13,37 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity tb_timerCounter is
+entity tb_RMS is
     generic (gCLK_HPER : time := 10 ns);
-end tb_timerCounter;
+end tb_RMS;
 
-architecture behavior of tb_timerCounter is
+architecture behavior of tb_RMS is
 
     -- Calculate the clock period as twice the half-period
     constant cCLK_PER : time := gCLK_HPER * 2;
 
     -- N integer declaraction for DUT instantiation
-    constant N   : integer                       := 32;
+    constant TASK0PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000001";
+    constant TASK1PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000002";
+    constant TASK2PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000004";
+    constant TASK3PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000008";
+    constant TASK4PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000010";
+
+    constant TASK0_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
+    constant TASK1_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
+    constant TASK2_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
+    constant TASK3_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
+    constant TASK4_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
+
+    constant TASK0_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
+    constant TASK1_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
+    constant TASK2_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
+    constant TASK3_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000008";
+    constant TASK4_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000008";
+
     constant LCM : std_logic_vector(31 downto 0) := X"0000000F";
 
-    component timerCounter is
+    component RMS is
         generic (
             TASK0PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000001";
             TASK1PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000002";
@@ -56,12 +73,12 @@ architecture behavior of tb_timerCounter is
 
             -- Time counter
             o_time     : out std_logic_vector(32 - 1 downto 0);
-            o_LCMclear : out std_logic
+            o_LCMclear : out std_logic;
 
             -- Task Control
             --Task Controls
             o_Current_Task_Sel    : out std_logic_vector(3 - 1 downto 0);
-            o_Current_Task_Sel_WE : out std_logic
+            o_Current_Task_Sel_WE : out std_logic;
 
             o_Task0_Period_Clear : out std_logic;
             o_Task1_Period_Clear : out std_logic;
@@ -123,25 +140,25 @@ begin
 
     DUT0 : RMS
     generic map(
-        TASK0PERIOD => FIXME,
-        TASK1PERIOD => FIXME,
-        TASK2PERIOD => FIXME,
-        TASK3PERIOD => FIXME,
-        TASK4PERIOD => FIXME,
+        TASK0PERIOD => TASK0PERIOD,
+        TASK1PERIOD => TASK1PERIOD,
+        TASK2PERIOD => TASK2PERIOD,
+        TASK3PERIOD => TASK3PERIOD,
+        TASK4PERIOD => TASK4PERIOD,
 
-        TASK0_INITIAL_PC => FIXME,
-        TASK1_INITIAL_PC => FIXME,
-        TASK2_INITIAL_PC => FIXME,
-        TASK3_INITIAL_PC => FIXME,
-        TASK4_INITIAL_PC => FIXME,
+        TASK0_INITIAL_PC => TASK0_INITIAL_PC,
+        TASK1_INITIAL_PC => TASK1_INITIAL_PC,
+        TASK2_INITIAL_PC => TASK2_INITIAL_PC,
+        TASK3_INITIAL_PC => TASK3_INITIAL_PC,
+        TASK4_INITIAL_PC => TASK4_INITIAL_PC,
 
-        TASK0_FINAL_PC => FIXME,
-        TASK1_FINAL_PC => FIXME,
-        TASK2_FINAL_PC => FIXME,
-        TASK3_FINAL_PC => FIXME,
-        TASK4_FINAL_PC => FIXME,
+        TASK0_FINAL_PC => TASK0_FINAL_PC,
+        TASK1_FINAL_PC => TASK1_FINAL_PC,
+        TASK2_FINAL_PC => TASK2_FINAL_PC,
+        TASK3_FINAL_PC => TASK3_FINAL_PC,
+        TASK4_FINAL_PC => TASK4_FINAL_PC,
 
-        LCM => FIXME,
+        LCM => LCM
     )
     port map(
         i_CLK        => s_CLK,
@@ -149,8 +166,8 @@ begin
         i_dffN_incr  => s_dffN_incr,
         i_PC_incr    => s_PC_incr,
 
-        o_time     => FIXME,
-        o_LCMclear => FIXME,
+        o_time     => o_time,
+        o_LCMclear => o_LCMclear,
 
         o_Current_Task_Sel    => o_Current_Task_Sel,
         o_Current_Task_Sel_WE => o_Current_Task_Sel_WE,
@@ -177,7 +194,7 @@ begin
         o_task1_isComplete => o_task_isComplete(1),
         o_task2_isComplete => o_task_isComplete(2),
         o_task3_isComplete => o_task_isComplete(3),
-        o_task4_isComplete => o_task_isComplete(4),
+        o_task4_isComplete => o_task_isComplete(4)
     );
 
     P_CLK : process
@@ -193,7 +210,6 @@ begin
     begin
         -- Reset the FF
         s_RST       <= '1';
-        s_WE        <= '0';
         s_dffN_incr <= X"00000001";
         s_PC_incr   <= X"00000004";
         wait for cCLK_PER;
