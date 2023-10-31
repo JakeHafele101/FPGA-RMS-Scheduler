@@ -1,6 +1,8 @@
 m255
 K4
 z2
+!s12c _opt
+Z0 !s99 nomlopt
 !s11e vcom 2023.2_2 2023.06, Jun  9 2023
 13
 !s112 1.1
@@ -8,90 +10,293 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src
-Etaskcontrol
-Z1 w1698720908
-Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
-Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 4
+Z1 d/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src
+T_opt
+!s110 1698781233
+VV0gM^Ji2hLNJHQ^dUL09[1
+04 14 8 work tb_taskcontrol behavior 1
+=1-0050569b6743-65415831-43d7-895b
 R0
-Z4 8/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd
-Z5 F/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2023.2_2;77
+Eandg2
+Z2 w1698717287
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z5 8../../RippleAdder/src/andg2.vhd
+Z6 F../../RippleAdder/src/andg2.vhd
+l0
+Z7 L23 1
+Vn6i2CP=7EfSS1JQ<iXF>M0
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+Z8 OL;C;2023.2_2;77
+32
+Z9 !s110 1698781232
+!i10b 1
+Z10 !s108 1698781232.000000
+Z11 !s90 -reportprogress|300|../../RippleAdder/src/andg2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/xorg2.vhd|
+Z12 !s107 ../../RippleAdder/src/xorg2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/andg2.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Adataflow
+R3
+R4
+DEx4 work 5 andg2 0 22 n6i2CP=7EfSS1JQ<iXF>M0
+!i122 1
+l32
+Z14 L31 6
+VohaGf`obmT[cKX:3=Oi<Y0
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Efull_adder
+R2
+R3
+R4
+!i122 1
+R1
+Z15 8../../RippleAdder/src/full_adder.vhd
+Z16 F../../RippleAdder/src/full_adder.vhd
+l0
+Z17 L19 1
+VmYd@I=e>o@nm`7>HXWo:N1
+!s100 GiI>9Z]8L9``N?LeA>KhF0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Astructural
+R3
+R4
+DEx4 work 10 full_adder 0 22 mYd@I=e>o@nm`7>HXWo:N1
+!i122 1
+l57
+L28 67
+VA5RoR=hQ>;VY6W[jk<f2J0
+!s100 :66>SX2X?F8b8PfJaW0kf3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Eorg2
+R2
+R3
+R4
+!i122 1
+R1
+Z18 8../../RippleAdder/src/org2.vhd
+Z19 F../../RippleAdder/src/org2.vhd
+l0
+R7
+VF6D3ma>If8B`OAbBo`9LR0
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Adataflow
+R3
+R4
+DEx4 work 4 org2 0 22 F6D3ma>If8B`OAbBo`9LR0
+!i122 1
+l32
+R14
+VcYnQf@oEa9DKX;A]VI]j01
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Eripple_adder
+R2
+R3
+R4
+!i122 1
+R1
+Z20 8../../RippleAdder/src/ripple_adder.vhd
+Z21 F../../RippleAdder/src/ripple_adder.vhd
+l0
+R17
+Vc@CmQgMg>d8NE60^<;]VN0
+!s100 :_DT2<U4DM7a2OdCT?nF=3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Astructural
+R3
+R4
+DEx4 work 12 ripple_adder 0 22 c@CmQgMg>d8NE60^<;]VN0
+!i122 1
+l42
+L29 33
+VGK_WQzXn`hZRh1]TK9Lj;0
+!s100 =n4zk1bMb_d6fd;fdUmWg2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Etaskcontrol
+Z22 w1698781193
+R3
+R4
+!i122 0
+R1
+Z23 8../src/TaskControl.vhd
+Z24 F../src/TaskControl.vhd
 l0
 L18 1
-V`Hg9jKL3;7oi:5^g7e2RP2
-!s100 TENNOLSD5nMT>=N]__GaJ2
-Z6 OL;C;2023.2_2;77
-32
-Z7 !s110 1698720910
-!i10b 1
-Z8 !s108 1698720910.000000
-Z9 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd|
-!s107 /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd|
-!i113 0
-Z10 o-work work
-Z11 tExplicit 1 CvgOpt 0
-Amixed
-R2
-R3
-DEx4 work 11 taskcontrol 0 22 `Hg9jKL3;7oi:5^g7e2RP2
-!i122 4
-l68
-L44 141
-VlE[87khHZgj>cJm83H9X32
-!s100 7mN?;Q8QRl=]0NY6P0GT=2
-R6
-32
-R7
-!i10b 1
+V3zRWg628`69LLoz[k1oK`3
+!s100 ]ZfXj=KiODG3kR6M8I;>D1
 R8
+32
 R9
-Z12 !s107 /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd|
-!i113 0
+!i10b 1
 R10
-R11
-Etb_taskstatereg
-Z13 w1698715629
-Z14 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
-Z15 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
-R2
+Z25 !s90 -reportprogress|300|../src/TaskControl.vhd|../src/tb_TaskControl.vhd|
+Z26 !s107 ../src/tb_TaskControl.vhd|../src/TaskControl.vhd|
+!i113 0
+R13
+Amixed
 R3
+R4
+DEx4 work 11 taskcontrol 0 22 3zRWg628`69LLoz[k1oK`3
 !i122 0
-R0
-Z16 8/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd
-Z17 F/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd
+l68
+L44 151
+V`b?F]UiE]5A2ZJ1h[]dE62
+!s100 eed`jP7TFSPo7lblDTCaT0
+R8
+32
+R9
+!i10b 1
+R10
+R25
+R26
+!i113 0
+R13
+Etb_taskcontrol
+Z27 w1698781225
+Z28 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z29 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R3
+R4
+!i122 0
+R1
+Z30 8../src/tb_TaskControl.vhd
+Z31 F../src/tb_TaskControl.vhd
 l0
 L8 1
-V5dJD:MOS4SUKXVPkLMOSW0
-!s100 OdGS4[b]biY4An?C_Uf_U3
-R6
+V;lgaC1z[VPOU:4KKBDQlf1
+!s100 `42dm26oiH6Mf@KbFnLAL3
+R8
 32
-Z18 !s110 1698720797
+R9
 !i10b 1
-Z19 !s108 1698720797.000000
-Z20 !s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd|
-Z21 !s107 /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd|
-!i113 0
 R10
-R11
+R25
+R26
+!i113 0
+R13
 Abehavior
-R14
-R15
+R28
+R29
+R3
+R4
+DEx4 work 14 tb_taskcontrol 0 22 ;lgaC1z[VPOU:4KKBDQlf1
+!i122 0
+l59
+L12 151
+VXlEbgZ9@CaiH9o[4R_1lc1
+!s100 ]Od]]mXzN2G;@>>Re]G?@1
+R8
+32
+R9
+!i10b 1
+R10
+R25
+R26
+!i113 0
+R13
+Exorg2
 R2
 R3
-DEx4 work 15 tb_taskstatereg 0 22 5dJD:MOS4SUKXVPkLMOSW0
-!i122 0
-l40
-L12 86
-VQX:NMM42EZnY12UgDool=1
-!s100 H75BoV`4=]o4?ZHc;D6C^0
-R6
+R4
+!i122 1
+R1
+Z32 8../../RippleAdder/src/xorg2.vhd
+Z33 F../../RippleAdder/src/xorg2.vhd
+l0
+L21 1
+V5dfb9dGEUECoNEk9]B=iX3
+!s100 YcWRSn2[o:VY86D[KEj9<2
+R8
 32
-R18
+R9
 !i10b 1
-R19
-R20
-R21
-!i113 0
 R10
 R11
+R12
+!i113 0
+R13
+Adataflow
+R3
+R4
+DEx4 work 5 xorg2 0 22 5dfb9dGEUECoNEk9]B=iX3
+!i122 1
+l31
+L30 6
+V14[2^3f_WG2HdkBBFGFjN2
+!s100 FgRhXZhB_<J1lhY8:0GlD3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13

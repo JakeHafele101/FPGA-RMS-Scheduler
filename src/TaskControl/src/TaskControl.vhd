@@ -17,8 +17,8 @@ USE IEEE.std_logic_1164.ALL;
 
 ENTITY TaskControl IS
     GENERIC (
-        TASK0PERIOD : STD_LOGIC_VECTOR(32 - 1 DOWNTO 0) := X"00000001";
-        TASK1PERIOD : STD_LOGIC_VECTOR(32 - 1 DOWNTO 0) := X"00000002";
+        TASK0PERIOD : STD_LOGIC_VECTOR(32 - 1 DOWNTO 0) := X"00000002";
+        TASK1PERIOD : STD_LOGIC_VECTOR(32 - 1 DOWNTO 0) := X"00000004";
         TASK2PERIOD : STD_LOGIC_VECTOR(32 - 1 DOWNTO 0) := X"00000004";
         TASK3PERIOD : STD_LOGIC_VECTOR(32 - 1 DOWNTO 0) := X"00000008";
         TASK4PERIOD : STD_LOGIC_VECTOR(32 - 1 DOWNTO 0) := X"00000010");
@@ -114,14 +114,24 @@ BEGIN
             s_Task2_Deadline <= TASK2PERIOD;
             s_Task3_Deadline <= TASK3PERIOD;
             s_Task4_Deadline <= TASK4PERIOD;
-        elsIF(rising_edge(i_CLK)) THEN
+            o_Task0_Period_Clear <= '1';
+            o_Task1_Period_Clear <= '1';
+            o_Task2_Period_Clear <= '1';
+            o_Task3_Period_Clear <= '1';
+            o_Task4_Period_Clear <= '1';
+        ELSIF (rising_edge(i_CLK)) THEN
             IF (i_LCM_Clear = '1') THEN
                 s_Task0_Deadline <= TASK0PERIOD;
                 s_Task1_Deadline <= TASK1PERIOD;
                 s_Task2_Deadline <= TASK2PERIOD;
                 s_Task3_Deadline <= TASK3PERIOD;
                 s_Task4_Deadline <= TASK4PERIOD;
-            ELSE
+                o_Task0_Period_Clear <= '1';
+                o_Task1_Period_Clear <= '1';
+                o_Task2_Period_Clear <= '1';
+                o_Task3_Period_Clear <= '1';
+                o_Task4_Period_Clear <= '1';
+            else
                 IF (i_Current_Time > s_Task0_Deadline) THEN
                     o_Task0_Period_Clear <= '1';
                     s_Task0_Deadline <= s_Task0_AddOut;
@@ -156,7 +166,7 @@ BEGIN
         END IF;
     END PROCESS;
 
-    PROCESS (i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete)
+    PROCESS (i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete,i_CLK)
     BEGIN
         IF (rising_edge(i_CLK)) THEN
             IF (i_Task0_Complete = '0') THEN

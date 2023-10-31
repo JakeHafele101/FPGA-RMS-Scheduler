@@ -12,80 +12,295 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd}
+do tb_TaskControl.do
 # QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
-# Start time: 21:53:17 on Oct 30,2023
-# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/tb_TaskControl.vhd 
+# Start time: 14:18:03 on Oct 31,2023
+# vcom -reportprogress 300 ../src/TaskControl.vhd ../src/tb_TaskControl.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
 # -- Loading package std_logic_textio
 # -- Loading package NUMERIC_STD
-# -- Compiling entity tb_TaskStateReg
-# -- Compiling architecture behavior of tb_TaskStateReg
-# End time: 21:53:17 on Oct 30,2023, Elapsed time: 0:00:00
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 14:18:03 on Oct 31,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
 # QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
-# Start time: 21:53:18 on Oct 30,2023
-# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
+# Start time: 14:18:03 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity TaskControl
-# -- Compiling architecture mixed of TaskControl
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(71): near ";": (vcom-1576) expecting ',' or ')'.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(77): Statement cannot be labeled.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(79): near ";": (vcom-1576) expecting ',' or ')'.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(85): Statement cannot be labeled.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(87): near ";": (vcom-1576) expecting ',' or ')'.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(93): Statement cannot be labeled.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(95): near ";": (vcom-1576) expecting ',' or ')'.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(101): Statement cannot be labeled.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(103): near ";": (vcom-1576) expecting ',' or ')'.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(119): near "s_Task0_Deadline": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(156): near "IF": (vcom-1576) expecting PROCESS.
-# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(157): VHDL Compiler exiting
-# End time: 21:53:18 on Oct 30,2023, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
-# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
-# Start time: 21:54:03 on Oct 30,2023
-# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity TaskControl
-# -- Compiling architecture mixed of TaskControl
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(119): near "s_Task0_Deadline": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(156): near "IF": (vcom-1576) expecting PROCESS.
-# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(157): VHDL Compiler exiting
-# End time: 21:54:03 on Oct 30,2023, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
-# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
-# Start time: 21:54:31 on Oct 30,2023
-# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity TaskControl
-# -- Compiling architecture mixed of TaskControl
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(159): (vcom-1136) Unknown identifier "i_Task0_Complete".
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(159): Expression is not a signal.
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(162): (vcom-1136) Unknown identifier "i_Task0_Complete".
-# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(162): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd(184): VHDL Compiler exiting
-# End time: 21:54:31 on Oct 30,2023, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd}
-# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
-# Start time: 21:55:10 on Oct 30,2023
-# vcom -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/TaskControl/src/TaskControl.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity TaskControl
-# -- Compiling architecture mixed of TaskControl
-# End time: 21:55:10 on Oct 30,2023, Elapsed time: 0:00:00
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:18:03 on Oct 31,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_TaskControl 
+# Start time: 14:18:03 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskcontrol(behavior)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 840 ns
+do tb_TaskControl.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:20:16 on Oct 31,2023
+# vcom -reportprogress 300 ../src/TaskControl.vhd ../src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 14:20:16 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:20:16 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:20:16 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:20:16 on Oct 31,2023, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskControl 
+# Start time: 14:20:16 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskcontrol(behavior)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 840 ns
+do tb_TaskControl.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:23:02 on Oct 31,2023
+# vcom -reportprogress 300 ../src/TaskControl.vhd ../src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 14:23:02 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:23:02 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:23:02 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:23:02 on Oct 31,2023, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskControl 
+# Start time: 14:23:02 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskcontrol(behavior)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 840 ns
+do tb_TaskControl.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:37:57 on Oct 31,2023
+# vcom -reportprogress 300 ../src/TaskControl.vhd ../src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 14:37:57 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:37:57 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:37:57 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:37:57 on Oct 31,2023, Elapsed time: 0:14:55
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskControl 
+# Start time: 14:37:57 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskcontrol(behavior)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 840 ns
+do tb_TaskControl.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:39:27 on Oct 31,2023
+# vcom -reportprogress 300 ../src/TaskControl.vhd ../src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# ** Error (suppressible): ../src/tb_TaskControl.vhd(22): (vcom-1272) Length of expected is 32; length of actual is 36.
+# ** Note: ../src/tb_TaskControl.vhd(162): VHDL Compiler exiting
+# End time: 14:39:27 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+# Error in macro ./tb_TaskControl.do line 5
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ../src/*.vhd"
+do tb_TaskControl.do
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:40:32 on Oct 31,2023
+# vcom -reportprogress 300 ../src/TaskControl.vhd ../src/tb_TaskControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TaskControl
+# -- Compiling architecture mixed of TaskControl
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_TaskControl
+# -- Compiling architecture behavior of tb_TaskControl
+# End time: 14:40:32 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 14:40:32 on Oct 31,2023
+# vcom -reportprogress 300 ../../RippleAdder/src/andg2.vhd ../../RippleAdder/src/full_adder.vhd ../../RippleAdder/src/org2.vhd ../../RippleAdder/src/ripple_adder.vhd ../../RippleAdder/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity full_adder
+# -- Compiling architecture structural of full_adder
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity ripple_adder
+# -- Compiling architecture structural of ripple_adder
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 14:40:32 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:40:32 on Oct 31,2023, Elapsed time: 0:02:35
+# Errors: 1, Warnings: 1
+# vsim -voptargs="+acc" work.tb_TaskControl 
+# Start time: 14:40:32 on Oct 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_taskcontrol(behavior)#1
+# Loading work.taskcontrol(mixed)#1
+# Loading work.ripple_adder(structural)#1
+# Loading work.full_adder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# 0 ns
+# 840 ns
+# End time: 14:41:00 on Oct 31,2023, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1
