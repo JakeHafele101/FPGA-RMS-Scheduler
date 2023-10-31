@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2023.2_2 2023.06, Jun  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tvgaul/Documents/CPRE 558/cpre558/Synth/Quartus_synth
+vQuartus_synth
+2/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v
+!s110 1698790751
+!i10b 1
+!s100 =NkXEYGC4N9DecYK7K>0W1
+I@NCAW_`7Ogg6j49Q7LCn<1
+R0
+w1698790747
+8/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v
+F/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v
+!i122 1
+L0 1 199
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2023.2_2;77
+r1
+!s85 0
+31
+!s108 1698790751.000000
+!s107 /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v|
+!s90 -reportprogress|300|-work|work|/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+n@quartus_synth

@@ -9,7 +9,7 @@ module Quartus_synth (
 	output o_task2Complete,
 	output o_task3Complete,
 	output o_task4Complete,
-	output o_LCMclear,
+	output o_LCM_clear,
 	output o_task0Clear,
 	output o_task1Clear,
 	output o_task2Clear,
@@ -25,7 +25,7 @@ module Quartus_synth (
 	output [6:0] o_seg6,
 	output [6:0] o_seg7, //Task Sel
 	output [1:0] o_clk_sel, //LEDR1, LEDR0
-	output o_clk_mux,  //LEDR2
+	output o_clk_mux  //LEDR2
 );
 
 	wire s_clk_button_debounce;
@@ -43,7 +43,7 @@ module Quartus_synth (
 	assign s_reset = ~i_rst;
 	
 	wire s_clk_div;
-	
+	wire s_clk, s_clk_div_fast, s_clk_div_slow;
 	//Clock divider for MIPS processor
 	clock_divider
 	#(.DVSR(50000000)) g_clock_divider_slow
@@ -66,7 +66,7 @@ module Quartus_synth (
 	//Clk mux
 	assign o_clk_sel = i_clk_sel;
 
-	wire s_clk, s_clk_div_fast, s_clk_div_slow;
+	
 	reg s_clk_mux;
 	/*
 	00: debounce button clock
@@ -104,52 +104,60 @@ module Quartus_synth (
 	wire [31:0] s_task2_PC;
 	wire [31:0] s_task3_PC;
 	wire [31:0] s_task4_PC;
+	wire [31:0] s_task0_dffN_Q;
+	wire [31:0] s_task1_dffN_Q;
+	wire [31:0] s_task2_dffN_Q;
+	wire [31:0] s_task3_dffN_Q;
+	wire [31:0] s_task4_dffN_Q;
 	wire [31:0] s_time;
 	reg [31:0] s_seg_out;
 	
 	always @* begin
 		case(i_out_sel)
-			3'b000: s_seg_out = s_task0_PC;
-			3'b001: s_seg_out = s_task1_PC;
-			3'b010: s_seg_out = s_task2_PC;
-			3'b011: s_seg_out = s_task3_PC;
-			3'b100: s_seg_out = s_task4_PC;
-			3'b101: s_seg_out = s_time;
-			default: s_seg_out = s_IF_Imem;
+			4'b0000: s_seg_out = s_task0_PC;
+			4'b0001: s_seg_out = s_task1_PC;
+			4'b0010: s_seg_out = s_task2_PC;
+			4'b0011: s_seg_out = s_task3_PC;
+			4'b0100: s_seg_out = s_task4_PC;
+			4'b1000: s_seg_out = s_task0_dffN_Q;
+			4'b1001: s_seg_out = s_task1_dffN_Q;
+			4'b1010: s_seg_out = s_task2_dffN_Q;
+			4'b1011: s_seg_out = s_task3_dffN_Q;
+			4'b1100: s_seg_out = s_task4_dffN_Q;
+			4'b1111: s_seg_out = s_time;
+			default: s_seg_out = s_time;
 		endcase
 	end
 	
 	wire [2:0] s_task_sel;
 	RMS #(
-		TASK0PERIOD = 65,
-		TASK1PERIOD = 70,
-		TASK2PERIOD = 75,
-		TASK3PERIOD = 80,
-		TASK4PERIOD = 85,
+		.TASK0PERIOD (65),
+		.TASK1PERIOD(70),
+		.TASK2PERIOD(75),
+		.TASK3PERIOD(80),
+		.TASK4PERIOD(85),
 
-		TASK0_INITIAL_PC = 0,
-		TASK1_INITIAL_PC = 100,
-		TASK2_INITIAL_PC = 200,
-		TASK3_INITIAL_PC = 300,
-		TASK4_INITIAL_PC = 400,
+		.TASK0_INITIAL_PC(0),
+		.TASK1_INITIAL_PC(100),
+		.TASK2_INITIAL_PC(200),
+		.TASK3_INITIAL_PC(300),
+		.TASK4_INITIAL_PC(400),
 
-		TASK0_FINAL_PC = 15,
-		TASK1_FINAL_PC = 120,
-		TASK2_FINAL_PC = 235,
-		TASK3_FINAL_PC = 340,
-		TASK4_FINAL_PC = 455,
+		.TASK0_FINAL_PC(15),
+		.TASK1_FINAL_PC(120),
+		.TASK2_FINAL_PC(235),
+		.TASK3_FINAL_PC(340),
+		.TASK4_FINAL_PC(455)
 	)
 	g_RMS(
 		i_CLK(s_clk),
         i_Asynch_RST(s_reset),
 		i_dffN_incr(32'h00000007),
         i_PC_incr(32'h00000004),
-        
     
-        o_time(s_time;),
-        o_LCMclear(o_LCMclear),
+        o_time(s_time),
+        o_LCMclear(o_LCM_clear),
 
-		
         o_Current_Task_Sel(s_task_sel),
         o_Current_Task_Sel_WE(o_Task_Sel_WE),
 
@@ -165,11 +173,17 @@ module Quartus_synth (
         o_task3_currentPC(s_task3_PC),
         o_task4_currentPC(s_task4_PC),
 
+		o_task0_dffN_Q(s_task0_dffN_Q),
+        o_task1_dffN_Q(s_task1_dffN_Q),
+        o_task2_dffN_Q(s_task2_dffN_Q),
+        o_task3_dffN_Q(s_task3_dffN_Q),
+        o_task4_dffN_Q(s_task4_dffN_Q),
+
         o_task0_isComplete(o_task0Complete),
         o_task1_isComplete(o_task1Complete),
         o_task2_isComplete(o_task2Complete),
         o_task3_isComplete(o_task3Complete),
-        o_task4_isComplete(o_task4Complete),
+        o_task4_isComplete(o_task4Complete)
 	);
 	
 	//Seven seg decoders

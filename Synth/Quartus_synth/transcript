@@ -1,0 +1,174 @@
+# //  Questa Sim-64
+# //  Version 2023.2_2 linux_x86_64 Jun  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlib work
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:10:35 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error: (vlog-13038) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(29): near ")": Missing port in ansi port list.
+# End time: 17:10:35 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:10:58 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(126): (vlog-2730) Undefined variable: 's_time'.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(127): (vlog-2730) Undefined variable: 's_IF_Imem'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(133): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(188): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 17:10:58 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:11:54 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(134): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(189): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 17:11:54 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:12:49 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(134): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(189): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 17:12:49 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:12:54 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(134): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(159): near ";": syntax error, unexpected ';', expecting ')'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(189): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 17:12:54 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:15:54 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(151): near ")": syntax error, unexpected ')', expecting '.'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(189): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 17:15:54 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:16:06 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(159): near ";": syntax error, unexpected ';', expecting ')'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(189): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 17:16:06 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:16:35 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(159): near ";": syntax error, unexpected ';', expecting ')'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(189): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 17:16:35 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:16:38 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(159): near ";": syntax error, unexpected ';', expecting ')'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(189): near ")": syntax error, unexpected ')', expecting ';'.
+# End time: 17:16:38 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:06 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(158): near ";": syntax error, unexpected ';', expecting ')'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(187): near ")": syntax error, unexpected ')', expecting ';'.
+# End time: 17:17:06 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:17 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(176): near ";": syntax error, unexpected ';', expecting ')'.
+# ** Error: (vlog-13069) /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(187): near ")": syntax error, unexpected ')', expecting ';'.
+# End time: 17:17:18 on Oct 31,2023, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:17:43 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_fast' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(63).
+# ** Error (suppressible): /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(69): (vlog-2388) 's_clk_div_slow' already declared in this scope (Quartus_synth) at /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(54).
+# End time: 17:17:43 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:18:18 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(159): 'o_LCMclear' is not a function name.
+# ** Error: /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v(159): Component name 'o_LCMclear' does not refer to a scope.
+# End time: 17:18:18 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:10 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# 
+# Top level modules:
+# 	Quartus_synth
+# End time: 17:19:10 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v}
+# QuestaSim-64 vlog 2023.2_2 Compiler 2023.06 Jun  9 2023
+# Start time: 17:19:11 on Oct 31,2023
+# vlog -reportprogress 300 -work work /home/tvgaul/Documents/CPRE 558/cpre558/src/FPGA/Quartus_synth.v 
+# -- Compiling module Quartus_synth
+# 
+# Top level modules:
+# 	Quartus_synth
+# End time: 17:19:11 on Oct 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
