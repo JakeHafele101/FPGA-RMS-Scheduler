@@ -16,7 +16,7 @@ use IEEE.std_logic_1164.all;
 entity timerCounter is
 
   generic (N : integer := 32;
-           LCM : std_logic_vector(31 downto 0) := X"00000010"); -- Generic of type integer for input/output data width. Default value is 32.
+           LCM : std_logic_vector(31 downto 0) := X"0000000F"); -- Set to 1 less than LCM
   port (
     i_CLK : in std_logic;   -- Clock input
     i_RST : in std_logic;   -- Reset input
