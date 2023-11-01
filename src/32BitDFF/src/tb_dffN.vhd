@@ -31,13 +31,12 @@ architecture behavior of tb_dffN is
             i_CLK         : in std_logic;                          -- Clock input
             i_RST         : in std_logic;                          -- Reset input
             i_WE          : in std_logic;                          -- Write enable input
-            i_periodClear : in std_logic;                          -- Write enable input
             i_D           : in std_logic_vector(N - 1 downto 0);   --N bit data value input
             o_Q           : out std_logic_vector(N - 1 downto 0)); -- N bit data value output
     end component;
 
     -- Input signals of tested module
-    signal s_CLK, s_RST, s_WE, s_periodClear : std_logic;
+    signal s_CLK, s_RST, s_WE : std_logic;
     signal s_D                : std_logic_vector(N - 1 downto 0);
 
     -- Output signals of tested module
@@ -54,7 +53,6 @@ begin
         i_CLK => s_CLK,
         i_RST => s_RST,
         i_WE  => s_WE,
-        i_periodClear => s_periodClear,
         i_D   => s_D,
         o_Q   => s_Q);
 
@@ -89,7 +87,6 @@ begin
         -- Reset the FF
         s_RST        <= '1';
         s_WE         <= '0';
-        s_periodClear <= '0';
         s_D          <= X"00000000";
         s_Q_Expected <= X"00000000";
         wait for cCLK_PER;
@@ -148,12 +145,6 @@ begin
         s_WE         <= '1';
         s_D          <= X"00000001";
         s_Q_Expected <= X"00000001";
-        wait for cCLK_PER;
-
-        -- Synchronous Reset
-        s_periodClear <= '1';
-        wait for cCLK_PER;
-        s_periodClear <= '0';
         wait for cCLK_PER;
 
         wait;

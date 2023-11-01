@@ -12,10 +12,10 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 d/home/jmhafele/Documents/Fall_2023/cpre558/src/RMS/modelsim
 T_opt
-Z2 !s110 1698803834
-VJ99EMcQN_0jkYR1lzX7072
+Z2 !s110 1698815828
+VZ`CniUhB]Yf0RHK;]]b3S3
 04 6 8 work tb_rms behavior 1
-=1-0050569b0ad3-6541b07a-92e4b-8fb5
+=1-0050569b0ad3-6541df54-a662e-d247
 R0
 !s12b OEM100
 !s124 OEM100
@@ -37,9 +37,9 @@ Vn6i2CP=7EfSS1JQ<iXF>M0
 !s100 0e<Rg^QbB^Y@JP[zKSc0[3
 Z9 OL;C;2023.2_2;77
 32
-Z10 !s110 1698803833
+Z10 !s110 1698815827
 !i10b 1
-Z11 !s108 1698803833.000000
+Z11 !s108 1698815827.000000
 Z12 !s90 -reportprogress|300|../../RippleAdder/src/andg2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/xorg2.vhd|
 Z13 !s107 ../../RippleAdder/src/xorg2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/andg2.vhd|
 !i113 0
@@ -102,7 +102,7 @@ R21
 !i113 0
 R14
 Edffn
-Z22 w1698801664
+Z22 w1698811328
 R4
 R5
 !i122 3
@@ -111,8 +111,8 @@ Z23 8../../32BitDFF/src/dffN.vhd
 Z24 F../../32BitDFF/src/dffN.vhd
 l0
 L17 1
-Vl^ne[kPD8PHhe^fDZWcG<2
-!s100 ?Ld?W1LIeiKi;T:@nFl@m0
+VZZD`gUiiS>U]F5jc:[JWh0
+!s100 =>TLT<m0EhA8efBCmmlke3
 R9
 32
 R10
@@ -125,12 +125,12 @@ R14
 Amixed
 R4
 R5
-DEx4 work 4 dffn 0 22 l^ne[kPD8PHhe^fDZWcG<2
+DEx4 work 4 dffn 0 22 ZZD`gUiiS>U]F5jc:[JWh0
 !i122 3
-l33
-Z27 L29 33
-VlC6m5MY:NTY@gRPH@fT]i0
-!s100 4UzHR=TFmRBobETe4cZ671
+l32
+L28 29
+Va5YS=onPCEB5=eYPbAJdJ1
+!s100 Hbg[WRkODGm;@Roka[[I;3
 R9
 32
 R10
@@ -146,10 +146,10 @@ R4
 R5
 !i122 4
 R1
-Z28 8../../RippleAdder/src/full_adder.vhd
-Z29 F../../RippleAdder/src/full_adder.vhd
+Z27 8../../RippleAdder/src/full_adder.vhd
+Z28 F../../RippleAdder/src/full_adder.vhd
 l0
-Z30 L19 1
+Z29 L19 1
 VmYd@I=e>o@nm`7>HXWo:N1
 !s100 GiI>9Z]8L9``N?LeA>KhF0
 R9
@@ -180,16 +180,16 @@ R13
 !i113 0
 R14
 Emux_8t1_32b
-Z31 w1698712218
-Z32 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z30 w1698712218
+Z31 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
 R4
 R5
 !i122 2
 R1
-Z33 8../../8t1MUX32b/src/mux_8t1_32b.vhd
-Z34 F../../8t1MUX32b/src/mux_8t1_32b.vhd
+Z32 8../../8t1MUX32b/src/mux_8t1_32b.vhd
+Z33 F../../8t1MUX32b/src/mux_8t1_32b.vhd
 l0
-Z35 L16 1
+Z34 L16 1
 VP?c>16W@3Z91`7:eUJo`M0
 !s100 ?1?JzPfZAGn_^A1bT3E[:1
 R9
@@ -197,12 +197,12 @@ R9
 R10
 !i10b 1
 R11
-Z36 !s90 -reportprogress|300|../../8t1MUX32b/src/mux_8t1_32b.vhd|../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|
-Z37 !s107 ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|../../8t1MUX32b/src/mux_8t1_32b.vhd|
+Z35 !s90 -reportprogress|300|../../8t1MUX32b/src/mux_8t1_32b.vhd|../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|
+Z36 !s107 ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|../../8t1MUX32b/src/mux_8t1_32b.vhd|
 !i113 0
 R14
 Adataflow
-R32
+R31
 R4
 R5
 DEx4 work 11 mux_8t1_32b 0 22 P?c>16W@3Z91`7:eUJo`M0
@@ -216,8 +216,8 @@ R9
 R10
 !i10b 1
 R11
+R35
 R36
-R37
 !i113 0
 R14
 Eorg2
@@ -226,8 +226,8 @@ R4
 R5
 !i122 4
 R1
-Z38 8../../RippleAdder/src/org2.vhd
-Z39 F../../RippleAdder/src/org2.vhd
+Z37 8../../RippleAdder/src/org2.vhd
+Z38 F../../RippleAdder/src/org2.vhd
 l0
 R8
 VF6D3ma>If8B`OAbBo`9LR0
@@ -260,15 +260,15 @@ R13
 !i113 0
 R14
 Eripple_adder
-Z40 w1698714675
+Z39 w1698714675
 R4
 R5
 !i122 4
 R1
-Z41 8../../RippleAdder/src/ripple_adder.vhd
-Z42 F../../RippleAdder/src/ripple_adder.vhd
+Z40 8../../RippleAdder/src/ripple_adder.vhd
+Z41 F../../RippleAdder/src/ripple_adder.vhd
 l0
-R30
+R29
 Vc@CmQgMg>d8NE60^<;]VN0
 !s100 :_DT2<U4DM7a2OdCT?nF=3
 R9
@@ -286,7 +286,7 @@ R5
 DEx4 work 12 ripple_adder 0 22 c@CmQgMg>d8NE60^<;]VN0
 !i122 4
 l42
-R27
+L29 33
 VGK_WQzXn`hZRh1]TK9Lj;0
 !s100 =n4zk1bMb_d6fd;fdUmWg2
 R9
@@ -299,13 +299,13 @@ R13
 !i113 0
 R14
 Erms
-Z43 w1698802229
+Z42 w1698811374
 R4
 R5
 !i122 0
 R1
-Z44 8../src/RMS.vhd
-Z45 F../src/RMS.vhd
+Z43 8../src/RMS.vhd
+Z44 F../src/RMS.vhd
 l0
 R19
 VY]Bg4Xz5_jd=?feXWJoW=2
@@ -315,8 +315,8 @@ R9
 R10
 !i10b 1
 R11
-Z46 !s90 -reportprogress|300|../src/RMS.vhd|../src/tb_RMS.vhd|
-Z47 !s107 ../src/tb_RMS.vhd|../src/RMS.vhd|
+Z45 !s90 -reportprogress|300|../src/RMS.vhd|../src/tb_RMS.vhd|
+Z46 !s107 ../src/tb_RMS.vhd|../src/RMS.vhd|
 !i113 0
 R14
 Amixed
@@ -324,108 +324,108 @@ R4
 R5
 DEx4 work 3 rms 0 22 Y]Bg4Xz5_jd=?feXWJoW=2
 !i122 0
-l216
-L84 369
-V7VCQ:CPoOocd`;RcQ87Og2
-!s100 8OFTeWFan6oUYd9dN74YX0
+l215
+L84 363
+VQWGZa64@ZUCo@9P_ZclBH2
+!s100 GfI]<N4G6Z_ZECiLKU5ch2
 R9
 32
 R10
 !i10b 1
 R11
+R45
 R46
-R47
 !i113 0
 R14
 Etaskcontrol
-Z48 w1698803323
+Z47 w1698815817
 R4
 R5
 !i122 5
 R1
-Z49 8../../TaskControl/src/TaskControl.vhd
-Z50 F../../TaskControl/src/TaskControl.vhd
+Z48 8../../TaskControl/src/TaskControl.vhd
+Z49 F../../TaskControl/src/TaskControl.vhd
 l0
 R19
-V3zRWg628`69LLoz[k1oK`3
-!s100 ]ZfXj=KiODG3kR6M8I;>D1
+V_i@MRPa_LA5[djD>@z0j;1
+!s100 fGS_226;9MNRBiP]E`YFS3
 R9
 32
 R10
 !i10b 1
 R11
-Z51 !s90 -reportprogress|300|../../TaskControl/src/TaskControl.vhd|../../TaskControl/src/tb_TaskControl.vhd|
-Z52 !s107 ../../TaskControl/src/tb_TaskControl.vhd|../../TaskControl/src/TaskControl.vhd|
+Z50 !s90 -reportprogress|300|../../TaskControl/src/TaskControl.vhd|../../TaskControl/src/tb_TaskControl.vhd|
+Z51 !s107 ../../TaskControl/src/tb_TaskControl.vhd|../../TaskControl/src/TaskControl.vhd|
 !i113 0
 R14
 Amixed
 R4
 R5
-DEx4 work 11 taskcontrol 0 22 3zRWg628`69LLoz[k1oK`3
+DEx4 work 11 taskcontrol 0 22 _i@MRPa_LA5[djD>@z0j;1
 !i122 5
 l68
-L44 151
-VO^ig7GHE1GOz@UjC:BT[32
-!s100 iLEWi7HcfE?HU=Lb2iO]l3
+L44 155
+VED@afC<naLZ3SbSlOY=Wz0
+!s100 g0dEnS8o3e7QOa?j^Xm3L0
 R9
 32
 R10
 !i10b 1
 R11
+R50
 R51
-R52
 !i113 0
 R14
 Etaskstatereg
-Z53 w1698718003
+Z52 w1698808267
 R4
 R5
 !i122 6
 R1
-Z54 8../../TaskStateReg/src/TaskStateReg.vhd
-Z55 F../../TaskStateReg/src/TaskStateReg.vhd
+Z53 8../../TaskStateReg/src/TaskStateReg.vhd
+Z54 F../../TaskStateReg/src/TaskStateReg.vhd
 l0
 R19
-V2VVI9>WkDXI`6?ElSF]gJ3
-!s100 YH10X?L3k^8nGP_S]?@bm2
+VFHZEl8b^NCzh2Ii`ON<zn0
+!s100 OCdggoLdUf4T^N7PFdY^Q0
 R9
 32
-R2
+R10
 !i10b 1
 R11
-Z56 !s90 -reportprogress|300|../../TaskStateReg/src/TaskStateReg.vhd|../../TaskStateReg/src/tb_TaskStateReg.vhd|
-Z57 !s107 ../../TaskStateReg/src/tb_TaskStateReg.vhd|../../TaskStateReg/src/TaskStateReg.vhd|
+Z55 !s90 -reportprogress|300|../../TaskStateReg/src/TaskStateReg.vhd|../../TaskStateReg/src/tb_TaskStateReg.vhd|
+Z56 !s107 ../../TaskStateReg/src/tb_TaskStateReg.vhd|../../TaskStateReg/src/TaskStateReg.vhd|
 !i113 0
 R14
 Amixed
 R4
 R5
-DEx4 work 12 taskstatereg 0 22 2VVI9>WkDXI`6?ElSF]gJ3
+DEx4 work 12 taskstatereg 0 22 FHZEl8b^NCzh2Ii`ON<zn0
 !i122 6
-l38
-L32 36
-VOlC1A>Xf;kjOo_`KM5]CH3
-!s100 >jT8F]ZOfZX_zTn_gVX;P0
+l36
+L32 34
+V_`GSUaJ70=FnSaGOIK[P[0
+!s100 <i@_E2=8TS]hJV5[_=a^N3
 R9
 32
-R2
+R10
 !i10b 1
 R11
+R55
 R56
-R57
 !i113 0
 R14
 Etb_decoder_3t8
-Z58 w1698711121
-Z59 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+Z57 w1698711121
+Z58 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
 R4
 R5
 !i122 1
 R1
-Z60 8../../3t8Decoder/src/tb_decoder_3t8.vhd
-Z61 F../../3t8Decoder/src/tb_decoder_3t8.vhd
+Z59 8../../3t8Decoder/src/tb_decoder_3t8.vhd
+Z60 F../../3t8Decoder/src/tb_decoder_3t8.vhd
 l0
-R30
+R29
 VOVn]^4YHl;cjH`jfG`=S20
 !s100 oGOcn^Eg;AVT_fG_?3k<>2
 R9
@@ -438,7 +438,7 @@ R21
 !i113 0
 R14
 Amixed
-R59
+R58
 R4
 R5
 DEx4 work 14 tb_decoder_3t8 0 22 OVn]^4YHl;cjH`jfG`=S20
@@ -457,15 +457,15 @@ R21
 !i113 0
 R14
 Etb_dffn
-Z62 w1698802052
+Z61 w1698811408
 R4
 R5
 !i122 3
 R1
-Z63 8../../32BitDFF/src/tb_dffN.vhd
-Z64 F../../32BitDFF/src/tb_dffN.vhd
+Z62 8../../32BitDFF/src/tb_dffN.vhd
+Z63 F../../32BitDFF/src/tb_dffN.vhd
 l0
-R35
+R34
 ViS3KUBIh_M:=V98CKGBHA3
 !s100 e48<P6NS?zEQ8WfKNF8Qg0
 R9
@@ -482,10 +482,10 @@ R4
 R5
 DEx4 work 7 tb_dffn 0 22 iS3KUBIh_M:=V98CKGBHA3
 !i122 3
-l50
-L20 143
-VcmF@hjK7FcV9Ym;WJ0?7E1
-!s100 3ORR49@lCVmOnL=HH?4G]3
+l49
+L20 134
+V^^Lm5ch;fdH^kD@@CGdNT1
+!s100 fl;CRX1Em8g;9]B?kW^`l3
 R9
 32
 R10
@@ -496,15 +496,15 @@ R26
 !i113 0
 R14
 Etb_mux_8t1_32b
-Z65 w1698711957
-R32
-R59
+Z64 w1698711957
+R31
+R58
 R4
 R5
 !i122 2
 R1
-Z66 8../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
-Z67 F../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
+Z65 8../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
+Z66 F../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
 l0
 R8
 VY8>1=ZJ6fUQP1j@1NJc;N0
@@ -514,13 +514,13 @@ R9
 R10
 !i10b 1
 R11
+R35
 R36
-R37
 !i113 0
 R14
 Amixed
-R32
-R59
+R31
+R58
 R4
 R5
 DEx4 work 14 tb_mux_8t1_32b 0 22 Y8>1=ZJ6fUQP1j@1NJc;N0
@@ -534,20 +534,20 @@ R9
 R10
 !i10b 1
 R11
+R35
 R36
-R37
 !i113 0
 R14
 Etb_rms
-Z68 w1698803830
+Z67 w1698812717
 R4
 R5
 !i122 0
 R1
-Z69 8../src/tb_RMS.vhd
-Z70 F../src/tb_RMS.vhd
+Z68 8../src/tb_RMS.vhd
+Z69 F../src/tb_RMS.vhd
 l0
-R35
+R34
 V35_2G6d=]^F`kE8z3T;eT2
 !s100 5PXSnS6f5<N>DiV@Cg2Nm1
 R9
@@ -555,8 +555,8 @@ R9
 R10
 !i10b 1
 R11
+R45
 R46
-R47
 !i113 0
 R14
 Abehavior
@@ -566,27 +566,27 @@ DEx4 work 6 tb_rms 0 22 35_2G6d=]^F`kE8z3T;eT2
 !i122 0
 l139
 L20 208
-VgMA`Xi<<BeTeXkjEPY_MQ3
-!s100 ^RocJDQ3fg=_7=k3jV`X81
+V]bT?L9P0BTDHE@_EXeFDP0
+!s100 d7;SobK37m0S>4a^m?V:M0
 R9
 32
 R10
 !i10b 1
 R11
+R45
 R46
-R47
 !i113 0
 R14
 Etb_taskcontrol
-Z71 w1698785937
-R32
-R59
+Z70 w1698785937
+R31
+R58
 R4
 R5
 !i122 5
 R1
-Z72 8../../TaskControl/src/tb_TaskControl.vhd
-Z73 F../../TaskControl/src/tb_TaskControl.vhd
+Z71 8../../TaskControl/src/tb_TaskControl.vhd
+Z72 F../../TaskControl/src/tb_TaskControl.vhd
 l0
 L8 1
 V;lgaC1z[VPOU:4KKBDQlf1
@@ -596,13 +596,13 @@ R9
 R10
 !i10b 1
 R11
+R50
 R51
-R52
 !i113 0
 R14
 Abehavior
-R32
-R59
+R31
+R58
 R4
 R5
 DEx4 work 14 tb_taskcontrol 0 22 ;lgaC1z[VPOU:4KKBDQlf1
@@ -616,36 +616,36 @@ R9
 R10
 !i10b 1
 R11
+R50
 R51
-R52
 !i113 0
 R14
 Etb_taskstatereg
-Z74 w1698802611
-R32
-R59
+Z73 w1698802611
+R31
+R58
 R4
 R5
 !i122 6
 R1
-Z75 8../../TaskStateReg/src/tb_TaskStateReg.vhd
-Z76 F../../TaskStateReg/src/tb_TaskStateReg.vhd
+Z74 8../../TaskStateReg/src/tb_TaskStateReg.vhd
+Z75 F../../TaskStateReg/src/tb_TaskStateReg.vhd
 l0
 L8 1
 VE9Wh6nCJe`133gg?LU]=^2
 !s100 GdfD6LVMWk@CO7aE7GTW71
 R9
 32
-R2
+R10
 !i10b 1
 R11
+R55
 R56
-R57
 !i113 0
 R14
 Abehavior
-R32
-R59
+R31
+R58
 R4
 R5
 DEx4 work 15 tb_taskstatereg 0 22 E9Wh6nCJe`133gg?LU]=^2
@@ -656,32 +656,32 @@ VfZE=k3R1J4eVmjTdIK1AF0
 !s100 R@7KYaQh7hOhiP:inP;zO2
 R9
 32
-R2
+R10
 !i10b 1
 R11
+R55
 R56
-R57
 !i113 0
 R14
 Etb_timercounter
-Z77 w1698801581
+Z76 w1698801581
 R4
 R5
 !i122 7
 R1
-Z78 8../../TimerCounter/src/tb_timerCounter.vhd
-Z79 F../../TimerCounter/src/tb_timerCounter.vhd
+Z77 8../../TimerCounter/src/tb_timerCounter.vhd
+Z78 F../../TimerCounter/src/tb_timerCounter.vhd
 l0
-R35
+R34
 VVN@3JK<K1WBV:GAD<c^=T1
 !s100 DziUzdz8Q]DHKcPoM]:A71
 R9
 32
 R2
 !i10b 1
-Z80 !s108 1698803834.000000
-Z81 !s90 -reportprogress|300|../../TimerCounter/src/tb_timerCounter.vhd|../../TimerCounter/src/timerCounter.vhd|
-Z82 !s107 ../../TimerCounter/src/timerCounter.vhd|../../TimerCounter/src/tb_timerCounter.vhd|
+R11
+Z79 !s90 -reportprogress|300|../../TimerCounter/src/tb_timerCounter.vhd|../../TimerCounter/src/timerCounter.vhd|
+Z80 !s107 ../../TimerCounter/src/timerCounter.vhd|../../TimerCounter/src/tb_timerCounter.vhd|
 !i113 0
 R14
 Abehavior
@@ -697,30 +697,30 @@ R9
 32
 R2
 !i10b 1
+R11
+R79
 R80
-R81
-R82
 !i113 0
 R14
 Etimercounter
-Z83 w1698801574
+Z81 w1698812391
 R4
 R5
 !i122 7
 R1
-Z84 8../../TimerCounter/src/timerCounter.vhd
-Z85 F../../TimerCounter/src/timerCounter.vhd
+Z82 8../../TimerCounter/src/timerCounter.vhd
+Z83 F../../TimerCounter/src/timerCounter.vhd
 l0
-R35
+R34
 VUGURgM4ZP=b2AmSUYK1:S2
 !s100 gGcd]VPLink5_UkaQNmHR3
 R9
 32
 R2
 !i10b 1
+R11
+R79
 R80
-R81
-R82
 !i113 0
 R14
 Amixed
@@ -730,15 +730,15 @@ DEx4 work 12 timercounter 0 22 UGURgM4ZP=b2AmSUYK1:S2
 !i122 7
 l44
 L29 60
-V[O<7:_z9jeX:A<@A<69?A0
-!s100 82VR4ajCgCIkVPCgRZmle0
+VQN<6Qh;C3?LPQ1`W<aXGI0
+!s100 Ibh=W9BJJ1QDH=N_BJRLN1
 R9
 32
 R2
 !i10b 1
+R11
+R79
 R80
-R81
-R82
 !i113 0
 R14
 Exorg2
@@ -747,8 +747,8 @@ R4
 R5
 !i122 4
 R1
-Z86 8../../RippleAdder/src/xorg2.vhd
-Z87 F../../RippleAdder/src/xorg2.vhd
+Z84 8../../RippleAdder/src/xorg2.vhd
+Z85 F../../RippleAdder/src/xorg2.vhd
 l0
 L21 1
 V5dfb9dGEUECoNEk9]B=iX3

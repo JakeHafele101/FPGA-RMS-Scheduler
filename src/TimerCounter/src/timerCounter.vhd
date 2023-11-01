@@ -50,7 +50,7 @@ begin
     elsif (rising_edge(i_CLK)) then
       
       if(i_WE = '1') then
-        if(s_count < LCM) then
+        if(s_count <= LCM) then
           s_count <= s_add;
         else 
           s_count <= (others => '0');
@@ -68,7 +68,7 @@ begin
   process (s_count)
   begin
       
-    if(s_count >= LCM) then
+    if(s_count > LCM) then
       o_LCMclear <= '1';
     else
       o_LCMclear <= '0';

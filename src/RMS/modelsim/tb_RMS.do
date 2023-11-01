@@ -86,6 +86,14 @@ add wave -noupdate -divider {Internal Signals}
 add wave -noupdate -color purple -radix unsigned /tb_RMS/DUT0/s_PC_DATA_WB
 add wave -noupdate -color purple -radix unsigned /tb_RMS/DUT0/s_dffN_DATA_WB
 
+add wave -noupdate -divider {Internal Signals}
+add wave -noupdate -color purple -radix unsigned /tb_RMS/DUT0/g_TaskControl/s_Task0_Deadline
+add wave -noupdate -color purple -radix unsigned /tb_RMS/DUT0/g_TaskControl/s_Task1_Deadline
+add wave -noupdate -color purple -radix unsigned /tb_RMS/DUT0/g_TaskControl/s_Task2_Deadline
+add wave -noupdate -color purple -radix unsigned /tb_RMS/DUT0/g_TaskControl/s_Task3_Deadline
+add wave -noupdate -color purple -radix unsigned /tb_RMS/DUT0/g_TaskControl/s_Task4_Deadline
+
+
 
 # toggle leaf name to off (only see one level)
 config wave -signalnamewidth 1

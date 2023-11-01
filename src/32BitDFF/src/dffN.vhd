@@ -20,7 +20,6 @@ entity dffN is
     i_CLK         : in std_logic;                          -- Clock input
     i_RST         : in std_logic;                          -- Reset input
     i_WE          : in std_logic;                          -- Write enable input
-    i_periodClear : in std_logic;                          -- Write enable input
     i_D           : in std_logic_vector(N - 1 downto 0);   -- Data value input
     o_Q           : out std_logic_vector(N - 1 downto 0)); -- Data value output
 
@@ -49,11 +48,7 @@ begin
     if (i_RST = '1') then
       s_Q <= (others => '0'); -- Use "(others => '0')" for N-bit values
     elsif (rising_edge(i_CLK)) then
-      if(i_periodClear = '1') then
-        s_Q <= (others => '0');
-      else
         s_Q <= s_D;
-      end if;
     end if;
 
   end process;

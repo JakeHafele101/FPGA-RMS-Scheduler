@@ -25,9 +25,9 @@ architecture behavior of tb_RMS is
     -- N integer declaraction for DUT instantiation
     constant TASK0PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000003";
     constant TASK1PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000003";
-    constant TASK2PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000008";
-    constant TASK3PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000008";
-    constant TASK4PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000008";
+    constant TASK2PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000007";
+    constant TASK3PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000007";
+    constant TASK4PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000007";
 
     constant TASK0_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
     constant TASK1_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
@@ -41,7 +41,7 @@ architecture behavior of tb_RMS is
     constant TASK3_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
     constant TASK4_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000008";
 
-    constant LCM : std_logic_vector(31 downto 0) := X"00000008";
+    constant LCM : std_logic_vector(31 downto 0) := X"00000007";
 
     component RMS is
         generic (
