@@ -12,10 +12,10 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 d/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/modelsim
 T_opt
-!s110 1698717337
-V=:D0W6A`B5>Pled8SP=ZR0
+!s110 1698801425
+V3CzcWN1VXh]>H;Bif5ERY1
 04 15 8 work tb_timercounter behavior 1
-=1-7486e228aee0-65405e98-e8cea-10152b
+=1-0050569b0ad3-6541a710-cb8e9-7b9c
 R0
 !s12b OEM100
 !s124 OEM100
@@ -23,37 +23,35 @@ o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
 OL;O;2023.2_2;77
-R1
 Eandg2
 Z2 w1681396341
 Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
 Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 4
+!i122 1
 R1
-Z5 8/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/andg2.vhd
-Z6 F/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/andg2.vhd
+Z5 8../../RippleAdder/src/andg2.vhd
+Z6 F../../RippleAdder/src/andg2.vhd
 l0
 Z7 L23 1
-VK2@W:5Z5b>czig136LL6V0
+Vn6i2CP=7EfSS1JQ<iXF>M0
 !s100 0e<Rg^QbB^Y@JP[zKSc0[3
 Z8 OL;C;2023.2_2;77
 32
-Z9 !s110 1698790305
+Z9 !s110 1698801424
 !i10b 1
-Z10 !s108 1698790305.000000
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/andg2.vhd|
-Z12 !s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/andg2.vhd|
+Z10 !s108 1698801424.000000
+Z11 !s90 -reportprogress|300|../../RippleAdder/src/andg2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/xorg2.vhd|
+Z12 !s107 ../../RippleAdder/src/xorg2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/andg2.vhd|
 !i113 0
-Z13 o-work work -2002 -explicit
-Z14 tExplicit 1 CvgOpt 0
+Z13 tExplicit 1 CvgOpt 0
 Adataflow
 R3
 R4
-DEx4 work 5 andg2 0 22 K2@W:5Z5b>czig136LL6V0
-!i122 4
+DEx4 work 5 andg2 0 22 n6i2CP=7EfSS1JQ<iXF>M0
+!i122 1
 l32
-Z15 L31 6
-VBgA2UBAfeodkZCAi:Kdlj3
+Z14 L31 6
+VohaGf`obmT[cKX:3=Oi<Y0
 !s100 CbBW?3Q;N[15?`QCEQ<@f2
 R8
 32
@@ -64,250 +62,237 @@ R11
 R12
 !i113 0
 R13
-R14
 Efull_adder
 R2
 R3
 R4
-!i122 5
+!i122 1
 R1
-Z16 8/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd
-Z17 F/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd
+Z15 8../../RippleAdder/src/full_adder.vhd
+Z16 F../../RippleAdder/src/full_adder.vhd
 l0
-Z18 L19 1
-VnDdEhkkd7ROT[cL`1N;N01
+Z17 L19 1
+VmYd@I=e>o@nm`7>HXWo:N1
 !s100 GiI>9Z]8L9``N?LeA>KhF0
 R8
 32
 R9
 !i10b 1
 R10
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd|
-Z20 !s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/full_adder.vhd|
+R11
+R12
 !i113 0
 R13
-R14
 Astructural
 R3
 R4
-DEx4 work 10 full_adder 0 22 nDdEhkkd7ROT[cL`1N;N01
-!i122 5
+DEx4 work 10 full_adder 0 22 mYd@I=e>o@nm`7>HXWo:N1
+!i122 1
 l57
 L28 67
-Vo`]e>2o_J^7l:2DWI4mmM0
+VA5RoR=hQ>;VY6W[jk<f2J0
 !s100 :66>SX2X?F8b8PfJaW0kf3
 R8
 32
 R9
 !i10b 1
 R10
-R19
-R20
+R11
+R12
 !i113 0
 R13
-R14
 Eorg2
 R2
 R3
 R4
-!i122 6
+!i122 1
 R1
-Z21 8/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/org2.vhd
-Z22 F/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/org2.vhd
+Z18 8../../RippleAdder/src/org2.vhd
+Z19 F../../RippleAdder/src/org2.vhd
 l0
 R7
-VWT:AVMfUQTLN[=P`_YWal0
+VF6D3ma>If8B`OAbBo`9LR0
 !s100 hJAZ>EB8bm_e<^5IFaP9e1
 R8
 32
 R9
 !i10b 1
 R10
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/org2.vhd|
-Z24 !s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/org2.vhd|
+R11
+R12
 !i113 0
 R13
-R14
 Adataflow
 R3
 R4
-DEx4 work 4 org2 0 22 WT:AVMfUQTLN[=P`_YWal0
-!i122 6
+DEx4 work 4 org2 0 22 F6D3ma>If8B`OAbBo`9LR0
+!i122 1
 l32
-R15
-Vm8NYYlXmEk<mhPGPk8;A<1
+R14
+VcYnQf@oEa9DKX;A]VI]j01
 !s100 nma>Pa=mMW`KzzjeW=1[d1
 R8
 32
 R9
 !i10b 1
 R10
-R23
-R24
+R11
+R12
 !i113 0
 R13
-R14
 Eripple_adder
-Z25 w1698714675
+Z20 w1698714675
 R3
 R4
-!i122 7
+!i122 1
 R1
-Z26 8/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/ripple_adder.vhd
-Z27 F/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/ripple_adder.vhd
+Z21 8../../RippleAdder/src/ripple_adder.vhd
+Z22 F../../RippleAdder/src/ripple_adder.vhd
 l0
-R18
-VJ_QoSE=2B5YgmTnWbGMkY1
+R17
+Vc@CmQgMg>d8NE60^<;]VN0
 !s100 :_DT2<U4DM7a2OdCT?nF=3
 R8
 32
 R9
 !i10b 1
 R10
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/ripple_adder.vhd|
-Z29 !s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/ripple_adder.vhd|
+R11
+R12
 !i113 0
 R13
-R14
 Astructural
 R3
 R4
-DEx4 work 12 ripple_adder 0 22 J_QoSE=2B5YgmTnWbGMkY1
-!i122 7
+DEx4 work 12 ripple_adder 0 22 c@CmQgMg>d8NE60^<;]VN0
+!i122 1
 l42
 L29 33
-VSkSz1oCB=9H;LbCjfz?gH2
+VGK_WQzXn`hZRh1]TK9Lj;0
 !s100 =n4zk1bMb_d6fd;fdUmWg2
 R8
 32
 R9
 !i10b 1
 R10
-R28
-R29
+R11
+R12
 !i113 0
 R13
-R14
 Etb_timercounter
-Z30 w1698717335
+Z23 w1698801379
 R3
 R4
-!i122 2
+!i122 0
 R1
-Z31 8/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/tb_timerCounter.vhd
-Z32 F/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/tb_timerCounter.vhd
+Z24 8../src/tb_timerCounter.vhd
+Z25 F../src/tb_timerCounter.vhd
 l0
-Z33 L16 1
-V3YD6@fG8PN_zSi1GG8Ljl1
+Z26 L16 1
+VVN@3JK<K1WBV:GAD<c^=T1
 !s100 DziUzdz8Q]DHKcPoM]:A71
 R8
 32
 R9
 !i10b 1
 R10
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/tb_timerCounter.vhd|
-Z35 !s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/tb_timerCounter.vhd|
+Z27 !s90 -reportprogress|300|../src/tb_timerCounter.vhd|../src/timerCounter.vhd|
+Z28 !s107 ../src/timerCounter.vhd|../src/tb_timerCounter.vhd|
 !i113 0
 R13
-R14
 Abehavior
 R3
 R4
-DEx4 work 15 tb_timercounter 0 22 3YD6@fG8PN_zSi1GG8Ljl1
-!i122 2
-l47
-L20 82
-Vlb;XWBT;?eTU3P]HZ8@LF0
-!s100 9ok[b6Ld_n`VlzgRoS5V82
+DEx4 work 15 tb_timercounter 0 22 VN@3JK<K1WBV:GAD<c^=T1
+!i122 0
+l49
+L20 95
+VRMh^`E1n]6Uz:LY6kj]dB2
+!s100 JkEh:oXb:RB3cJ;IaeRXM0
 R8
 32
 R9
 !i10b 1
 R10
-R34
-R35
+R27
+R28
 !i113 0
 R13
-R14
 Etimercounter
-Z36 w1698717347
+Z29 w1698800195
 R3
 R4
-!i122 3
+!i122 0
 R1
-Z37 8/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/timerCounter.vhd
-Z38 F/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/timerCounter.vhd
+Z30 8../src/timerCounter.vhd
+Z31 F../src/timerCounter.vhd
 l0
-R33
-V=<0UbhAIPlE=IOb^kk4Fo1
-!s100 gGcd]VPLink5_UkaQNmHR3
+R26
+VTQnO7Li<oikCNdzNmJVnE0
+!s100 G9TM51jS@:P;UKMW_HHjS3
 R8
 32
 R9
 !i10b 1
 R10
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/timerCounter.vhd|
-Z40 !s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/TimerCounter/src/timerCounter.vhd|
+R27
+R28
 !i113 0
 R13
-R14
 Amixed
 R3
 R4
-DEx4 work 12 timercounter 0 22 =<0UbhAIPlE=IOb^kk4Fo1
-!i122 3
-l44
-L29 60
-VfG^[>j9Q4C2o<SBo2nWD`0
-!s100 82VR4ajCgCIkVPCgRZmle0
+DEx4 work 12 timercounter 0 22 TQnO7Li<oikCNdzNmJVnE0
+!i122 0
+l46
+L31 61
+VR27@ohNmzK1hoLUQlkDPn0
+!s100 E9^l3>eMak`8ao[RBHVj`2
 R8
 32
 R9
 !i10b 1
 R10
-R39
-R40
+R27
+R28
 !i113 0
 R13
-R14
 Exorg2
 R2
 R3
 R4
-!i122 8
+!i122 1
 R1
-Z41 8/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd
-Z42 F/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd
+Z32 8../../RippleAdder/src/xorg2.vhd
+Z33 F../../RippleAdder/src/xorg2.vhd
 l0
 L21 1
-VzNGn1GeA=Xg_flVhJGzQ93
+V5dfb9dGEUECoNEk9]B=iX3
 !s100 YcWRSn2[o:VY86D[KEj9<2
 R8
 32
 R9
 !i10b 1
 R10
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd|
-!s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd|
+R11
+R12
 !i113 0
 R13
-R14
 Adataflow
 R3
 R4
-DEx4 work 5 xorg2 0 22 zNGn1GeA=Xg_flVhJGzQ93
-!i122 8
+DEx4 work 5 xorg2 0 22 5dfb9dGEUECoNEk9]B=iX3
+!i122 1
 l31
-Z44 L30 6
-Vkzblj=SbS@]`jG09cOeN42
-Z45 !s100 FgRhXZhB_<J1lhY8:0GlD3
+L30 6
+V14[2^3f_WG2HdkBBFGFjN2
+!s100 FgRhXZhB_<J1lhY8:0GlD3
 R8
 32
 R9
 !i10b 1
 R10
-R43
-Z46 !s107 /home/jmhafele/Documents/Fall_2023/cpre558/src/RippleAdder/src/xorg2.vhd|
+R11
+R12
 !i113 0
 R13
-R14

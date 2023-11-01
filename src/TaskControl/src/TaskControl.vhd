@@ -70,7 +70,7 @@ BEGIN
     PORT MAP(
         i_X => TASK0PERIOD,
         i_Y => s_Task0_Deadline,
-        i_Cin => '0',
+        i_Cin => '1',
         o_S => s_Task0_AddOut,
         o_Cout => OPEN);
 
@@ -78,7 +78,7 @@ BEGIN
     PORT MAP(
         i_X => TASK1PERIOD,
         i_Y => s_Task1_Deadline,
-        i_Cin => '0',
+        i_Cin => '1',
         o_S => s_Task1_AddOut,
         o_Cout => OPEN);
 
@@ -86,7 +86,7 @@ BEGIN
     PORT MAP(
         i_X => TASK2PERIOD,
         i_Y => s_Task2_Deadline,
-        i_Cin => '0',
+        i_Cin => '1',
         o_S => s_Task2_AddOut,
         o_Cout => OPEN);
 
@@ -94,7 +94,7 @@ BEGIN
     PORT MAP(
         i_X => TASK3PERIOD,
         i_Y => s_Task3_Deadline,
-        i_Cin => '0',
+        i_Cin => '1',
         o_S => s_Task3_AddOut,
         o_Cout => OPEN);
 
@@ -102,7 +102,7 @@ BEGIN
     PORT MAP(
         i_X => TASK4PERIOD,
         i_Y => s_Task4_Deadline,
-        i_Cin => '0',
+        i_Cin => '1',
         o_S => s_Task4_AddOut,
         o_Cout => OPEN);
 
@@ -132,31 +132,31 @@ BEGIN
                 o_Task3_Period_Clear <= '1';
                 o_Task4_Period_Clear <= '1';
             else
-                IF (i_Current_Time > s_Task0_Deadline) THEN
+                IF (i_Current_Time >= s_Task0_Deadline) THEN --FIXME????
                     o_Task0_Period_Clear <= '1';
                     s_Task0_Deadline <= s_Task0_AddOut;
                 ELSE
                     o_Task0_Period_Clear <= '0';
                 END IF;
-                IF (i_Current_Time > s_Task1_Deadline) THEN
+                IF (i_Current_Time >= s_Task1_Deadline) THEN
                     o_Task1_Period_Clear <= '1';
                     s_Task1_Deadline <= s_Task1_AddOut;
                 ELSE
                     o_Task1_Period_Clear <= '0';
                 END IF;
-                IF (i_Current_Time > s_Task2_Deadline) THEN
+                IF (i_Current_Time >= s_Task2_Deadline) THEN
                     o_Task2_Period_Clear <= '1';
                     s_Task2_Deadline <= s_Task2_AddOut;
                 ELSE
                     o_Task2_Period_Clear <= '0';
                 END IF;
-                IF (i_Current_Time > s_Task3_Deadline) THEN
+                IF (i_Current_Time >= s_Task3_Deadline) THEN
                     o_Task3_Period_Clear <= '1';
                     s_Task3_Deadline <= s_Task3_AddOut;
                 ELSE
                     o_Task3_Period_Clear <= '0';
                 END IF;
-                IF (i_Current_Time > s_Task4_Deadline) THEN
+                IF (i_Current_Time >= s_Task4_Deadline) THEN
                     o_Task4_Period_Clear <= '1';
                     s_Task4_Deadline <= s_Task4_AddOut;
                 ELSE
@@ -168,7 +168,7 @@ BEGIN
 
     PROCESS (i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete,i_CLK)
     BEGIN
-        IF (rising_edge(i_CLK)) THEN
+        --IF (rising_edge(i_CLK)) THEN
             IF (i_Task0_Complete = '0') THEN
                 o_Current_Task_Sel <= "000";
                 o_Current_Task_Sel_WE <= '1';
@@ -188,7 +188,7 @@ BEGIN
                 o_Current_Task_Sel <= "111";
                 o_Current_Task_Sel_WE <= '0';
             END IF;
-        END IF;
+        --END IF;
     END PROCESS;
 
 END mixed;

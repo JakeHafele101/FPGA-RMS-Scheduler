@@ -28,22 +28,23 @@ architecture behavior of tb_dffN is
     component dffN is
         generic (N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
         port (
-            i_CLK : in std_logic;                          -- Clock input
-            i_RST : in std_logic;                          -- Reset input
-            i_WE  : in std_logic;                          -- Write enable input
-            i_D   : in std_logic_vector(N - 1 downto 0);   --N bit data value input
-            o_Q   : out std_logic_vector(N - 1 downto 0)); -- N bit data value output
+            i_CLK         : in std_logic;                          -- Clock input
+            i_RST         : in std_logic;                          -- Reset input
+            i_WE          : in std_logic;                          -- Write enable input
+            i_periodClear : in std_logic;                          -- Write enable input
+            i_D           : in std_logic_vector(N - 1 downto 0);   --N bit data value input
+            o_Q           : out std_logic_vector(N - 1 downto 0)); -- N bit data value output
     end component;
 
     -- Input signals of tested module
-    signal s_CLK, s_RST, s_WE : std_logic;
-    signal s_D : std_logic_vector(N - 1 downto 0);
+    signal s_CLK, s_RST, s_WE, s_periodClear : std_logic;
+    signal s_D                : std_logic_vector(N - 1 downto 0);
 
     -- Output signals of tested module
     signal s_Q : std_logic_vector(N - 1 downto 0);
 
     -- Internal test signals of testbench
-    signal s_Q_Mismatch : std_logic := '0';
+    signal s_Q_Mismatch : std_logic                        := '0';
     signal s_Q_Expected : std_logic_vector(N - 1 downto 0) := X"00000000";
 
 begin
@@ -53,6 +54,7 @@ begin
         i_CLK => s_CLK,
         i_RST => s_RST,
         i_WE  => s_WE,
+        i_periodClear => s_periodClear,
         i_D   => s_D,
         o_Q   => s_Q);
 
@@ -73,7 +75,7 @@ begin
 
         if (s_Q /= s_Q_Expected) then
             s_Q_Mismatch <= '1';
-        else 
+        else
             s_Q_Mismatch <= '0';
         end if;
 
@@ -85,59 +87,73 @@ begin
     P_DUT0 : process
     begin
         -- Reset the FF
-        s_RST <= '1';
-        s_WE <= '0';
-        s_D <= X"00000000";
+        s_RST        <= '1';
+        s_WE         <= '0';
+        s_periodClear <= '0';
+        s_D          <= X"00000000";
         s_Q_Expected <= X"00000000";
         wait for cCLK_PER;
 
         -- Store 0xF492CAB0
-        s_RST <= '0';
-        s_WE <= '1';
-        s_D <= X"F492CAB0";
+        s_RST        <= '0';
+        s_WE         <= '1';
+        s_D          <= X"F492CAB0";
         s_Q_Expected <= X"F492CAB0";
         wait for cCLK_PER;
 
         -- Keep 0xF492CAB0
-        s_RST <= '0';
-        s_WE <= '0';
-        s_D <= X"00000000";
+        s_RST        <= '0';
+        s_WE         <= '0';
+        s_D          <= X"00000000";
         s_Q_Expected <= X"F492CAB0";
         wait for cCLK_PER;
 
         -- Store '0'    
-        s_RST <= '0';
-        s_WE <= '1';
-        s_D <= X"00000000";
+        s_RST        <= '0';
+        s_WE         <= '1';
+        s_D          <= X"00000000";
         s_Q_Expected <= X"00000000";
         wait for cCLK_PER;
 
         -- Keep 0x00000000
-        s_RST <= '0';
-        s_WE <= '0';
-        s_D <= X"00000000";
+        s_RST        <= '0';
+        s_WE         <= '0';
+        s_D          <= X"00000000";
         s_Q_Expected <= X"00000000";
         wait for cCLK_PER;
 
         -- Store 0x00000001
-        s_RST <= '0';
-        s_WE <= '1';
-        s_D <= X"00000001";
+        s_RST        <= '0';
+        s_WE         <= '1';
+        s_D          <= X"00000001";
         s_Q_Expected <= X"00000001";
         wait for cCLK_PER;
 
         -- Reset the FF
-        s_RST <= '1';
-        s_WE <= '0';
-        s_D <= X"00000000";
+        s_RST        <= '1';
+        s_WE         <= '0';
+        s_D          <= X"00000000";
         s_Q_Expected <= X"00000000";
         wait for cCLK_PER;
 
         -- Keep 0x00000000
-        s_RST <= '0';
-        s_WE <= '0';
-        s_D <= X"00000000";
+        s_RST        <= '0';
+        s_WE         <= '0';
+        s_D          <= X"00000000";
         s_Q_Expected <= X"00000000";
+        wait for cCLK_PER;
+
+        -- Store 0x00000001
+        s_RST        <= '0';
+        s_WE         <= '1';
+        s_D          <= X"00000001";
+        s_Q_Expected <= X"00000001";
+        wait for cCLK_PER;
+
+        -- Synchronous Reset
+        s_periodClear <= '1';
+        wait for cCLK_PER;
+        s_periodClear <= '0';
         wait for cCLK_PER;
 
         wait;

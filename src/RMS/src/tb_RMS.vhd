@@ -23,11 +23,11 @@ architecture behavior of tb_RMS is
     constant cCLK_PER : time := gCLK_HPER * 2;
 
     -- N integer declaraction for DUT instantiation
-    constant TASK0PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000001";
-    constant TASK1PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000002";
-    constant TASK2PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000004";
+    constant TASK0PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000003";
+    constant TASK1PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000003";
+    constant TASK2PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000008";
     constant TASK3PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000008";
-    constant TASK4PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000010";
+    constant TASK4PERIOD : std_logic_vector(32 - 1 downto 0) := X"00000008";
 
     constant TASK0_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
     constant TASK1_INITIAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000000";
@@ -38,10 +38,10 @@ architecture behavior of tb_RMS is
     constant TASK0_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
     constant TASK1_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
     constant TASK2_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
-    constant TASK3_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000008";
+    constant TASK3_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
     constant TASK4_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000008";
 
-    constant LCM : std_logic_vector(31 downto 0) := X"0000000F";
+    constant LCM : std_logic_vector(31 downto 0) := X"00000008";
 
     component RMS is
         generic (

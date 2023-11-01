@@ -1,17 +1,1 @@
-/home/jmhafele/Documents/Fall_2023/cpre558/src/32BitDFF/src/dffN.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/32BitDFF/src/dffN.vhd
-QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity dffN
--- Compiling architecture mixed of dffN
 
-} {} {}} /home/jmhafele/Documents/Fall_2023/cpre558/src/32BitDFF/src/tb_dffN.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/jmhafele/Documents/Fall_2023/cpre558/src/32BitDFF/src/tb_dffN.vhd
-QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity tb_dffN
--- Compiling architecture behavior of tb_dffN
-
-} {} {}}

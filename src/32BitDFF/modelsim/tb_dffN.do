@@ -34,6 +34,7 @@ add wave -noupdate -label Reset /tb_dffN/s_RST
 # value 32'hA.
 add wave -noupdate -divider {Data Inputs}
 add wave -noupdate -color magenta -radix unsigned /tb_dffN/s_WE
+add wave -noupdate -color magenta -radix unsigned /tb_dffN/s_periodClear
 add wave -noupdate -color magenta -radix hexadecimal /tb_dffN/s_D
 
 # Add data outputs that are specific to this design. These are the ones that we'll check for correctness.
@@ -58,7 +59,7 @@ add wave -noupdate -divider {Internal Design Signals}
 config wave -signalnamewidth 1
 
 # Run for X timesteps (default is 1ns per timestep, but this can be modified so be aware).
-run 160
+run 240
 
 # zoom fit to waves
 wave zoom full

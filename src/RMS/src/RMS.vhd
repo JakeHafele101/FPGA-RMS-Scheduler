@@ -148,11 +148,12 @@ architecture mixed of RMS is
     component dffN is
         generic (N : integer := 32); -- Generic of type integer for input/output data width. Default value is 32.
         port (
-            i_CLK : in std_logic;                          -- Clock input
-            i_RST : in std_logic;                          -- Reset input
-            i_WE  : in std_logic;                          -- Write enable input
-            i_D   : in std_logic_vector(N - 1 downto 0);   -- Data value input
-            o_Q   : out std_logic_vector(N - 1 downto 0)); -- Data value output      
+            i_CLK         : in std_logic;                          -- Clock input
+            i_RST         : in std_logic;                          -- Reset input
+            i_WE          : in std_logic;                          -- Write enable input
+            i_periodClear : in std_logic;                          -- Write enable input
+            i_D           : in std_logic_vector(N - 1 downto 0);   -- Data value input
+            o_Q           : out std_logic_vector(N - 1 downto 0)); -- Data value output
     end component;
 
     component mux_8t1_32b is
@@ -198,8 +199,6 @@ architecture mixed of RMS is
     signal s_task4_current_PC : std_logic_vector(31 downto 0);
 
     --Task State DFFNs
-    signal s_dffN_WE : std_logic_vector(4 downto 0);
-
     signal s_task0_dffN_Q : std_logic_vector(31 downto 0);
     signal s_task1_dffN_Q : std_logic_vector(31 downto 0);
     signal s_task2_dffN_Q : std_logic_vector(31 downto 0);
@@ -329,14 +328,15 @@ begin
         i_next_PC      => s_PC_DATA_WB,
         i_next_PC_WE   => s_next_PC_WE(4),
         i_Period_Clear => s_Period_Clear(4),
-        o_current_PC   => s_task0_current_PC,
+        o_current_PC   => s_task4_current_PC,
         o_isComplete   => s_isComplete(4));
 
     g_task0_dffN : dffN
     port map(
         i_CLK => i_CLK,
         i_RST => i_Asynch_RST,
-        i_WE  => s_dffN_WE(0),    --Comes from decoder
+        i_WE  => s_next_PC_WE(0), --Comes from decoder
+        i_periodClear => s_Period_Clear(0), 
         i_D   => s_dffN_DATA_WB,  --Output of adder from selected task
         o_Q   => s_task0_dffN_Q); --Output of DFF
 
@@ -344,7 +344,8 @@ begin
     port map(
         i_CLK => i_CLK,
         i_RST => i_Asynch_RST,
-        i_WE  => s_dffN_WE(1),    --Comes from decoder
+        i_WE  => s_next_PC_WE(1), --Comes from decoder
+        i_periodClear => s_Period_Clear(1), 
         i_D   => s_dffN_DATA_WB,  --Output of adder from selected task
         o_Q   => s_task1_dffN_Q); --Output of DFF
 
@@ -352,7 +353,8 @@ begin
     port map(
         i_CLK => i_CLK,
         i_RST => i_Asynch_RST,
-        i_WE  => s_dffN_WE(2),    --Comes from decoder
+        i_WE  => s_next_PC_WE(2), --Comes from decoder
+        i_periodClear => s_Period_Clear(2), 
         i_D   => s_dffN_DATA_WB,  --Output of adder from selected task
         o_Q   => s_task2_dffN_Q); --Output of DFF
 
@@ -360,7 +362,8 @@ begin
     port map(
         i_CLK => i_CLK,
         i_RST => i_Asynch_RST,
-        i_WE  => s_dffN_WE(3),    --Comes from decoder
+        i_WE  => s_next_PC_WE(3), --Comes from decoder
+        i_periodClear => s_Period_Clear(3), 
         i_D   => s_dffN_DATA_WB,  --Output of adder from selected task
         o_Q   => s_task3_dffN_Q); --Output of DFF
 
@@ -368,7 +371,8 @@ begin
     port map(
         i_CLK => i_CLK,
         i_RST => i_Asynch_RST,
-        i_WE  => s_dffN_WE(4),    --Comes from decoder
+        i_WE  => s_next_PC_WE(4), --Comes from decoder
+        i_periodClear => s_Period_Clear(4), 
         i_D   => s_dffN_DATA_WB,  --Output of adder from selected task
         o_Q   => s_task4_dffN_Q); --Output of DFF
 
