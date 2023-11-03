@@ -168,7 +168,7 @@ begin
 
     process (i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete)
     begin
-        -- IF (rising_edge(i_CLK)) THEN
+        --IF (rising_edge(i_CLK)) THEN
         -- if (i_Current_Time = X"00000000") then --Dont write one dead cycle
         --     o_Current_Task_Sel    <= "111";
         --     o_Current_Task_Sel_WE <= '0';
