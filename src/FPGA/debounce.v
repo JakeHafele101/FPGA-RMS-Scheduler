@@ -37,7 +37,7 @@ module debounce(
     
     wire ms_tick;
 
-    clock_divider #(.DVSR(DVSR))divider(.clk(clk), .reset(reset), .en(1'b1), .tick(ms_tick));
+    clock_divider #(.DVSR(DVSR))divider(.i_CLK(clk), .i_RST(reset), .i_EN(1'b1), .o_CLK_DIV(ms_tick));
 
     //D FF 
     always @(posedge clk, posedge reset)

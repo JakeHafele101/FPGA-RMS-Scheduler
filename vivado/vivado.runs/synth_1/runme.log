@@ -1,0 +1,511 @@
+
+*** Running vivado
+    with args -log Quartus_synth.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Quartus_synth.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Quartus_synth.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 394.715 ; gain = 70.414
+Command: read_checkpoint -auto_incremental -incremental C:/Projects/cpre558/vivado/vivado.srcs/utils_1/imports/synth_1/OLED_timer_synth.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Projects/cpre558/vivado/vivado.srcs/utils_1/imports/synth_1/OLED_timer_synth.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Quartus_synth -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3052
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'o_Task_Sel_WE', assumed default net type 'wire' [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:96]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1206.086 ; gain = 409.312
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Quartus_synth' [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:1]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Projects/cpre558/src/FPGA/debounce.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
+	Parameter DVSR bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (0#1) [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (0#1) [C:/Projects/cpre558/src/FPGA/debounce.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized0' [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
+	Parameter DVSR bound to: 50000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized0' (0#1) [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'RMS' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:84]
+	Parameter TASK0PERIOD bound to: 32'b00000000000000000000000000000011 
+	Parameter TASK1PERIOD bound to: 32'b00000000000000000000000000000011 
+	Parameter TASK2PERIOD bound to: 32'b00000000000000000000000000000111 
+	Parameter TASK3PERIOD bound to: 32'b00000000000000000000000000000111 
+	Parameter TASK4PERIOD bound to: 32'b00000000000000000000000000000111 
+	Parameter TASK0_INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter TASK1_INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter TASK2_INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter TASK3_INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter TASK4_INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter TASK0_FINAL_PC bound to: 32'b00000000000000000000000000000100 
+	Parameter TASK1_FINAL_PC bound to: 32'b00000000000000000000000000000100 
+	Parameter TASK2_FINAL_PC bound to: 32'b00000000000000000000000000000100 
+	Parameter TASK3_FINAL_PC bound to: 32'b00000000000000000000000000000100 
+	Parameter TASK4_FINAL_PC bound to: 32'b00000000000000000000000000001000 
+	Parameter N bound to: 32 - type: integer 
+	Parameter LCM bound to: 32'b00000000000000000000000000001111 
+INFO: [Synth 8-3491] module 'timerCounter' declared at 'C:/Projects/cpre558/src/TimerCounter/src/timerCounter.vhd:16' bound to instance 'g_timerCounter' of component 'timerCounter' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:217]
+INFO: [Synth 8-638] synthesizing module 'timerCounter' [C:/Projects/cpre558/src/TimerCounter/src/timerCounter.vhd:29]
+	Parameter N bound to: 32 - type: integer 
+	Parameter LCM bound to: 32'b00000000000000000000000000001111 
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'RIPPLE_ADD' of component 'ripple_adder' [C:/Projects/cpre558/src/TimerCounter/src/timerCounter.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'ripple_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:29]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:28]
+INFO: [Synth 8-3491] module 'xorg2' declared at 'C:/Projects/cpre558/src/RippleAdder/src/xorg2.vhd:21' bound to instance 'g_xorg2_1' of component 'xorg2' [C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'xorg2' [C:/Projects/cpre558/src/RippleAdder/src/xorg2.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'xorg2' (0#1) [C:/Projects/cpre558/src/RippleAdder/src/xorg2.vhd:30]
+INFO: [Synth 8-3491] module 'xorg2' declared at 'C:/Projects/cpre558/src/RippleAdder/src/xorg2.vhd:21' bound to instance 'g_xorg2_2' of component 'xorg2' [C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:67]
+INFO: [Synth 8-3491] module 'andg2' declared at 'C:/Projects/cpre558/src/RippleAdder/src/andg2.vhd:23' bound to instance 'g_and2_1' of component 'andg2' [C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'andg2' [C:/Projects/cpre558/src/RippleAdder/src/andg2.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'andg2' (0#1) [C:/Projects/cpre558/src/RippleAdder/src/andg2.vhd:31]
+INFO: [Synth 8-3491] module 'andg2' declared at 'C:/Projects/cpre558/src/RippleAdder/src/andg2.vhd:23' bound to instance 'g_and2_2' of component 'andg2' [C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:82]
+INFO: [Synth 8-3491] module 'org2' declared at 'C:/Projects/cpre558/src/RippleAdder/src/org2.vhd:23' bound to instance 'g_or2_1' of component 'org2' [C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'org2' [C:/Projects/cpre558/src/RippleAdder/src/org2.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'org2' (0#1) [C:/Projects/cpre558/src/RippleAdder/src/org2.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (0#1) [C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:28]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/full_adder.vhd:19' bound to instance 'ADDERI' of component 'full_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'ripple_adder' (0#1) [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'timerCounter' (0#1) [C:/Projects/cpre558/src/TimerCounter/src/timerCounter.vhd:29]
+	Parameter TASK0PERIOD bound to: 32'b00000000000000000000000000000011 
+	Parameter TASK1PERIOD bound to: 32'b00000000000000000000000000000011 
+	Parameter TASK2PERIOD bound to: 32'b00000000000000000000000000000111 
+	Parameter TASK3PERIOD bound to: 32'b00000000000000000000000000000111 
+	Parameter TASK4PERIOD bound to: 32'b00000000000000000000000000000111 
+INFO: [Synth 8-3491] module 'TaskControl' declared at 'C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:18' bound to instance 'g_TaskControl' of component 'TaskControl' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:230]
+INFO: [Synth 8-638] synthesizing module 'TaskControl' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:44]
+	Parameter TASK0PERIOD bound to: 32'b00000000000000000000000000000011 
+	Parameter TASK1PERIOD bound to: 32'b00000000000000000000000000000011 
+	Parameter TASK2PERIOD bound to: 32'b00000000000000000000000000000111 
+	Parameter TASK3PERIOD bound to: 32'b00000000000000000000000000000111 
+	Parameter TASK4PERIOD bound to: 32'b00000000000000000000000000000111 
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task0_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:69]
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task1_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:77]
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task2_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:85]
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task3_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:93]
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task4_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:101]
+WARNING: [Synth 8-614] signal 'i_Current_Time' is read in the process but is not in the sensitivity list [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:169]
+INFO: [Synth 8-256] done synthesizing module 'TaskControl' (0#1) [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:44]
+INFO: [Synth 8-3491] module 'decoder_3t8' declared at 'C:/Projects/cpre558/src/3t8Decoder/src/decoder_3t8.vhd:18' bound to instance 'g_decoder_3t8' of component 'decoder_3t8' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'decoder_3t8' [C:/Projects/cpre558/src/3t8Decoder/src/decoder_3t8.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'decoder_3t8' (0#1) [C:/Projects/cpre558/src/3t8Decoder/src/decoder_3t8.vhd:25]
+	Parameter INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter FINAL_PC bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-3491] module 'TaskStateReg' declared at 'C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:18' bound to instance 'g_task0_TaskStateReg' of component 'TaskStateReg' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'TaskStateReg' [C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:32]
+	Parameter INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter FINAL_PC bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-256] done synthesizing module 'TaskStateReg' (0#1) [C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:32]
+	Parameter INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter FINAL_PC bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-3491] module 'TaskStateReg' declared at 'C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:18' bound to instance 'g_task1_TaskStateReg' of component 'TaskStateReg' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:277]
+	Parameter INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter FINAL_PC bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-3491] module 'TaskStateReg' declared at 'C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:18' bound to instance 'g_task2_TaskStateReg' of component 'TaskStateReg' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:291]
+	Parameter INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter FINAL_PC bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-3491] module 'TaskStateReg' declared at 'C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:18' bound to instance 'g_task3_TaskStateReg' of component 'TaskStateReg' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:305]
+	Parameter INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter FINAL_PC bound to: 32'b00000000000000000000000000001000 
+INFO: [Synth 8-3491] module 'TaskStateReg' declared at 'C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:18' bound to instance 'g_task4_TaskStateReg' of component 'TaskStateReg' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:319]
+INFO: [Synth 8-638] synthesizing module 'TaskStateReg__parameterized2' [C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:32]
+	Parameter INITIAL_PC bound to: 32'b00000000000000000000000000000000 
+	Parameter FINAL_PC bound to: 32'b00000000000000000000000000001000 
+INFO: [Synth 8-256] done synthesizing module 'TaskStateReg__parameterized2' (0#1) [C:/Projects/cpre558/src/TaskStateReg/src/TaskStateReg.vhd:32]
+INFO: [Synth 8-3491] module 'dffN' declared at 'C:/Projects/cpre558/src/32BitDFF/src/dffN.vhd:17' bound to instance 'g_task0_dffN' of component 'dffN' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:333]
+INFO: [Synth 8-638] synthesizing module 'dffN' [C:/Projects/cpre558/src/32BitDFF/src/dffN.vhd:28]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dffN' (0#1) [C:/Projects/cpre558/src/32BitDFF/src/dffN.vhd:28]
+INFO: [Synth 8-3491] module 'dffN' declared at 'C:/Projects/cpre558/src/32BitDFF/src/dffN.vhd:17' bound to instance 'g_task1_dffN' of component 'dffN' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:341]
+INFO: [Synth 8-3491] module 'dffN' declared at 'C:/Projects/cpre558/src/32BitDFF/src/dffN.vhd:17' bound to instance 'g_task2_dffN' of component 'dffN' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:349]
+INFO: [Synth 8-3491] module 'dffN' declared at 'C:/Projects/cpre558/src/32BitDFF/src/dffN.vhd:17' bound to instance 'g_task3_dffN' of component 'dffN' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:357]
+INFO: [Synth 8-3491] module 'dffN' declared at 'C:/Projects/cpre558/src/32BitDFF/src/dffN.vhd:17' bound to instance 'g_task4_dffN' of component 'dffN' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:365]
+INFO: [Synth 8-3491] module 'mux_8t1_32b' declared at 'C:/Projects/cpre558/src/8t1MUX32b/src/mux_8t1_32b.vhd:16' bound to instance 'g_dffN_MUX' of component 'mux_8t1_32b' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:373]
+INFO: [Synth 8-638] synthesizing module 'mux_8t1_32b' [C:/Projects/cpre558/src/8t1MUX32b/src/mux_8t1_32b.vhd:30]
+INFO: [Synth 8-226] default block is never used [C:/Projects/cpre558/src/8t1MUX32b/src/mux_8t1_32b.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'mux_8t1_32b' (0#1) [C:/Projects/cpre558/src/8t1MUX32b/src/mux_8t1_32b.vhd:30]
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_dffN_ripple' of component 'ripple_adder' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:386]
+INFO: [Synth 8-3491] module 'mux_8t1_32b' declared at 'C:/Projects/cpre558/src/8t1MUX32b/src/mux_8t1_32b.vhd:16' bound to instance 'g_PC_MUX' of component 'mux_8t1_32b' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:394]
+INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_PC_ripple' of component 'ripple_adder' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:407]
+INFO: [Synth 8-256] done synthesizing module 'RMS' (0#1) [C:/Projects/cpre558/src/RMS/src/RMS.vhd:84]
+INFO: [Synth 8-6155] done synthesizing module 'Quartus_synth' (0#1) [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:1]
+WARNING: [Synth 8-3848] Net s_task_sel_WE in module/entity Quartus_synth does not have driver. [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:65]
+WARNING: [Synth 8-3848] Net JA in module/entity Quartus_synth does not have driver. [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:6]
+WARNING: [Synth 8-7129] Port LED[15] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[14] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[13] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[12] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[11] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[7] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[6] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[5] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[4] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[3] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[2] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[1] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[0] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module Quartus_synth is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1299.066 ; gain = 502.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1299.066 ; gain = 502.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1299.066 ; gain = 502.293
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1299.066 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Projects/cpre558/src/const/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[0]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:182]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:182]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[0]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:183]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:183]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[1]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:185]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:185]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[1]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:186]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:186]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[2]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:188]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:188]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[2]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[3]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[3]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:192]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:192]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[4]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:194]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:194]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[4]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:195]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:195]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[5]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:197]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:197]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[5]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[6]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:200]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:200]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[6]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:201]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:201]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[7]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:203]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:203]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[7]'. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:204]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projects/cpre558/src/const/Basys3_Master.xdc:204]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Projects/cpre558/src/const/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Projects/cpre558/src/const/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Quartus_synth_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Quartus_synth_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1361.559 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1361.559 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'debounce'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    zero |                               00 |                               00
+                hold_one |                               01 |                               01
+                     one |                               10 |                               10
+               hold_zero |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'debounce'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 512   
++---Registers : 
+	               32 Bit    Registers := 16    
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 16    
+	   2 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 24    
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port LED[15] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[14] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[13] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[12] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LED[11] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[7] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[6] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[5] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[4] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[3] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[2] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[1] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JA[0] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module Quartus_synth is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    36|
+|3     |LUT2   |    80|
+|4     |LUT3   |    72|
+|5     |LUT4   |    46|
+|6     |LUT5   |    70|
+|7     |LUT6   |   120|
+|8     |FDCE   |   226|
+|9     |FDPE   |     5|
+|10    |IBUF   |     5|
+|11    |OBUF   |    11|
+|12    |OBUFT  |    13|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 1361.559 ; gain = 502.293
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1361.559 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1361.559 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 39774d05
+INFO: [Common 17-83] Releasing license: Synthesis
+121 Infos, 80 Warnings, 22 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1361.559 ; gain = 941.961
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/cpre558/vivado/vivado.runs/synth_1/Quartus_synth.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Quartus_synth_utilization_synth.rpt -pb Quartus_synth_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  2 20:16:16 2023...
