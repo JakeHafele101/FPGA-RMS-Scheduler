@@ -41,7 +41,7 @@ architecture behavior of tb_RMS is
     constant TASK3_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000004";
     constant TASK4_FINAL_PC : std_logic_vector(32 - 1 downto 0) := X"00000008";
 
-    constant LCM : std_logic_vector(31 downto 0) := X"00000007";
+    constant LCM : std_logic_vector(31 downto 0) := X"00000006";
 
     component RMS is
         generic (
@@ -219,7 +219,7 @@ begin
         wait for cCLK_PER;
 
         -- Ensure no counting...
-        wait for 40 * cCLK_PER;
+        wait for 80 * cCLK_PER;
 
         wait; --We are done, hooray (?)
     end process;
