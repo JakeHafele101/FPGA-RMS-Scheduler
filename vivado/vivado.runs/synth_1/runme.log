@@ -10,7 +10,7 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source Quartus_synth.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 394.715 ; gain = 70.414
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 394.512 ; gain = 71.102
 Command: read_checkpoint -auto_incremental -incremental C:/Projects/cpre558/vivado/vivado.srcs/utils_1/imports/synth_1/OLED_timer_synth.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Projects/cpre558/vivado/vivado.srcs/utils_1/imports/synth_1/OLED_timer_synth.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -23,21 +23,39 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3052
+INFO: [Synth 8-7075] Helper process launched with PID 14932
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
-INFO: [Synth 8-11241] undeclared symbol 'o_Task_Sel_WE', assumed default net type 'wire' [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:96]
+WARNING: [Synth 8-6901] identifier 'WIDTH' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI.v:4]
+WARNING: [Synth 8-6901] identifier 'WIDTH' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:4]
+WARNING: [Synth 8-6901] identifier 'N' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:4]
+WARNING: [Synth 8-6901] identifier 'N' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:5]
+WARNING: [Synth 8-6901] identifier 'WIDTH' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:9]
+INFO: [Synth 8-11241] undeclared symbol 's_start_mosi', assumed default net type 'wire' [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer_Combined.v:33]
+WARNING: [Synth 8-6901] identifier 'WIDTH' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer_Combined.v:4]
+WARNING: [Synth 8-6901] identifier 'N' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer_Combined.v:4]
+WARNING: [Synth 8-6901] identifier 'N' is used before its declaration [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer_Combined.v:5]
+WARNING: [Synth 8-6901] identifier 'N_COLOR_BITS' is used before its declaration [C:/Projects/cpre558/src/OLED/OLED_interface.v:8]
+WARNING: [Synth 8-6901] identifier 'N_COLOR_BITS' is used before its declaration [C:/Projects/cpre558/src/OLED/OLED_interface.v:9]
+WARNING: [Synth 8-6901] identifier 'NUM_ASCII_COL' is used before its declaration [C:/Projects/cpre558/src/OLED/OLED_interface.v:10]
+WARNING: [Synth 8-6901] identifier 'NUM_ASCII_ROW' is used before its declaration [C:/Projects/cpre558/src/OLED/OLED_interface.v:10]
+WARNING: [Synth 8-6901] identifier 'NUM_ASCII_COL' is used before its declaration [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:7]
+WARNING: [Synth 8-6901] identifier 'NUM_ASCII_ROW' is used before its declaration [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:7]
+WARNING: [Synth 8-6901] identifier 'N_COLOR_BITS' is used before its declaration [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:8]
+WARNING: [Synth 8-6901] identifier 'ASCII_COL_SIZE' is used before its declaration [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:13]
+WARNING: [Synth 8-6901] identifier 'ASCII_ROW_SIZE' is used before its declaration [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:14]
+INFO: [Synth 8-11241] undeclared symbol 's_Task_Sel_WE', assumed default net type 'wire' [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:123]
+WARNING: [Synth 8-6901] identifier 'ASCII_COL_SIZE' is used before its declaration [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:18]
+WARNING: [Synth 8-6901] identifier 'ASCII_ROW_SIZE' is used before its declaration [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:19]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1206.086 ; gain = 409.312
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1204.477 ; gain = 407.762
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Quartus_synth' [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:1]
-INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Projects/cpre558/src/FPGA/debounce.v:23]
+INFO: [Synth 8-6157] synthesizing module 'button_tick_latch' [C:/Projects/cpre558/src/FPGA/button_tick_latch.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Projects/cpre558/src/FPGA/button_tick_latch.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'button_tick_latch' (0#1) [C:/Projects/cpre558/src/FPGA/button_tick_latch.v:23]
 INFO: [Synth 8-6157] synthesizing module 'clock_divider' [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
-	Parameter DVSR bound to: 1000000 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (0#1) [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'debounce' (0#1) [C:/Projects/cpre558/src/FPGA/debounce.v:23]
-INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized0' [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
 	Parameter DVSR bound to: 50000000 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized0' (0#1) [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (0#1) [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
 INFO: [Synth 8-638] synthesizing module 'RMS' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:84]
 	Parameter TASK0PERIOD bound to: 32'b00000000000000000000000000000011 
 	Parameter TASK1PERIOD bound to: 32'b00000000000000000000000000000011 
@@ -54,12 +72,13 @@ INFO: [Synth 8-638] synthesizing module 'RMS' [C:/Projects/cpre558/src/RMS/src/R
 	Parameter TASK2_FINAL_PC bound to: 32'b00000000000000000000000000000100 
 	Parameter TASK3_FINAL_PC bound to: 32'b00000000000000000000000000000100 
 	Parameter TASK4_FINAL_PC bound to: 32'b00000000000000000000000000001000 
+	Parameter LCM bound to: 32'b00000000000000000000000000000110 
 	Parameter N bound to: 32 - type: integer 
-	Parameter LCM bound to: 32'b00000000000000000000000000001111 
+	Parameter LCM bound to: 32'b00000000000000000000000000000110 
 INFO: [Synth 8-3491] module 'timerCounter' declared at 'C:/Projects/cpre558/src/TimerCounter/src/timerCounter.vhd:16' bound to instance 'g_timerCounter' of component 'timerCounter' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:217]
 INFO: [Synth 8-638] synthesizing module 'timerCounter' [C:/Projects/cpre558/src/TimerCounter/src/timerCounter.vhd:29]
 	Parameter N bound to: 32 - type: integer 
-	Parameter LCM bound to: 32'b00000000000000000000000000001111 
+	Parameter LCM bound to: 32'b00000000000000000000000000000110 
 	Parameter N bound to: 32 - type: integer 
 INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'RIPPLE_ADD' of component 'ripple_adder' [C:/Projects/cpre558/src/TimerCounter/src/timerCounter.vhd:79]
 INFO: [Synth 8-638] synthesizing module 'ripple_adder' [C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:29]
@@ -128,7 +147,6 @@ INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/
 INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task2_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:85]
 INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task3_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:93]
 INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_task4_adder' of component 'ripple_adder' [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:101]
-WARNING: [Synth 8-614] signal 'i_Current_Time' is read in the process but is not in the sensitivity list [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:169]
 INFO: [Synth 8-256] done synthesizing module 'TaskControl' (0#1) [C:/Projects/cpre558/src/TaskControl/src/TaskControl.vhd:44]
 INFO: [Synth 8-3491] module 'decoder_3t8' declared at 'C:/Projects/cpre558/src/3t8Decoder/src/decoder_3t8.vhd:18' bound to instance 'g_decoder_3t8' of component 'decoder_3t8' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:257]
 INFO: [Synth 8-638] synthesizing module 'decoder_3t8' [C:/Projects/cpre558/src/3t8Decoder/src/decoder_3t8.vhd:25]
@@ -172,49 +190,168 @@ INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/
 INFO: [Synth 8-3491] module 'mux_8t1_32b' declared at 'C:/Projects/cpre558/src/8t1MUX32b/src/mux_8t1_32b.vhd:16' bound to instance 'g_PC_MUX' of component 'mux_8t1_32b' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:394]
 INFO: [Synth 8-3491] module 'ripple_adder' declared at 'C:/Projects/cpre558/src/RippleAdder/src/ripple_adder.vhd:19' bound to instance 'g_PC_ripple' of component 'ripple_adder' [C:/Projects/cpre558/src/RMS/src/RMS.vhd:407]
 INFO: [Synth 8-256] done synthesizing module 'RMS' (0#1) [C:/Projects/cpre558/src/RMS/src/RMS.vhd:84]
+INFO: [Synth 8-6157] synthesizing module 'RMS_ASCII' [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hex_to_ASCII' [C:/Projects/cpre558/src/OLED/hex_to_ASCII.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hex_to_ASCII' (0#1) [C:/Projects/cpre558/src/OLED/hex_to_ASCII.v:1]
+WARNING: [Synth 8-689] width (8) of port connection 'i_hex' does not match port width (4) of module 'hex_to_ASCII' [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:59]
+WARNING: [Synth 8-689] width (8) of port connection 'i_hex' does not match port width (4) of module 'hex_to_ASCII' [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:94]
+WARNING: [Synth 8-689] width (8) of port connection 'i_hex' does not match port width (4) of module 'hex_to_ASCII' [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:129]
+WARNING: [Synth 8-689] width (8) of port connection 'i_hex' does not match port width (4) of module 'hex_to_ASCII' [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:164]
+WARNING: [Synth 8-689] width (8) of port connection 'i_hex' does not match port width (4) of module 'hex_to_ASCII' [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:199]
+INFO: [Synth 8-6155] done synthesizing module 'RMS_ASCII' (0#1) [C:/Projects/cpre558/src/OLED/RMS_ASCII.v:1]
+INFO: [Synth 8-6157] synthesizing module 'OLED_interface' [C:/Projects/cpre558/src/OLED/OLED_interface.v:4]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+	Parameter SCLK_DIVIDER bound to: 20 - type: integer 
+	Parameter WAIT_3_US bound to: 20 - type: integer 
+	Parameter WAIT_100_MS bound to: 600000 - type: integer 
+	Parameter NUM_COL bound to: 96 - type: integer 
+	Parameter NUM_ROW bound to: 64 - type: integer 
+	Parameter ASCII_COL_SIZE bound to: 8 - type: integer 
+	Parameter ASCII_ROW_SIZE bound to: 8 - type: integer 
+	Parameter N_COLOR_BITS bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Nbit_MOSI_SPI_Buffer_Combined' [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer_Combined.v:2]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Nbit_MOSI_SPI_Buffer' [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:2]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Nbit_MOSI_SPI_Buffer' (0#1) [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Nbit_MOSI_SPI' [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI.v:2]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Nbit_MOSI_SPI' (0#1) [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Nbit_MOSI_SPI_Buffer_Combined' (0#1) [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer_Combined.v:2]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider__parameterized0' [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
+	Parameter DVSR bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider__parameterized0' (0#1) [C:/Projects/cpre558/src/OLED/clock_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ascii_font_8x8' [C:/Projects/cpre558/src/OLED/ascii_font_8x8.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_font_8x8' (0#1) [C:/Projects/cpre558/src/OLED/ascii_font_8x8.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Projects/cpre558/src/OLED/OLED_interface.v:168]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Projects/cpre558/src/OLED/OLED_interface.v:147]
+INFO: [Synth 8-6155] done synthesizing module 'OLED_interface' (0#1) [C:/Projects/cpre558/src/OLED/OLED_interface.v:4]
+WARNING: [Synth 8-7071] port 'o_MOSI_FINAL_BIT' of module 'OLED_interface' is unconnected for instance 'g_OLED_interface' [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:193]
+WARNING: [Synth 8-7071] port 'o_MOSI_FINAL_BYTE' of module 'OLED_interface' is unconnected for instance 'g_OLED_interface' [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:193]
+WARNING: [Synth 8-7023] instance 'g_OLED_interface' of module 'OLED_interface' has 17 connections declared, but only 15 given [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:193]
 INFO: [Synth 8-6155] done synthesizing module 'Quartus_synth' (0#1) [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:1]
-WARNING: [Synth 8-3848] Net s_task_sel_WE in module/entity Quartus_synth does not have driver. [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:65]
-WARNING: [Synth 8-3848] Net JA in module/entity Quartus_synth does not have driver. [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:6]
-WARNING: [Synth 8-7129] Port LED[15] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[14] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[13] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[12] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[11] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[7] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[6] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[5] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[4] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[3] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[2] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[1] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[0] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[15] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[14] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[13] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[12] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[11] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[10] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[9] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[8] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[7] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[6] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[5] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[4] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[3] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[2] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-7137] Register s_DC_reg_reg in module Nbit_MOSI_SPI_Buffer has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:58]
+WARNING: [Synth 8-7137] Register s_N_transmit_reg_reg in module Nbit_MOSI_SPI_Buffer has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v:64]
+WARNING: [Synth 8-7137] Register s_MOSI_LSB_reg in module Nbit_MOSI_SPI has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI.v:50]
+WARNING: [Synth 8-3848] Net s_task_sel_WE in module/entity Quartus_synth does not have driver. [C:/Projects/cpre558/src/FPGA/Quartus_synth.v:90]
+WARNING: [Synth 8-3917] design Quartus_synth has port JA[2] driven by constant 0
+WARNING: [Synth 8-7129] Port i_task0_currentPC[31] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[30] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[29] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[28] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[27] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[26] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[25] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[24] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[23] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[22] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[21] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[20] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[19] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[18] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[17] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[16] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[15] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[14] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[13] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task0_currentPC[12] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[31] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[30] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[29] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[28] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[27] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[26] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[25] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[24] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[23] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[22] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[21] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[20] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[19] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[18] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[17] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[16] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[15] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[14] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[13] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task1_currentPC[12] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[31] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[30] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[29] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[28] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[27] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[26] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[25] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[24] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[23] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[22] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[21] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[20] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[19] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[18] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[17] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[16] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[15] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[14] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[13] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task2_currentPC[12] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[31] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[30] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[29] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[28] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[27] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[26] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[25] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[24] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[23] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[22] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[21] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[20] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[19] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[18] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[17] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[16] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[15] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[14] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[13] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task3_currentPC[12] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[31] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[30] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[29] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[28] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[27] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[26] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[25] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[24] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[23] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[22] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[21] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[20] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[19] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[18] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[17] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[16] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[15] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[14] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[13] in module RMS_ASCII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_task4_currentPC[12] in module RMS_ASCII is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1299.066 ; gain = 502.293
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1305.227 ; gain = 508.512
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1299.066 ; gain = 502.293
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1305.227 ; gain = 508.512
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1299.066 ; gain = 502.293
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1305.227 ; gain = 508.512
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1299.066 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1305.227 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -291,60 +428,87 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/Quartus_synth_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1361.559 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1410.867 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1361.559 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1410.867 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'debounce'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'button_tick_latch'
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
                     zero |                               00 |                               00
-                hold_one |                               01 |                               01
+                    hold |                               01 |                               01
                      one |                               10 |                               10
-               hold_zero |                               11 |                               11
+                  iSTATE |                               11 |                               11
 ---------------------------------------------------------------------------------------------------
-INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'debounce'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'button_tick_latch'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 2     
 +---XORs : 
 	   2 Input      1 Bit         XORs := 512   
 +---Registers : 
-	               32 Bit    Registers := 16    
-	                1 Bit    Registers := 7     
+	              768 Bit    Registers := 1     
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 17    
+	                8 Bit    Registers := 9     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 22    
 +---Muxes : 
-	   2 Input   32 Bit        Muxes := 16    
+	   2 Input  768 Bit        Muxes := 1     
+	   8 Input  768 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 3     
+	   8 Input   64 Bit        Muxes := 2     
+	   2 Input   63 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 19    
+	   8 Input   32 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 11    
+	   8 Input    8 Bit        Muxes := 5     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 5     
+	   8 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
 	   2 Input    3 Bit        Muxes := 2     
 	   5 Input    3 Bit        Muxes := 1     
-	   4 Input    2 Bit        Muxes := 1     
-	   2 Input    2 Bit        Muxes := 4     
-	   2 Input    1 Bit        Muxes := 24    
-	   4 Input    1 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 67    
+	   3 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 15    
+	  64 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -361,53 +525,27 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-7129] Port LED[15] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[14] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[13] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[12] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port LED[11] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[7] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[6] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[5] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[4] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[3] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[2] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[1] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port JA[0] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[15] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[14] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[13] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[12] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[11] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[10] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[9] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[8] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[7] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[6] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[5] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[4] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[3] in module Quartus_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port sw[2] in module Quartus_synth is either unconnected or has no load
+WARNING: [Synth 8-3917] design Quartus_synth has port JA[2] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Technology Mapping : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -425,37 +563,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -471,41 +609,44 @@ Report Cell Usage:
 +------+-------+------+
 |      |Cell   |Count |
 +------+-------+------+
-|1     |BUFG   |     2|
-|2     |CARRY4 |    36|
-|3     |LUT2   |    80|
-|4     |LUT3   |    72|
-|5     |LUT4   |    46|
-|6     |LUT5   |    70|
-|7     |LUT6   |   120|
-|8     |FDCE   |   226|
-|9     |FDPE   |     5|
-|10    |IBUF   |     5|
-|11    |OBUF   |    11|
-|12    |OBUFT  |    13|
+|1     |BUFG   |     3|
+|2     |CARRY4 |    47|
+|3     |LUT1   |     6|
+|4     |LUT2   |   646|
+|5     |LUT3   |   152|
+|6     |LUT4   |    84|
+|7     |LUT5   |   227|
+|8     |LUT6   |   434|
+|9     |MUXF7  |    36|
+|10    |FDCE   |  1103|
+|11    |FDPE   |     7|
+|12    |FDRE   |     5|
+|13    |IBUF   |     5|
+|14    |OBUF   |    20|
+|15    |OBUFT  |     4|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 1361.559 ; gain = 502.293
-Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1361.559 ; gain = 564.785
+Synthesis finished with 0 errors, 0 critical warnings and 245 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:01:00 . Memory (MB): peak = 1410.867 ; gain = 508.512
+Synthesis Optimization Complete : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1410.867 ; gain = 614.152
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1361.559 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1420.566 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1361.559 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1424.289 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 39774d05
+Synth Design complete, checksum: ff21e831
 INFO: [Common 17-83] Releasing license: Synthesis
-121 Infos, 80 Warnings, 22 Critical Warnings and 0 Errors encountered.
+140 Infos, 156 Warnings, 22 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1361.559 ; gain = 941.961
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 1424.289 ; gain = 1004.891
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Projects/cpre558/vivado/vivado.runs/synth_1/Quartus_synth.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Quartus_synth_utilization_synth.rpt -pb Quartus_synth_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  2 20:16:16 2023...
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  2 22:38:01 2023...

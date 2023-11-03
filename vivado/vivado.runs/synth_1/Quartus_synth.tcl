@@ -71,6 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 2
+set_param xicom.use_bs_reader 1
 set_msg_config  -id {Project 1-19}  -string {{CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Projects/FPGA_SSD1331_OLED_Interface/src/Nbit_tx_master_SPI.v'.}}  -suppress 
 set_msg_config  -id {Project 1-19}  -string {{CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Projects/FPGA_SSD1331_OLED_Interface/src/SSD1331_defines - Copy.v'.}}  -suppress 
 OPTRACE "Creating in-memory project" START { }
@@ -87,9 +88,18 @@ set_property ip_output_repo c:/Projects/cpre558/vivado/vivado.cache/ip [current_
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+read_verilog C:/Projects/cpre558/src/OLED/SSD1331_defines.v
+set_property file_type "Verilog Header" [get_files C:/Projects/cpre558/src/OLED/SSD1331_defines.v]
 read_verilog -library xil_defaultlib {
+  C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI.v
+  C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer.v
+  C:/Projects/cpre558/src/OLED/Nbit_MOSI_SPI_Buffer_Combined.v
+  C:/Projects/cpre558/src/OLED/OLED_interface.v
+  C:/Projects/cpre558/src/OLED/RMS_ASCII.v
+  C:/Projects/cpre558/src/OLED/ascii_font_8x8.v
+  C:/Projects/cpre558/src/FPGA/button_tick_latch.v
   C:/Projects/cpre558/src/OLED/clock_divider.v
-  C:/Projects/cpre558/src/FPGA/debounce.v
+  C:/Projects/cpre558/src/OLED/hex_to_ASCII.v
   C:/Projects/cpre558/src/FPGA/Quartus_synth.v
 }
 read_vhdl -library xil_defaultlib {

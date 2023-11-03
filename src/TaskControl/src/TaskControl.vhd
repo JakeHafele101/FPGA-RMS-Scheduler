@@ -166,13 +166,13 @@ begin
         end if;
     end process;
 
-    process (i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete, i_CLK)
+    process (i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete)
     begin
-        --IF (rising_edge(i_CLK)) THEN
-        if (i_Current_Time = X"00000000") then --Dont write one dead cycle
-            o_Current_Task_Sel    <= "111";
-            o_Current_Task_Sel_WE <= '0';
-        elsif (i_Task0_Complete = '0') then
+        -- IF (rising_edge(i_CLK)) THEN
+        -- if (i_Current_Time = X"00000000") then --Dont write one dead cycle
+        --     o_Current_Task_Sel    <= "111";
+        --     o_Current_Task_Sel_WE <= '0';
+        if (i_Task0_Complete = '0') then
             o_Current_Task_Sel    <= "000";
             o_Current_Task_Sel_WE <= '1';
         elsif (i_Task1_Complete = '0') then
@@ -191,8 +191,7 @@ begin
             o_Current_Task_Sel    <= "111";
             o_Current_Task_Sel_WE <= '0';
         end if;
-
-        --END IF;
+        -- END IF;
     end process;
 
 end mixed;

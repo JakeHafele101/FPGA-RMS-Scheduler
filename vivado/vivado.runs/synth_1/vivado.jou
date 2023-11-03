@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Thu Nov  2 20:15:25 2023
-# Process ID: 15908
+# Start of session at: Thu Nov  2 22:36:41 2023
+# Process ID: 15576
 # Current directory: C:/Projects/cpre558/vivado/vivado.runs/synth_1
 # Command line: vivado.exe -log Quartus_synth.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Quartus_synth.tcl
 # Log file: C:/Projects/cpre558/vivado/vivado.runs/synth_1/Quartus_synth.vds
