@@ -65,6 +65,8 @@ architecture mixed of TaskControl is
     signal s_Task3_AddOut   : std_logic_vector(32 - 1 downto 0);
     signal s_Task4_AddOut   : std_logic_vector(32 - 1 downto 0);
 
+    signal s_initial_state : std_logic;
+
 begin
     g_task0_adder : ripple_adder
     port map(
@@ -119,6 +121,7 @@ begin
             o_Task2_Period_Clear <= '1';
             o_Task3_Period_Clear <= '1';
             o_Task4_Period_Clear <= '1';
+            s_initial_state <= '1';
         elsif (rising_edge(i_CLK)) then
             if (i_LCM_Clear = '1') then
                 s_Task0_Deadline     <= TASK0PERIOD;
@@ -163,16 +166,18 @@ begin
                     o_Task4_Period_Clear <= '0';
                 end if;
             end if;
+
+            s_initial_state <= '0';
         end if;
     end process;
 
-    process (i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete)
+    process (s_initial_state, i_Task0_Complete, i_Task1_Complete, i_Task2_Complete, i_Task3_Complete, i_Task4_Complete)
     begin
         --IF (rising_edge(i_CLK)) THEN
-        -- if (i_Current_Time = X"00000000") then --Dont write one dead cycle
-        --     o_Current_Task_Sel    <= "111";
-        --     o_Current_Task_Sel_WE <= '0';
-        if (i_Task0_Complete = '0') then
+        if (s_initial_state = '1') then --Dont write one dead cycle
+            o_Current_Task_Sel    <= "111";
+            o_Current_Task_Sel_WE <= '0';
+        elsif (i_Task0_Complete = '0') then
             o_Current_Task_Sel    <= "000";
             o_Current_Task_Sel_WE <= '1';
         elsif (i_Task1_Complete = '0') then

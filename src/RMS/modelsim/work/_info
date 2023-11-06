@@ -10,12 +10,12 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 d/home/tvgaul/Documents/CPRE 558/cpre558/src/RMS/modelsim
+Z1 d/home/jmhafele/Documents/Fall_2023/cpre558/src/RMS/modelsim
 T_opt
-!s110 1698975452
-VY7g<W;ZO2h21hQ?BaITh62
+!s110 1699237463
+Vdo0B;DjdONMgRdcGSjicf3
 04 6 8 work tb_rms behavior 1
-=1-0050569b6104-65444edb-e2d07-7934
+=1-0050569b998c-65484e56-f206a-6966
 R0
 !s12b OEM100
 !s124 OEM100
@@ -24,7 +24,7 @@ tCvgOpt 0
 n@_opt
 OL;O;2023.2_2;77
 Eandg2
-Z2 w1698717287
+Z2 w1681396341
 Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
 Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
 !i122 4
@@ -37,9 +37,9 @@ Vn6i2CP=7EfSS1JQ<iXF>M0
 !s100 0e<Rg^QbB^Y@JP[zKSc0[3
 Z8 OL;C;2023.2_2;77
 32
-Z9 !s110 1698975451
+Z9 !s110 1699237462
 !i10b 1
-Z10 !s108 1698975451.000000
+Z10 !s108 1699237462.000000
 Z11 !s90 -reportprogress|300|../../RippleAdder/src/andg2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/xorg2.vhd|
 Z12 !s107 ../../RippleAdder/src/xorg2.vhd|../../RippleAdder/src/ripple_adder.vhd|../../RippleAdder/src/org2.vhd|../../RippleAdder/src/full_adder.vhd|../../RippleAdder/src/andg2.vhd|
 !i113 0
@@ -63,24 +63,24 @@ R12
 !i113 0
 R13
 Edecoder_3t8
-R2
+Z15 w1698710932
 R3
 R4
 !i122 1
 R1
-Z15 8../../3t8Decoder/src/decoder_3t8.vhd
-Z16 F../../3t8Decoder/src/decoder_3t8.vhd
+Z16 8../../3t8Decoder/src/decoder_3t8.vhd
+Z17 F../../3t8Decoder/src/decoder_3t8.vhd
 l0
-Z17 L18 1
+Z18 L18 1
 VFO05C_BD:`FR_mo<[QVW72
 !s100 dQ6`Zk<DOY5TCIEceOZaL2
 R8
 32
-R9
+Z19 !s110 1699237461
 !i10b 1
-Z18 !s108 1698975450.000000
-Z19 !s90 -reportprogress|300|../../3t8Decoder/src/decoder_3t8.vhd|../../3t8Decoder/src/tb_decoder_3t8.vhd|
-Z20 !s107 ../../3t8Decoder/src/tb_decoder_3t8.vhd|../../3t8Decoder/src/decoder_3t8.vhd|
+Z20 !s108 1699237461.000000
+Z21 !s90 -reportprogress|300|../../3t8Decoder/src/decoder_3t8.vhd|../../3t8Decoder/src/tb_decoder_3t8.vhd|
+Z22 !s107 ../../3t8Decoder/src/tb_decoder_3t8.vhd|../../3t8Decoder/src/decoder_3t8.vhd|
 !i113 0
 R13
 Adataflow
@@ -94,21 +94,21 @@ VYRTz]R3[YJ4=i4=@Qg^E;1
 !s100 CmbNU0YJfkQ@dIc^GCUTn2
 R8
 32
-R9
-!i10b 1
-R18
 R19
+!i10b 1
 R20
+R21
+R22
 !i113 0
 R13
 Edffn
-Z21 w1698951347
+Z23 w1698811328
 R3
 R4
 !i122 3
 R1
-Z22 8../../32BitDFF/src/dffN.vhd
-Z23 F../../32BitDFF/src/dffN.vhd
+Z24 8../../32BitDFF/src/dffN.vhd
+Z25 F../../32BitDFF/src/dffN.vhd
 l0
 L17 1
 VZZD`gUiiS>U]F5jc:[JWh0
@@ -117,9 +117,9 @@ R8
 32
 R9
 !i10b 1
-R10
-Z24 !s90 -reportprogress|300|../../32BitDFF/src/dffN.vhd|../../32BitDFF/src/tb_dffN.vhd|
-Z25 !s107 ../../32BitDFF/src/tb_dffN.vhd|../../32BitDFF/src/dffN.vhd|
+R20
+Z26 !s90 -reportprogress|300|../../32BitDFF/src/dffN.vhd|../../32BitDFF/src/tb_dffN.vhd|
+Z27 !s107 ../../32BitDFF/src/tb_dffN.vhd|../../32BitDFF/src/dffN.vhd|
 !i113 0
 R13
 Amixed
@@ -135,9 +135,9 @@ R8
 32
 R9
 !i10b 1
-R10
-R24
-R25
+R20
+R26
+R27
 !i113 0
 R13
 Efull_adder
@@ -146,10 +146,10 @@ R3
 R4
 !i122 4
 R1
-Z26 8../../RippleAdder/src/full_adder.vhd
-Z27 F../../RippleAdder/src/full_adder.vhd
+Z28 8../../RippleAdder/src/full_adder.vhd
+Z29 F../../RippleAdder/src/full_adder.vhd
 l0
-Z28 L19 1
+Z30 L19 1
 VmYd@I=e>o@nm`7>HXWo:N1
 !s100 GiI>9Z]8L9``N?LeA>KhF0
 R8
@@ -180,29 +180,29 @@ R12
 !i113 0
 R13
 Emux_8t1_32b
-R2
-Z29 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z31 w1698712218
+Z32 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
 R3
 R4
 !i122 2
 R1
-Z30 8../../8t1MUX32b/src/mux_8t1_32b.vhd
-Z31 F../../8t1MUX32b/src/mux_8t1_32b.vhd
+Z33 8../../8t1MUX32b/src/mux_8t1_32b.vhd
+Z34 F../../8t1MUX32b/src/mux_8t1_32b.vhd
 l0
-Z32 L16 1
+Z35 L16 1
 VP?c>16W@3Z91`7:eUJo`M0
 !s100 ?1?JzPfZAGn_^A1bT3E[:1
 R8
 32
-R9
+R19
 !i10b 1
-R10
-Z33 !s90 -reportprogress|300|../../8t1MUX32b/src/mux_8t1_32b.vhd|../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|
-Z34 !s107 ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|../../8t1MUX32b/src/mux_8t1_32b.vhd|
+R20
+Z36 !s90 -reportprogress|300|../../8t1MUX32b/src/mux_8t1_32b.vhd|../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|
+Z37 !s107 ../../8t1MUX32b/src/tb_mux_8t1_32b.vhd|../../8t1MUX32b/src/mux_8t1_32b.vhd|
 !i113 0
 R13
 Adataflow
-R29
+R32
 R3
 R4
 DEx4 work 11 mux_8t1_32b 0 22 P?c>16W@3Z91`7:eUJo`M0
@@ -213,11 +213,11 @@ VJoTWJmM<[i09cMUR7Ym_f1
 !s100 fZVlFnZA01mL1hRWIAF]X3
 R8
 32
-R9
+R19
 !i10b 1
-R10
-R33
-R34
+R20
+R36
+R37
 !i113 0
 R13
 Eorg2
@@ -226,8 +226,8 @@ R3
 R4
 !i122 4
 R1
-Z35 8../../RippleAdder/src/org2.vhd
-Z36 F../../RippleAdder/src/org2.vhd
+Z38 8../../RippleAdder/src/org2.vhd
+Z39 F../../RippleAdder/src/org2.vhd
 l0
 R7
 VF6D3ma>If8B`OAbBo`9LR0
@@ -260,15 +260,15 @@ R12
 !i113 0
 R13
 Eripple_adder
-R2
+Z40 w1698714675
 R3
 R4
 !i122 4
 R1
-Z37 8../../RippleAdder/src/ripple_adder.vhd
-Z38 F../../RippleAdder/src/ripple_adder.vhd
+Z41 8../../RippleAdder/src/ripple_adder.vhd
+Z42 F../../RippleAdder/src/ripple_adder.vhd
 l0
-R28
+R30
 Vc@CmQgMg>d8NE60^<;]VN0
 !s100 :_DT2<U4DM7a2OdCT?nF=3
 R8
@@ -299,24 +299,24 @@ R12
 !i113 0
 R13
 Erms
-R21
+Z43 w1698811374
 R3
 R4
 !i122 0
 R1
-Z39 8../src/RMS.vhd
-Z40 F../src/RMS.vhd
+Z44 8../src/RMS.vhd
+Z45 F../src/RMS.vhd
 l0
-R17
+R18
 VY]Bg4Xz5_jd=?feXWJoW=2
 !s100 UTI0DG^]E3CQ5FCYD]k>d3
 R8
 32
-Z41 !s110 1698975450
+R19
 !i10b 1
-R18
-Z42 !s90 -reportprogress|300|../src/RMS.vhd|../src/tb_RMS.vhd|
-Z43 !s107 ../src/tb_RMS.vhd|../src/RMS.vhd|
+R20
+Z46 !s90 -reportprogress|300|../src/RMS.vhd|../src/tb_RMS.vhd|
+Z47 !s107 ../src/tb_RMS.vhd|../src/RMS.vhd|
 !i113 0
 R13
 Amixed
@@ -330,23 +330,23 @@ VQWGZa64@ZUCo@9P_ZclBH2
 !s100 GfI]<N4G6Z_ZECiLKU5ch2
 R8
 32
-R41
+R19
 !i10b 1
-R18
-R42
-R43
+R20
+R46
+R47
 !i113 0
 R13
 Etaskcontrol
-Z44 w1698975445
+Z48 w1699237412
 R3
 R4
 !i122 5
 R1
-Z45 8../../TaskControl/src/TaskControl.vhd
-Z46 F../../TaskControl/src/TaskControl.vhd
+Z49 8../../TaskControl/src/TaskControl.vhd
+Z50 F../../TaskControl/src/TaskControl.vhd
 l0
-R17
+R18
 V_i@MRPa_LA5[djD>@z0j;1
 !s100 fGS_226;9MNRBiP]E`YFS3
 R8
@@ -354,8 +354,8 @@ R8
 R9
 !i10b 1
 R10
-Z47 !s90 -reportprogress|300|../../TaskControl/src/TaskControl.vhd|../../TaskControl/src/tb_TaskControl.vhd|
-Z48 !s107 ../../TaskControl/src/tb_TaskControl.vhd|../../TaskControl/src/TaskControl.vhd|
+Z51 !s90 -reportprogress|300|../../TaskControl/src/TaskControl.vhd|../../TaskControl/src/tb_TaskControl.vhd|
+Z52 !s107 ../../TaskControl/src/tb_TaskControl.vhd|../../TaskControl/src/TaskControl.vhd|
 !i113 0
 R13
 Amixed
@@ -363,29 +363,29 @@ R3
 R4
 DEx4 work 11 taskcontrol 0 22 _i@MRPa_LA5[djD>@z0j;1
 !i122 5
-l68
-L44 155
-V3N>92oRO3z]3SlBUi]PNO0
-!s100 Y5hh_h[1iIzI_3MgiUd6D1
+l70
+L44 159
+V^09ZREM^ozX>hna]N1bA01
+!s100 oGdW[hSW?AMjg1F1^SHci0
 R8
 32
 R9
 !i10b 1
 R10
-R47
-R48
+R51
+R52
 !i113 0
 R13
 Etaskstatereg
-R21
+Z53 w1698808267
 R3
 R4
 !i122 6
 R1
-Z49 8../../TaskStateReg/src/TaskStateReg.vhd
-Z50 F../../TaskStateReg/src/TaskStateReg.vhd
+Z54 8../../TaskStateReg/src/TaskStateReg.vhd
+Z55 F../../TaskStateReg/src/TaskStateReg.vhd
 l0
-R17
+R18
 VFHZEl8b^NCzh2Ii`ON<zn0
 !s100 OCdggoLdUf4T^N7PFdY^Q0
 R8
@@ -393,8 +393,8 @@ R8
 R9
 !i10b 1
 R10
-Z51 !s90 -reportprogress|300|../../TaskStateReg/src/TaskStateReg.vhd|../../TaskStateReg/src/tb_TaskStateReg.vhd|
-Z52 !s107 ../../TaskStateReg/src/tb_TaskStateReg.vhd|../../TaskStateReg/src/TaskStateReg.vhd|
+Z56 !s90 -reportprogress|300|../../TaskStateReg/src/TaskStateReg.vhd|../../TaskStateReg/src/tb_TaskStateReg.vhd|
+Z57 !s107 ../../TaskStateReg/src/tb_TaskStateReg.vhd|../../TaskStateReg/src/TaskStateReg.vhd|
 !i113 0
 R13
 Amixed
@@ -411,34 +411,34 @@ R8
 R9
 !i10b 1
 R10
-R51
-R52
+R56
+R57
 !i113 0
 R13
 Etb_decoder_3t8
-R2
-Z53 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+Z58 w1698711121
+Z59 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
 R3
 R4
 !i122 1
 R1
-Z54 8../../3t8Decoder/src/tb_decoder_3t8.vhd
-Z55 F../../3t8Decoder/src/tb_decoder_3t8.vhd
+Z60 8../../3t8Decoder/src/tb_decoder_3t8.vhd
+Z61 F../../3t8Decoder/src/tb_decoder_3t8.vhd
 l0
-R28
+R30
 VOVn]^4YHl;cjH`jfG`=S20
 !s100 oGOcn^Eg;AVT_fG_?3k<>2
 R8
 32
-R9
-!i10b 1
-R18
 R19
+!i10b 1
 R20
+R21
+R22
 !i113 0
 R13
 Amixed
-R53
+R59
 R3
 R4
 DEx4 work 14 tb_decoder_3t8 0 22 OVn]^4YHl;cjH`jfG`=S20
@@ -449,32 +449,32 @@ V57k7R4@zgF<TCWj?F=><d0
 !s100 96M5kD`U54el@]Y85h:]22
 R8
 32
-R9
-!i10b 1
-R18
 R19
+!i10b 1
 R20
+R21
+R22
 !i113 0
 R13
 Etb_dffn
-R21
+Z62 w1698811408
 R3
 R4
 !i122 3
 R1
-Z56 8../../32BitDFF/src/tb_dffN.vhd
-Z57 F../../32BitDFF/src/tb_dffN.vhd
+Z63 8../../32BitDFF/src/tb_dffN.vhd
+Z64 F../../32BitDFF/src/tb_dffN.vhd
 l0
-R32
+R35
 ViS3KUBIh_M:=V98CKGBHA3
 !s100 e48<P6NS?zEQ8WfKNF8Qg0
 R8
 32
 R9
 !i10b 1
-R10
-R24
-R25
+R20
+R26
+R27
 !i113 0
 R13
 Abehavior
@@ -490,37 +490,37 @@ R8
 32
 R9
 !i10b 1
-R10
-R24
-R25
+R20
+R26
+R27
 !i113 0
 R13
 Etb_mux_8t1_32b
-R2
-R29
-R53
+Z65 w1698711957
+R32
+R59
 R3
 R4
 !i122 2
 R1
-Z58 8../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
-Z59 F../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
+Z66 8../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
+Z67 F../../8t1MUX32b/src/tb_mux_8t1_32b.vhd
 l0
 R7
 VY8>1=ZJ6fUQP1j@1NJc;N0
 !s100 amz`a1;gN]Rii:_jN=IY?0
 R8
 32
-R9
+R19
 !i10b 1
-R10
-R33
-R34
+R20
+R36
+R37
 !i113 0
 R13
 Amixed
-R29
-R53
+R32
+R59
 R3
 R4
 DEx4 work 14 tb_mux_8t1_32b 0 22 Y8>1=ZJ6fUQP1j@1NJc;N0
@@ -531,32 +531,32 @@ VEOcJ4YJ5cO_D45Y8RSzS21
 !s100 kg>UNJ;AB08RgDJAb`0BO3
 R8
 32
-R9
+R19
 !i10b 1
-R10
-R33
-R34
+R20
+R36
+R37
 !i113 0
 R13
 Etb_rms
-Z60 w1698975082
+Z68 w1699237458
 R3
 R4
 !i122 0
 R1
-Z61 8../src/tb_RMS.vhd
-Z62 F../src/tb_RMS.vhd
+Z69 8../src/tb_RMS.vhd
+Z70 F../src/tb_RMS.vhd
 l0
-R32
+R35
 V35_2G6d=]^F`kE8z3T;eT2
 !s100 5PXSnS6f5<N>DiV@Cg2Nm1
 R8
 32
-R41
+R19
 !i10b 1
-R18
-R42
-R43
+R20
+R46
+R47
 !i113 0
 R13
 Abehavior
@@ -566,27 +566,27 @@ DEx4 work 6 tb_rms 0 22 35_2G6d=]^F`kE8z3T;eT2
 !i122 0
 l139
 L20 208
-V5h7dHgPDX2D@AkYQ>H9RK1
-!s100 ?MBbV3]e:WJAWLfG9G:B_2
+VS2IL3c:cC:>SW5OS4IVKY0
+!s100 KZL:PV8MkkjZ`leS@GUhE1
 R8
 32
-R41
+R19
 !i10b 1
-R18
-R42
-R43
+R20
+R46
+R47
 !i113 0
 R13
 Etb_taskcontrol
-Z63 w1698781225
-R29
-R53
+Z71 w1698785937
+R32
+R59
 R3
 R4
 !i122 5
 R1
-Z64 8../../TaskControl/src/tb_TaskControl.vhd
-Z65 F../../TaskControl/src/tb_TaskControl.vhd
+Z72 8../../TaskControl/src/tb_TaskControl.vhd
+Z73 F../../TaskControl/src/tb_TaskControl.vhd
 l0
 L8 1
 V;lgaC1z[VPOU:4KKBDQlf1
@@ -596,13 +596,13 @@ R8
 R9
 !i10b 1
 R10
-R47
-R48
+R51
+R52
 !i113 0
 R13
 Abehavior
-R29
-R53
+R32
+R59
 R3
 R4
 DEx4 work 14 tb_taskcontrol 0 22 ;lgaC1z[VPOU:4KKBDQlf1
@@ -616,20 +616,20 @@ R8
 R9
 !i10b 1
 R10
-R47
-R48
+R51
+R52
 !i113 0
 R13
 Etb_taskstatereg
-Z66 w1698803903
-R29
-R53
+Z74 w1698802611
+R32
+R59
 R3
 R4
 !i122 6
 R1
-Z67 8../../TaskStateReg/src/tb_TaskStateReg.vhd
-Z68 F../../TaskStateReg/src/tb_TaskStateReg.vhd
+Z75 8../../TaskStateReg/src/tb_TaskStateReg.vhd
+Z76 F../../TaskStateReg/src/tb_TaskStateReg.vhd
 l0
 L8 1
 VE9Wh6nCJe`133gg?LU]=^2
@@ -639,13 +639,13 @@ R8
 R9
 !i10b 1
 R10
-R51
-R52
+R56
+R57
 !i113 0
 R13
 Abehavior
-R29
-R53
+R32
+R59
 R3
 R4
 DEx4 work 15 tb_taskstatereg 0 22 E9Wh6nCJe`133gg?LU]=^2
@@ -659,20 +659,20 @@ R8
 R9
 !i10b 1
 R10
-R51
-R52
+R56
+R57
 !i113 0
 R13
 Etb_timercounter
-Z69 w1698718668
+Z77 w1698801581
 R3
 R4
 !i122 7
 R1
-Z70 8../../TimerCounter/src/tb_timerCounter.vhd
-Z71 F../../TimerCounter/src/tb_timerCounter.vhd
+Z78 8../../TimerCounter/src/tb_timerCounter.vhd
+Z79 F../../TimerCounter/src/tb_timerCounter.vhd
 l0
-R32
+R35
 VVN@3JK<K1WBV:GAD<c^=T1
 !s100 DziUzdz8Q]DHKcPoM]:A71
 R8
@@ -680,8 +680,8 @@ R8
 R9
 !i10b 1
 R10
-Z72 !s90 -reportprogress|300|../../TimerCounter/src/tb_timerCounter.vhd|../../TimerCounter/src/timerCounter.vhd|
-Z73 !s107 ../../TimerCounter/src/timerCounter.vhd|../../TimerCounter/src/tb_timerCounter.vhd|
+Z80 !s90 -reportprogress|300|../../TimerCounter/src/tb_timerCounter.vhd|../../TimerCounter/src/timerCounter.vhd|
+Z81 !s107 ../../TimerCounter/src/timerCounter.vhd|../../TimerCounter/src/tb_timerCounter.vhd|
 !i113 0
 R13
 Abehavior
@@ -698,20 +698,20 @@ R8
 R9
 !i10b 1
 R10
-R72
-R73
+R80
+R81
 !i113 0
 R13
 Etimercounter
-R60
+Z82 w1698812391
 R3
 R4
 !i122 7
 R1
-Z74 8../../TimerCounter/src/timerCounter.vhd
-Z75 F../../TimerCounter/src/timerCounter.vhd
+Z83 8../../TimerCounter/src/timerCounter.vhd
+Z84 F../../TimerCounter/src/timerCounter.vhd
 l0
-R32
+R35
 VUGURgM4ZP=b2AmSUYK1:S2
 !s100 gGcd]VPLink5_UkaQNmHR3
 R8
@@ -719,8 +719,8 @@ R8
 R9
 !i10b 1
 R10
-R72
-R73
+R80
+R81
 !i113 0
 R13
 Amixed
@@ -737,8 +737,8 @@ R8
 R9
 !i10b 1
 R10
-R72
-R73
+R80
+R81
 !i113 0
 R13
 Exorg2
@@ -747,8 +747,8 @@ R3
 R4
 !i122 4
 R1
-Z76 8../../RippleAdder/src/xorg2.vhd
-Z77 F../../RippleAdder/src/xorg2.vhd
+Z85 8../../RippleAdder/src/xorg2.vhd
+Z86 F../../RippleAdder/src/xorg2.vhd
 l0
 L21 1
 V5dfb9dGEUECoNEk9]B=iX3
